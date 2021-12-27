@@ -5,12 +5,12 @@ msgstr ""
 "Project-Id-Version: Jetpack CRM 4.7.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/zero-bs-crm\n"
 "Last-Translator: \n"
-"Language-Team: Čeština\n"
+"Language-Team: JK Studio <info@jkstudio.cz>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2021-12-16T18:47:13+00:00\n"
-"PO-Revision-Date: 2021-12-27 09:05+0100\n"
+"PO-Revision-Date: 2021-12-27 09:58+0100\n"
 "X-Generator: Poedit 1.7.5\n"
 "X-Domain: zero-bs-crm\n"
 "Language: cs_CZ\n"
@@ -10072,14 +10072,14 @@ msgstr "Přiřadit fakturu komu"
 #: includes/ZeroBSCRM.DAL2.LegacySupport.php:10172
 #: includes/ZeroBSCRM.DAL3.Helpers.php:5522
 msgid "Customise"
-msgstr ""
+msgstr "Přizpůsobit"
 
 #: includes/ZeroBSCRM.DAL1.LegacySupport.php:10334
 #: includes/ZeroBSCRM.DAL2.LegacySupport.php:10179
 #: includes/ZeroBSCRM.DAL3.Helpers.php:5529
 #: includes/ZeroBSCRM.ScriptsStyles.php:311
 msgid "Add Row"
-msgstr ""
+msgstr "Přidat řádek"
 
 #: includes/ZeroBSCRM.DAL1.LegacySupport.php:10335
 #: includes/ZeroBSCRM.DAL2.LegacySupport.php:10180
@@ -10095,13 +10095,13 @@ msgstr "Odebrat řádek"
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1002
 #: includes/ZeroBSCRM.InvoiceBuilder.php:2346
 msgid "Discount"
-msgstr ""
+msgstr "Sleva"
 
 #: includes/ZeroBSCRM.DAL1.LegacySupport.php:10339
 #: includes/ZeroBSCRM.DAL2.LegacySupport.php:10184
 #: includes/ZeroBSCRM.DAL3.Helpers.php:5534
 msgid "Tax on shipping"
-msgstr ""
+msgstr "Daň z dopravy"
 
 #: includes/ZeroBSCRM.DAL1.LegacySupport.php:10341
 #: includes/ZeroBSCRM.DAL2.LegacySupport.php:10186
@@ -10112,13 +10112,13 @@ msgstr ""
 #: includes/ZeroBSCRM.InvoiceBuilder.php:2135
 #: includes/ZeroBSCRM.Portal.php:1025
 msgid "No due date"
-msgstr ""
+msgstr "Žádný termín dokončení"
 
 #: includes/ZeroBSCRM.DAL1.LegacySupport.php:10342
 #: includes/ZeroBSCRM.DAL2.LegacySupport.php:10187
 #: includes/ZeroBSCRM.DAL3.Helpers.php:5537
 msgid "Due on receipt"
-msgstr ""
+msgstr "Splatné po obdržení"
 
 #: includes/ZeroBSCRM.DAL1.LegacySupport.php:10343
 #: includes/ZeroBSCRM.DAL2.LegacySupport.php:10188
@@ -10162,7 +10162,7 @@ msgstr "Splatnost za 90 dní"
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:802
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:804
 msgid "Download PDF"
-msgstr ""
+msgstr "Stáhnout PDF"
 
 #: includes/ZeroBSCRM.DAL1.LegacySupport.php:10352
 #: includes/ZeroBSCRM.DAL2.LegacySupport.php:10197
@@ -10179,7 +10179,7 @@ msgstr "Upravit záznam"
 #: includes/ZeroBSCRM.DAL1.LegacySupport.php:10354
 #: includes/ZeroBSCRM.DAL2.LegacySupport.php:10199
 msgid "No tax"
-msgstr ""
+msgstr "Bez daně"
 
 #: includes/ZeroBSCRM.DAL1.LegacySupport.php:10355
 #: includes/ZeroBSCRM.DAL2.LegacySupport.php:10200
@@ -10191,7 +10191,7 @@ msgstr "Mezisoučet"
 #: includes/ZeroBSCRM.DAL2.LegacySupport.php:10202
 #: includes/ZeroBSCRM.DAL3.Helpers.php:5553
 msgid "Amount Due"
-msgstr ""
+msgstr "Splatná částka"
 
 #: includes/ZeroBSCRM.DAL1.LegacySupport.php:10358
 #: includes/ZeroBSCRM.DAL2.LegacySupport.php:10203
@@ -10200,7 +10200,7 @@ msgstr ""
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1938
 #: includes/ZeroBSCRM.InvoiceBuilder.php:2432
 msgid "Payments"
-msgstr ""
+msgstr "Platby"
 
 #: includes/ZeroBSCRM.DAL1.LegacySupport.php:10359
 #: includes/ZeroBSCRM.DAL2.LegacySupport.php:10204
@@ -10223,22 +10223,23 @@ msgstr "Nepojmenovaná"
 #: includes/ZeroBSCRM.DAL2.LegacySupport.php:1662
 #: includes/ZeroBSCRM.DAL3.Helpers.php:1634
 msgid "Copied field"
-msgstr ""
+msgstr "Zkopírované pole"
 
 #: includes/ZeroBSCRM.DAL2.LegacySupport.php:1662
 #: includes/ZeroBSCRM.DAL3.Helpers.php:1634
 msgid "from secondary record over main record, (main was empty)."
-msgstr ""
+msgstr "od sekundárního záznamu přes hlavní záznam, (hlavní byl prázdný)."
 
 #: includes/ZeroBSCRM.DAL2.LegacySupport.php:1673
 #: includes/ZeroBSCRM.DAL3.Helpers.php:1645
 msgid "Field not copied"
-msgstr ""
+msgstr "Pole nebylo zkopírováno"
 
 #: includes/ZeroBSCRM.DAL2.LegacySupport.php:1673
 #: includes/ZeroBSCRM.DAL3.Helpers.php:1645
 msgid "from secondary record over main record, (main had value). Value was"
 msgstr ""
+"od vedlejšího záznamu přes hlavní záznam, (hlavní měl hodnotu). Hodnota byla"
 
 #: includes/ZeroBSCRM.DAL2.LegacySupport.php:10895
 #: includes/ZeroBSCRM.DAL3.Helpers.php:5961
@@ -10254,7 +10255,7 @@ msgstr ""
 #: includes/ZeroBSCRM.List.Columns.php:567
 #: includes/ZeroBSCRM.List.Views.php:310
 msgid "Paid"
-msgstr ""
+msgstr "Zaplaceno"
 
 #: includes/ZeroBSCRM.DAL2.Mail.php:374
 msgid "Your Client Portal"
@@ -10262,15 +10263,15 @@ msgstr "Váš klientský portál"
 
 #: includes/ZeroBSCRM.DAL2.Mail.php:395
 msgid "Quote Accepted"
-msgstr ""
+msgstr "Nabídka přijata"
 
 #: includes/ZeroBSCRM.DAL2.Mail.php:417
 msgid "You have received an Invoice"
-msgstr ""
+msgstr "Obdrželi jste fakturu"
 
 #: includes/ZeroBSCRM.DAL2.Mail.php:439
 msgid "You have received a new Proposal"
-msgstr ""
+msgstr "Obdrželi jste novou nabídku"
 
 #: includes/ZeroBSCRM.DAL2.Mail.php:461
 msgid "Your Event starts soon"
@@ -10278,15 +10279,15 @@ msgstr "Vaše událost brzy začne"
 
 #: includes/ZeroBSCRM.DAL2.php:11476 includes/ZeroBSCRM.DAL3.php:719
 msgid "Error #"
-msgstr ""
+msgstr "Chyba #"
 
 #: includes/ZeroBSCRM.DAL3.Export.php:26
 msgid "WordPress ID"
-msgstr ""
+msgstr "WordPress ID"
 
 #: includes/ZeroBSCRM.DAL3.Export.php:29
 msgid "LinkedIn"
-msgstr ""
+msgstr "LinkedIn"
 
 #: includes/ZeroBSCRM.DAL3.Export.php:31
 msgid "Created Date"
@@ -10294,39 +10295,39 @@ msgstr "Datum vytvoření"
 
 #: includes/ZeroBSCRM.DAL3.Export.php:32
 msgid "Last Updated Date"
-msgstr ""
+msgstr "Datum poslední aktualizace"
 
 #: includes/ZeroBSCRM.DAL3.Export.php:33
 msgid "Last Contacted Date"
-msgstr ""
+msgstr "Datum posledního kontaktu"
 
 #: includes/ZeroBSCRM.DAL3.Export.php:38
 msgid "Hash"
-msgstr ""
+msgstr "Hash"
 
 #: includes/ZeroBSCRM.DAL3.Export.php:39
 msgid "Last Viewed"
-msgstr ""
+msgstr "Naposledy zobrazeno"
 
 #: includes/ZeroBSCRM.DAL3.Export.php:40
 msgid "Viewed Count"
-msgstr ""
+msgstr "Počet zhlédnutí"
 
 #: includes/ZeroBSCRM.DAL3.Export.php:41
 msgid "Accepted Date"
-msgstr ""
+msgstr "Datum přijetí"
 
 #: includes/ZeroBSCRM.DAL3.Export.php:42
 msgid "Signed Date"
-msgstr ""
+msgstr "Datum podpisu"
 
 #: includes/ZeroBSCRM.DAL3.Export.php:43
 msgid "Signed via IP"
-msgstr ""
+msgstr "Podepsáno přes IP"
 
 #: includes/ZeroBSCRM.DAL3.Export.php:49
 msgid "Origin"
-msgstr ""
+msgstr "Zdroj"
 
 #: includes/ZeroBSCRM.DAL3.Export.php:50
 msgid "Customer IP"
@@ -10334,7 +10335,7 @@ msgstr "IP zákazníka"
 
 #: includes/ZeroBSCRM.DAL3.Export.php:186
 msgid "Export as .CSV file"
-msgstr ""
+msgstr "Exportovat jako soubor .CSV"
 
 #: includes/ZeroBSCRM.DAL3.Export.php:195
 msgid "Export Fields:"
@@ -10342,11 +10343,11 @@ msgstr "Exportování polí"
 
 #: includes/ZeroBSCRM.DAL3.Export.php:198
 msgid "Deselect"
-msgstr ""
+msgstr "Zrušit výběr"
 
 #: includes/ZeroBSCRM.DAL3.Export.php:198
 msgid "Select All"
-msgstr ""
+msgstr "Označit vše"
 
 #: includes/ZeroBSCRM.DAL3.Export.php:251
 msgid "No fields to export"
@@ -10358,11 +10359,11 @@ msgstr "Nebyla nalezena žádná pole, která bychom mohli exportovat."
 
 #: includes/ZeroBSCRM.DAL3.Export.php:315
 msgid "Nothing found to export"
-msgstr ""
+msgstr "Nebylo nalezeno nic k exportu"
 
 #: includes/ZeroBSCRM.DAL3.Export.php:315
 msgid "Do you want to use the legacy export tool?"
-msgstr ""
+msgstr "Chcete použít starší nástroj pro export?"
 
 #: includes/ZeroBSCRM.DAL3.Export.php:473
 msgid "Owner Username"
@@ -10370,13 +10371,13 @@ msgstr "Uživatelské jméno vlastníka"
 
 #: includes/ZeroBSCRM.DAL3.Export.php:713
 msgid "Owner"
-msgstr ""
+msgstr "Vlastník"
 
 #: includes/ZeroBSCRM.DAL3.Export.php:764
 #: includes/ZeroBSCRM.DAL3.Export.php:776
 #: includes/ZeroBSCRM.DAL3.Export.php:788
 msgid "Linked Data"
-msgstr ""
+msgstr "Propojená data"
 
 #: includes/ZeroBSCRM.DAL3.Helpers.php:5511
 msgid "Generated on save"
@@ -10388,7 +10389,7 @@ msgstr "Zde nastavte typ reference"
 
 #: includes/ZeroBSCRM.DAL3.Helpers.php:5513
 msgid "Next reference expected"
-msgstr ""
+msgstr "Očekává se další reference"
 
 #: includes/ZeroBSCRM.DAL3.Helpers.php:5550
 msgid "Rates"
@@ -10420,7 +10421,7 @@ msgstr ""
 
 #: includes/ZeroBSCRM.DAL3.Helpers.php:5577
 msgid "Invoice Sent"
-msgstr ""
+msgstr "Faktury odeslané"
 
 #: includes/ZeroBSCRM.DAL3.Helpers.php:5578
 msgid "Your Invoice has been sent by Email"
@@ -10436,11 +10437,11 @@ msgstr "Při odesílání této faktury e-mailem došlo k chybě."
 #: includes/ZeroBSCRM.List.Columns.php:568
 #: includes/ZeroBSCRM.List.Views.php:311
 msgid "Overdue"
-msgstr ""
+msgstr "Zpožděný"
 
 #: includes/ZeroBSCRM.DAL3.Helpers.php:9337
 msgid "Web Design: Example"
-msgstr ""
+msgstr "Web Design: Příklad"
 
 #: includes/ZeroBSCRM.DAL3.Obj.Companies.php:2384
 #: includes/ZeroBSCRM.DAL3.Obj.Contacts.php:2793
@@ -10454,7 +10455,7 @@ msgstr ""
 #: includes/ZeroBSCRM.DAL3.Obj.QuoteTemplates.php:861
 #: includes/ZeroBSCRM.DAL3.Obj.Transactions.php:1756
 msgid "DB Update Failed"
-msgstr ""
+msgstr "Aktualizace selhala"
 
 #: includes/ZeroBSCRM.DAL3.Obj.Companies.php:2581
 #: includes/ZeroBSCRM.DAL3.Obj.Contacts.php:3041
@@ -10468,7 +10469,7 @@ msgstr ""
 #: includes/ZeroBSCRM.DAL3.Obj.QuoteTemplates.php:955
 #: includes/ZeroBSCRM.DAL3.Obj.Transactions.php:1949
 msgid "DB Insert Failed"
-msgstr ""
+msgstr "Vložení DB se nezdařilo"
 
 #: includes/ZeroBSCRM.DAL3.Obj.Companies.php:3268
 msgid "View all contacts at company"
@@ -10477,13 +10478,13 @@ msgstr "Zobrazit všechny kontakty ve společnosti"
 #: includes/ZeroBSCRM.DAL3.Obj.Contacts.php:2580
 #: includes/ZeroBSCRM.DAL3.Obj.Contacts.php:2908
 msgid "Could not add alias (unavailable or invalid):"
-msgstr ""
+msgstr "Alias nelze přidat (nedostupný nebo neplatný):"
 
 #: includes/ZeroBSCRM.DAL3.Obj.Invoices.php:2759
 #: includes/ZeroBSCRM.DAL3.Obj.Transactions.php:2184
 #: includes/ZeroBSCRM.Migrations.Database.php:3158
 msgid "Refund"
-msgstr ""
+msgstr "Dobropis"
 
 #: includes/ZeroBSCRM.DAL3.Obj.Invoices.php:2760
 #: includes/ZeroBSCRM.DAL3.Obj.Transactions.php:2185
@@ -10493,27 +10494,27 @@ msgstr "Dobropis"
 #: includes/ZeroBSCRM.DAL3.ObjectLayer.php:860
 #: includes/ZeroBSCRM.DAL3.ObjectLayer.php:974
 msgid "The value for the field:"
-msgstr ""
+msgstr "Hodnota pole:"
 
 #: includes/ZeroBSCRM.DAL3.ObjectLayer.php:860
 msgid "was too long and has been abbreviated"
-msgstr ""
+msgstr "byl příliš dlouhý a byl zkrácen"
 
 #: includes/ZeroBSCRM.DAL3.ObjectLayer.php:972
 msgid "Duplicated reference. The reference should be unique"
-msgstr ""
+msgstr "Duplicitní reference. Odkaz by měl být jedinečný"
 
 #: includes/ZeroBSCRM.DAL3.ObjectLayer.php:974
 msgid "was not unique (exists)"
-msgstr ""
+msgstr "nebyl jedinečný (existuje)"
 
 #: includes/ZeroBSCRM.DAL3.ObjectLayer.php:1054
 msgid "The field:"
-msgstr ""
+msgstr "Pole:"
 
 #: includes/ZeroBSCRM.DAL3.ObjectLayer.php:1054
 msgid "is required"
-msgstr ""
+msgstr "je vyžadováno"
 
 #: includes/ZeroBSCRM.DashboardBoxes.php:92
 msgid ""
@@ -10528,7 +10529,7 @@ msgstr "Přidat kontakt"
 
 #: includes/ZeroBSCRM.Delete.php:343 includes/ZeroBSCRM.List.php:68
 msgid "Deleted"
-msgstr ""
+msgstr "Smazáno"
 
 #: includes/ZeroBSCRM.Delete.php:345
 msgid "was successfully deleted."
@@ -10536,25 +10537,26 @@ msgstr "byl úspěšně smazán!"
 
 #: includes/ZeroBSCRM.Delete.php:352 includes/ZeroBSCRM.Delete.php:419
 msgid "Back to"
-msgstr ""
+msgstr "Zpět na"
 
 #: includes/ZeroBSCRM.Delete.php:383
 msgid "Are you sure you want to delete this"
-msgstr ""
+msgstr "Jste si jisti, že toto chcete smazat"
 
 #: includes/ZeroBSCRM.Delete.php:399
 msgid ""
 "Shall I also delete the associated Contacts, Invoices, Quotes, Transactions "
 "and Events?"
 msgstr ""
+"Mám také smazat související kontakty, faktury, nabídky, transakce a události?"
 
 #: includes/ZeroBSCRM.Delete.php:399
 msgid "(This cannot be undone!)"
-msgstr ""
+msgstr "(To nelze vrátit zpět!)"
 
 #: includes/ZeroBSCRM.Delete.php:405 includes/ZeroBSCRM.List.php:66
 msgid "No, leave them"
-msgstr ""
+msgstr "Ne, nechte je"
 
 #: includes/ZeroBSCRM.Delete.php:406 includes/ZeroBSCRM.List.php:67
 msgid "Yes, remove everything"
@@ -10567,15 +10569,15 @@ msgstr "Dnes"
 
 #: includes/ZeroBSCRM.Edit.php:191
 msgid "You do not have permission to edit this"
-msgstr ""
+msgstr "Nemáte oprávnění toto upravovat"
 
 #: includes/ZeroBSCRM.Edit.php:197
 msgid "There was an error loading this"
-msgstr ""
+msgstr "Při načítání došlo k chybě"
 
 #: includes/ZeroBSCRM.Edit.Segment.php:63
 msgid "Saving"
-msgstr ""
+msgstr "Ukládání"
 
 #: includes/ZeroBSCRM.Edit.Segment.php:73
 msgid "Name this Segment"
@@ -10584,6 +10586,7 @@ msgstr "Pojmenujte tento segment"
 #: includes/ZeroBSCRM.Edit.Segment.php:74
 msgid "Enter a descriptive title. This is shown on internal pages and reports."
 msgstr ""
+"Zadejte popisný název. To je zobrazeno na interních stránkách a zprávách."
 
 #: includes/ZeroBSCRM.Edit.Segment.php:75
 msgid "e.g. VIP Customers"
@@ -10591,19 +10594,19 @@ msgstr "např. VIP zákazníci"
 
 #: includes/ZeroBSCRM.Edit.Segment.php:76
 msgid "This field is required"
-msgstr ""
+msgstr "Toto pole je povinné"
 
 #: includes/ZeroBSCRM.Edit.Segment.php:87
 msgid "Add Condition"
-msgstr ""
+msgstr "Přidat podmínku"
 
 #: includes/ZeroBSCRM.Edit.Segment.php:90
 msgid "Conditions"
-msgstr ""
+msgstr "Podmínky"
 
 #: includes/ZeroBSCRM.Edit.Segment.php:91
 msgid "Select conditions which will define this segment."
-msgstr ""
+msgstr "Vyberte podmínky, které budou definovat tento segment."
 
 #: includes/ZeroBSCRM.Edit.Segment.php:99
 msgid "Segments require at least one condition"
@@ -10611,7 +10614,7 @@ msgstr "Segmenty vyžadují alespoň jednu podmínku"
 
 #: includes/ZeroBSCRM.Edit.Segment.php:103
 msgid "Match Type"
-msgstr ""
+msgstr "Druh shody"
 
 #: includes/ZeroBSCRM.Edit.Segment.php:104
 msgid ""
@@ -10623,11 +10626,11 @@ msgstr ""
 
 #: includes/ZeroBSCRM.Edit.Segment.php:106
 msgid "Match all Conditions"
-msgstr ""
+msgstr "Vyhovět všem podmínkám"
 
 #: includes/ZeroBSCRM.Edit.Segment.php:107
 msgid "Match any one Condition"
-msgstr ""
+msgstr "Vyhovět některé podmínce"
 
 #: includes/ZeroBSCRM.Edit.Segment.php:114
 msgid "Preview Segment"
@@ -10638,6 +10641,8 @@ msgid ""
 "Your conditions did not produce any matching Contacts. You can still save "
 "this segment, but currently there is no one in it!"
 msgstr ""
+"Vaše podmínky nevytvořily žádné odpovídající kontakty. Tento segment můžete "
+"stále uložit, ale momentálně v něm nikdo není!"
 
 #: includes/ZeroBSCRM.Edit.Segment.php:142 includes/ZeroBSCRM.MetaBox.php:225
 #: includes/ZeroBSCRM.MetaBox.php:248
@@ -10646,15 +10651,15 @@ msgstr "Obecná chyba"
 
 #: includes/ZeroBSCRM.Edit.Segment.php:143
 msgid "There was a general error."
-msgstr ""
+msgstr "Došlo k obecné chybě."
 
 #: includes/ZeroBSCRM.Edit.Segment.php:145
 msgid "Contacts currently match these conditions."
-msgstr ""
+msgstr "Kontakty aktuálně splňují tyto podmínky."
 
 #: includes/ZeroBSCRM.Edit.Segment.php:146
 msgid "Contacts Preview"
-msgstr ""
+msgstr "Náhled kontaktů"
 
 #: includes/ZeroBSCRM.Edit.Segment.php:148
 msgid "Unnamed Contact"
@@ -10673,11 +10678,11 @@ msgstr "Nebyly nalezeny žádné značky"
 #: includes/ZeroBSCRM.InternalAutomatorRecipes.php:737
 #: includes/ZeroBSCRM.InternalAutomatorRecipes.php:1218
 msgid "to"
-msgstr ""
+msgstr "do"
 
 #: includes/ZeroBSCRM.Edit.Segment.php:155
 msgid "e.g."
-msgstr ""
+msgstr "např."
 
 #: includes/ZeroBSCRM.Edit.Segment.php:160
 msgid "Contact Fields"
@@ -10689,41 +10694,41 @@ msgstr "Vyberte, která pole chcete exportovat. Celkový"
 
 #: includes/ZeroBSCRM.Export.php:280
 msgid "Total Invoices in database: "
-msgstr ""
+msgstr "Celkem faktur v databázi:"
 
 #: includes/ZeroBSCRM.Export.php:287
 msgid "Export Invoices"
-msgstr ""
+msgstr "Exportovat faktury"
 
 #: includes/ZeroBSCRM.Export.php:296
 msgid "Total Quotes in database: "
-msgstr ""
+msgstr "Celkový počet cenových nabídek v databázi:"
 
 #: includes/ZeroBSCRM.Export.php:303
 msgid "Export Quotes"
-msgstr ""
+msgstr "Exportovat nabídky"
 
 #: includes/ZeroBSCRM.Export.php:313
 msgid "Total Transactions in database: "
-msgstr ""
+msgstr "Celkový počet transakcí v databázi:"
 
 #: includes/ZeroBSCRM.Export.php:320
 msgid "Export Transactions"
-msgstr ""
+msgstr "Export transakcí"
 
 #: includes/ZeroBSCRM.Export.php:370 includes/ZeroBSCRM.Export.php:458
 #: includes/ZeroBSCRM.Export.php:570 includes/ZeroBSCRM.Export.php:645
 #: includes/ZeroBSCRM.Export.php:713 includes/ZeroBSCRM.Export.php:770
 msgid "Sorry, your nonce did not verify."
-msgstr ""
+msgstr "Omlouváme se, vaši zprávu se nepodařilo ověřit."
 
 #: includes/ZeroBSCRM.Export.php:478
 msgid "added"
-msgstr ""
+msgstr "přidáno"
 
 #: includes/ZeroBSCRM.FileUploads.php:275
 msgid "Could not delete file from server:"
-msgstr ""
+msgstr "Nelze smazat soubor ze serveru:"
 
 #: includes/ZeroBSCRM.FormatHelpers.php:31
 #: includes/ZeroBSCRM.MetaBoxes3.Companies.php:663
@@ -10732,11 +10737,11 @@ msgstr "Kontakt od"
 
 #: includes/ZeroBSCRM.FormatHelpers.php:47
 msgid "Works for"
-msgstr ""
+msgstr "Pracuje pro:"
 
 #: includes/ZeroBSCRM.FormatHelpers.php:85
 msgid "Assigned to: "
-msgstr ""
+msgstr "Přiřazen:"
 
 #: includes/ZeroBSCRM.FormatHelpers.php:97
 msgid "Contact since "
@@ -10781,24 +10786,24 @@ msgstr "E-mail:"
 
 #: includes/ZeroBSCRM.FormatHelpers.php:915
 msgid "failed"
-msgstr ""
+msgstr "chyba"
 
 #: includes/ZeroBSCRM.FormatHelpers.php:918
 msgid "refunded"
-msgstr ""
+msgstr "vráceno"
 
 #: includes/ZeroBSCRM.FormatHelpers.php:921
 msgid "succeeded"
-msgstr ""
+msgstr "uspěl"
 
 #: includes/ZeroBSCRM.FormatHelpers.php:924
 msgid "completed"
-msgstr ""
+msgstr "dokončeno"
 
 #: includes/ZeroBSCRM.FormatHelpers.php:994
 #: includes/ZeroBSCRM.FormatHelpers.php:1028
 msgid "Prev"
-msgstr ""
+msgstr "Předchozí"
 
 #: includes/ZeroBSCRM.FormatHelpers.php:1153
 msgid "No Recent Emails"
@@ -10806,36 +10811,36 @@ msgstr "Žádné nedávné e-maily"
 
 #: includes/ZeroBSCRM.FormatHelpers.php:1168
 msgid "sent"
-msgstr ""
+msgstr "odesláno"
 
 #: includes/ZeroBSCRM.FormatHelpers.php:1171
 msgid " sent to "
-msgstr ""
+msgstr " odesláno na "
 
 #: includes/ZeroBSCRM.FormatHelpers.php:1216
 msgid " by "
-msgstr ""
+msgstr " od "
 
 #: includes/ZeroBSCRM.FormatHelpers.php:1225
 msgid "opened"
-msgstr ""
+msgstr "otevřeno"
 
 #: includes/ZeroBSCRM.FormatHelpers.php:1453
 #: includes/ZeroBSCRM.FormatHelpers.php:1628
 #: includes/ZeroBSCRM.FormatHelpers.php:1676
 #: portal/v1/templates/details.php:643 portal/v3/templates/details.php:519
 msgid "No Options"
-msgstr ""
+msgstr "Žádné možnosti"
 
 #: includes/ZeroBSCRM.FormatHelpers.php:1486
 #: portal/v3/templates/details.php:543
 msgid "SMS"
-msgstr ""
+msgstr "SMS"
 
 #: includes/ZeroBSCRM.FormatHelpers.php:1556
 #: portal/v1/templates/details.php:719 portal/v3/templates/details.php:610
 msgid "No Countries Loaded"
-msgstr ""
+msgstr "Žádné načtené země"
 
 #: includes/ZeroBSCRM.FormatHelpers.php:1719
 msgid "No Tax Rates Defined"
@@ -10851,28 +10856,28 @@ msgstr "Vložte na svůj web formulář pro zachycení potenciálního zákazní
 
 #: includes/ZeroBSCRM.Forms.php:126
 msgid "You have not entered a style or ID in the form shortcode"
-msgstr ""
+msgstr "V krátkém kódu formuláře jste nezadali styl nebo ID"
 
 #: includes/ZeroBSCRM.Forms.php:144
 msgid "Contact us"
-msgstr ""
+msgstr "Kontaktujte nás"
 
 #: includes/ZeroBSCRM.Forms.php:150 includes/ZeroBSCRM.List.Views.php:424
 msgid "Simple"
-msgstr ""
+msgstr "Jednoduchá"
 
 #: includes/ZeroBSCRM.Forms.php:160
 msgid "Title:"
-msgstr ""
+msgstr "Název:"
 
 #: includes/ZeroBSCRM.Forms.php:182
 msgid "Form ID:"
-msgstr ""
+msgstr "ID formuláře:"
 
 #: includes/ZeroBSCRM.Forms.php:287 includes/ZeroBSCRM.Forms.php:469
 #: includes/ZeroBSCRM.Forms.php:518
 msgid "Want to find out more?"
-msgstr ""
+msgstr "Zajímá vás víc?"
 
 #: includes/ZeroBSCRM.Forms.php:288 includes/ZeroBSCRM.Forms.php:470
 #: includes/ZeroBSCRM.Forms.php:519
@@ -10889,7 +10894,7 @@ msgstr "E-mailová adresa"
 #: includes/ZeroBSCRM.Forms.php:481 includes/ZeroBSCRM.Forms.php:530
 #: portal/v1/templates/details.php:870 portal/v3/templates/details.php:774
 msgid "Submit"
-msgstr ""
+msgstr "Odeslat"
 
 #: includes/ZeroBSCRM.Forms.php:298 includes/ZeroBSCRM.Forms.php:390
 #: includes/ZeroBSCRM.Forms.php:483 includes/ZeroBSCRM.Forms.php:532
@@ -10903,24 +10908,24 @@ msgstr ""
 #: includes/ZeroBSCRM.Forms.php:300 includes/ZeroBSCRM.Forms.php:392
 #: includes/ZeroBSCRM.Forms.php:485 includes/ZeroBSCRM.Forms.php:534
 msgid "Thanks. We will be in touch."
-msgstr ""
+msgstr "Dík. Budeme v kontaktu."
 
 #: includes/ZeroBSCRM.Forms.php:475 includes/ZeroBSCRM.Forms.php:524
 msgid "Your Message"
-msgstr ""
+msgstr "Tvá zpráva"
 
 #: includes/ZeroBSCRM.GeneralFuncs.php:310
 #: includes/ZeroBSCRM.MetaBoxes.Events.php:137
 msgid "Never"
-msgstr ""
+msgstr "Nikdy"
 
 #: includes/ZeroBSCRM.GeneralFuncs.php:960
 msgid "Unsubscribed"
-msgstr ""
+msgstr "Odhlášen(a)"
 
 #: includes/ZeroBSCRM.IntegrationFuncs.php:570
 msgid "could not be processed!"
-msgstr ""
+msgstr "nelze zpracovat!"
 
 #: includes/ZeroBSCRM.InternalAutomatorRecipes.php:349
 #: includes/ZeroBSCRM.InternalAutomatorRecipes.php:486
@@ -10936,13 +10941,13 @@ msgstr "Nabídka vytvořena"
 
 #: includes/ZeroBSCRM.InternalAutomatorRecipes.php:427
 msgid "Signed"
-msgstr ""
+msgstr "Podpis"
 
 #: includes/ZeroBSCRM.InternalAutomatorRecipes.php:433
 #: includes/ZeroBSCRM.MetaBoxes.Logs.php:58
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:57
 msgid "Quote: Accepted"
-msgstr ""
+msgstr "Nabídka: přijata"
 
 #: includes/ZeroBSCRM.InternalAutomatorRecipes.php:492
 #: includes/ZeroBSCRM.MetaBoxes.Logs.php:71
@@ -10992,117 +10997,117 @@ msgstr "Mezisoučet"
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1015
 #: includes/ZeroBSCRM.InvoiceBuilder.php:2359
 msgid "Postage and packaging"
-msgstr ""
+msgstr "poštovné a balné"
 
 #: includes/ZeroBSCRM.InvoiceBuilder.php:545
 msgid "Payment (transaction ID:"
-msgstr ""
+msgstr "Platba (ID transakce:"
 
 #: includes/ZeroBSCRM.InvoiceBuilder.php:562
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1091
 #: includes/ZeroBSCRM.InvoiceBuilder.php:2467
 msgid "Amount due"
-msgstr ""
+msgstr "Dlužná částka"
 
 #: includes/ZeroBSCRM.InvoiceBuilder.php:581
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1135
 #: includes/ZeroBSCRM.InvoiceBuilder.php:2484
 msgid "Payment Details"
-msgstr ""
+msgstr "Platební údaje"
 
 #: includes/ZeroBSCRM.InvoiceBuilder.php:583
 #: includes/ZeroBSCRM.InvoiceBuilder.php:2486
 msgid "Payment Reference:"
-msgstr ""
+msgstr "Platební reference:"
 
 #: includes/ZeroBSCRM.InvoiceBuilder.php:618
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1177
 #: includes/ZeroBSCRM.InvoiceBuilder.php:2538
 msgid "Invoice Number:"
-msgstr ""
+msgstr "Číslo faktury:"
 
 #: includes/ZeroBSCRM.InvoiceBuilder.php:619
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1178
 #: includes/ZeroBSCRM.InvoiceBuilder.php:2539
 msgid "Invoice Date:"
-msgstr ""
+msgstr "Datum fakturace:"
 
 #: includes/ZeroBSCRM.InvoiceBuilder.php:621
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1180
 msgid "From:"
-msgstr ""
+msgstr "Od:"
 
 #: includes/ZeroBSCRM.InvoiceBuilder.php:623
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1182
 #: includes/ZeroBSCRM.InvoiceBuilder.php:2543
 msgid "Due date:"
-msgstr ""
+msgstr "Datum splatnosti:"
 
 #: includes/ZeroBSCRM.InvoiceBuilder.php:624
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1183
 #: includes/ZeroBSCRM.InvoiceBuilder.php:2544
 msgid "Payment Terms: Due "
-msgstr ""
+msgstr "Platební podmínky: Splatné"
 
 #: includes/ZeroBSCRM.InvoiceBuilder.php:656
 #: includes/ZeroBSCRM.InvoiceBuilder.php:2117
 #: portal/v3/templates/single-invoice.php:33
 msgid ""
 "Either this invoice does not exist or you do not have permission to view it."
-msgstr ""
+msgstr "Tato faktura buď neexistuje, nebo nemáte oprávnění k jejímu zobrazení."
 
 #: includes/ZeroBSCRM.InvoiceBuilder.php:810
 msgid "To Pay"
-msgstr ""
+msgstr "K platbě"
 
 #: includes/ZeroBSCRM.InvoiceBuilder.php:911
 #: includes/ZeroBSCRM.InvoiceBuilder.php:2606
 msgid "Pay To"
-msgstr ""
+msgstr "Placeno na"
 
 #: includes/ZeroBSCRM.InvoiceBuilder.php:931
 #: includes/ZeroBSCRM.InvoiceBuilder.php:2650
 msgid "Invoice To"
-msgstr ""
+msgstr "fakturovat na"
 
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1074
 #: includes/ZeroBSCRM.InvoiceBuilder.php:2450
 msgid "Payment"
-msgstr ""
+msgstr "Platby"
 
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1137
 msgid "Payment Reference: INV"
-msgstr ""
+msgstr "Platební reference: INV"
 
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1625
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1884
 msgid "STATEMENT"
-msgstr ""
+msgstr "Prohlášení"
 
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1663
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1908
 msgid "Statement Date"
-msgstr ""
+msgstr "Datum výpisu"
 
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1693
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1939
 msgid "Balance"
-msgstr ""
+msgstr "Zůstatek"
 
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1723
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1981
 msgid "Due"
-msgstr ""
+msgstr "Splatnost"
 
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1814
 #: includes/ZeroBSCRM.InvoiceBuilder.php:2041
 msgid "No Activity"
-msgstr ""
+msgstr "Žádná aktivita"
 
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1820
 #: includes/ZeroBSCRM.InvoiceBuilder.php:2047
 msgid "BALANCE DUE"
-msgstr ""
+msgstr "Nedoplatek"
 
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1934
 #: includes/ZeroBSCRM.MetaBoxes3.Companies.php:1234
@@ -11700,11 +11705,11 @@ msgstr "Vaše nabídky byly označeny jako nepřijaté."
 
 #: includes/ZeroBSCRM.List.Views.php:203
 msgid "Could not mark unaccepted!"
-msgstr ""
+msgstr "Nelze označit jako nepřijaté!"
 
 #: includes/ZeroBSCRM.List.Views.php:204
 msgid "Your quote(s) could not be marked unaccepted."
-msgstr ""
+msgstr "Vaše nabídky nemohly být označeny jako nepřijaté."
 
 #: includes/ZeroBSCRM.List.Views.php:249 includes/ZeroBSCRM.List.Views.php:264
 msgid "Supercharged Invoicing"
@@ -11728,23 +11733,23 @@ msgstr ""
 
 #: includes/ZeroBSCRM.List.Views.php:266
 msgid "Your Account"
-msgstr ""
+msgstr "Váš účet"
 
 #: includes/ZeroBSCRM.List.Views.php:295
 msgid "Delete Invoice(s)"
-msgstr ""
+msgstr "Smazat faktury"
 
 #: includes/ZeroBSCRM.List.Views.php:296
 msgid "Export Invoice(s)"
-msgstr ""
+msgstr "Exportovat faktury"
 
 #: includes/ZeroBSCRM.List.Views.php:299
 msgid "Your invoice(s) have been deleted."
-msgstr ""
+msgstr "Vaše faktury byly smazány."
 
 #: includes/ZeroBSCRM.List.Views.php:300
 msgid "Your invoice(s) could not be deleted."
-msgstr ""
+msgstr "Vaše faktury se nepodařilo smazat."
 
 #: includes/ZeroBSCRM.List.Views.php:303
 msgid "Are you sure you want to change the status on marked invoice(s)?"
@@ -11752,27 +11757,27 @@ msgstr "Opravdu chcete změnit stav označených faktur?"
 
 #: includes/ZeroBSCRM.List.Views.php:304
 msgid "Invoice(s) Updated"
-msgstr ""
+msgstr "Faktura(y) aktualizovány"
 
 #: includes/ZeroBSCRM.List.Views.php:305
 msgid "Your invoice(s) have been updated."
-msgstr ""
+msgstr "Vaše faktury byly aktualizovány."
 
 #: includes/ZeroBSCRM.List.Views.php:306
 msgid "Could not update invoice!"
-msgstr ""
+msgstr "Fakturu nelze aktualizovat!"
 
 #: includes/ZeroBSCRM.List.Views.php:307
 msgid "Your invoice(s) could not be updated"
-msgstr ""
+msgstr "Vaše faktury se nepodařilo aktualizovat"
 
 #: includes/ZeroBSCRM.List.Views.php:350
 msgid "Delete Transaction(s)"
-msgstr ""
+msgstr "Smazat transakce"
 
 #: includes/ZeroBSCRM.List.Views.php:351
 msgid "Export Transaction(s)"
-msgstr ""
+msgstr "Exportovat transakce"
 
 #: includes/ZeroBSCRM.List.Views.php:357
 msgid "Cancelled"
@@ -11780,7 +11785,7 @@ msgstr "Zrošeno"
 
 #: includes/ZeroBSCRM.List.Views.php:358
 msgid "Hold"
-msgstr ""
+msgstr "Podržení"
 
 #: includes/ZeroBSCRM.List.Views.php:401
 msgid "Fully Flexible Forms"
@@ -11800,33 +11805,33 @@ msgstr ""
 
 #: includes/ZeroBSCRM.List.Views.php:403
 msgid "See Full Form Options"
-msgstr ""
+msgstr "Viz. Možnosti celého formuláře"
 
 #: includes/ZeroBSCRM.List.Views.php:422
 msgid "Naked"
-msgstr ""
+msgstr "Nahý"
 
 #: includes/ZeroBSCRM.List.Views.php:423
 #: includes/ZeroBSCRM.MetaBoxes.Forms.php:363
 #: includes/ZeroBSCRM.MetaBoxes3.Forms.php:408
 msgid "Content Grab"
-msgstr ""
+msgstr "Obsah Grab"
 
 #: includes/ZeroBSCRM.List.Views.php:427
 msgid "Delete Form(s)"
-msgstr ""
+msgstr "Smazat formulář(e)"
 
 #: includes/ZeroBSCRM.List.Views.php:428
 msgid "Export Form(s)"
-msgstr ""
+msgstr "Exportovat formulář(e)"
 
 #: includes/ZeroBSCRM.List.Views.php:432
 msgid "Your form(s) have been deleted."
-msgstr ""
+msgstr "Vaše formuláře byly smazány."
 
 #: includes/ZeroBSCRM.List.Views.php:433
 msgid "Your form(s) could not be deleted."
-msgstr ""
+msgstr "Vaše formuláře se nepodařilo smazat."
 
 #: includes/ZeroBSCRM.List.Views.php:467
 msgid "Using Segments"
@@ -11846,7 +11851,7 @@ msgstr "Pokročilé segmenty"
 
 #: includes/ZeroBSCRM.List.Views.php:483
 msgid "Got Feedback?"
-msgstr ""
+msgstr "Máte zpětnou vazbu?"
 
 #: includes/ZeroBSCRM.List.Views.php:485
 msgid "Enjoying segments?"
@@ -11854,15 +11859,15 @@ msgstr "Baví vás segmenty?"
 
 #: includes/ZeroBSCRM.List.Views.php:486
 msgid "As we grow Jetpack CRM, we're looking for feedback!"
-msgstr ""
+msgstr "Jak rosteme Jetpack CRM, hledáme zpětnou vazbu!"
 
 #: includes/ZeroBSCRM.List.Views.php:511
 msgid "Last Compiled"
-msgstr ""
+msgstr "Naposledy zkompilováno"
 
 #: includes/ZeroBSCRM.List.Views.php:512
 msgid "Not Compiled"
-msgstr ""
+msgstr "Nezkompilováno"
 
 #: includes/ZeroBSCRM.List.Views.php:515
 msgid "Delete Segment(s)"
@@ -11874,19 +11879,19 @@ msgstr "Exportovat segmenty"
 
 #: includes/ZeroBSCRM.List.Views.php:519
 msgid "Your segment(s) have been deleted."
-msgstr ""
+msgstr "Vaše segmenty byly smazány."
 
 #: includes/ZeroBSCRM.List.Views.php:520
 msgid "Your segment(s) could not be deleted."
-msgstr ""
+msgstr "Vaše segmenty nelze smazat."
 
 #: includes/ZeroBSCRM.List.Views.php:559
 msgid "Delete Quote Template(s)"
-msgstr ""
+msgstr "Smazat šablonu cenové nabídky"
 
 #: includes/ZeroBSCRM.List.Views.php:560
 msgid "Export Quote Template(s)"
-msgstr ""
+msgstr "Exportovat šablony cenových nabídek"
 
 #: includes/ZeroBSCRM.List.Views.php:563
 msgid "Default Template"
@@ -11894,19 +11899,19 @@ msgstr "Výchozí šablona"
 
 #: includes/ZeroBSCRM.List.Views.php:564
 msgid "Delete Template"
-msgstr ""
+msgstr "Smazat šablonu"
 
 #: includes/ZeroBSCRM.List.Views.php:567
 msgid "Your Quote template(s) have been deleted."
-msgstr ""
+msgstr "Vaše šablony cenových nabídek byly smazány."
 
 #: includes/ZeroBSCRM.List.Views.php:568
 msgid "Your Quote template(s) could not be deleted."
-msgstr ""
+msgstr "Vaši šablonu cenové nabídky nebylo možné smazat."
 
 #: includes/ZeroBSCRM.List.Views.php:606
 msgid "Complete"
-msgstr ""
+msgstr "Kompletní"
 
 #: includes/ZeroBSCRM.List.Views.php:609
 msgid "Delete Task(s)"
@@ -11922,27 +11927,27 @@ msgstr "Označit úkoly jako nedokončené"
 
 #: includes/ZeroBSCRM.List.Views.php:614
 msgid "Your Event(s) have been deleted."
-msgstr ""
+msgstr "Vaše události byly smazány."
 
 #: includes/ZeroBSCRM.List.Views.php:615
 msgid "Your Event(s) could not be deleted."
-msgstr ""
+msgstr "Vaše události se nepodařilo smazat."
 
 #: includes/ZeroBSCRM.List.Views.php:616
 msgid "Are you sure you want to mark these events as completed?"
-msgstr ""
+msgstr "Opravdu chcete tyto události označit jako dokončené?"
 
 #: includes/ZeroBSCRM.List.Views.php:617
 msgid "Are you sure you want to mark these events as incomplete?"
-msgstr ""
+msgstr "Opravdu chcete tyto události označit jako nedokončené?"
 
 #: includes/ZeroBSCRM.List.Views.php:618
 msgid "Your Event(s) have been updated."
-msgstr ""
+msgstr "Vaše události byly aktualizovány."
 
 #: includes/ZeroBSCRM.List.Views.php:619
 msgid "Your Event(s) could not be updated."
-msgstr ""
+msgstr "Vaše události se nepodařilo aktualizovat."
 
 #: includes/ZeroBSCRM.Mail.php:200
 msgid "<span>#289</span>Could not load settings for this mail delivery option"
@@ -12002,7 +12007,7 @@ msgstr ""
 
 #: includes/ZeroBSCRM.MailTracking.php:447
 msgid "0 SENT, 0% OPENED"
-msgstr ""
+msgstr "0 ODESLÁNO, 0 % OTEVŘENO"
 
 #: includes/ZeroBSCRM.MetaBox.php:218 includes/ZeroBSCRM.MetaBox.php:239
 msgid "General Notice"
@@ -12010,11 +12015,11 @@ msgstr "Obecné upozornění"
 
 #: includes/ZeroBSCRM.MetaBox.php:240
 msgid "Update Notice:"
-msgstr ""
+msgstr "Upozornění na novinky"
 
 #: includes/ZeroBSCRM.MetaBox.php:249
 msgid "Could not be saved"
-msgstr ""
+msgstr "Nepodařilo se uložit"
 
 #: includes/ZeroBSCRM.MetaBoxes.Events.php:71
 #: includes/ZeroBSCRM.MetaBoxes3.Events.php:57
@@ -12023,32 +12028,32 @@ msgstr "Informace o úkolu"
 
 #: includes/ZeroBSCRM.MetaBoxes.Events.php:131
 msgid "Notify CRM User:"
-msgstr ""
+msgstr "Upozornit uživatele CRM:"
 
 #: includes/ZeroBSCRM.MetaBoxes.Events.php:133
 #: includes/ZeroBSCRM.MetaBoxes.Events.php:145
 msgid "Need help?"
-msgstr ""
+msgstr "Potřebujete pomoc?"
 
 #: includes/ZeroBSCRM.MetaBoxes.Events.php:138
 msgid "24 Hours before"
-msgstr ""
+msgstr "24 hodin předem"
 
 #: includes/ZeroBSCRM.MetaBoxes.Events.php:139
 msgid "12 Hours before"
-msgstr ""
+msgstr "12 hodin předem"
 
 #: includes/ZeroBSCRM.MetaBoxes.Events.php:140
 msgid "1 Hour before"
-msgstr ""
+msgstr "1 hodinu předem"
 
 #: includes/ZeroBSCRM.MetaBoxes.Events.php:143
 msgid "Mark Complete:"
-msgstr ""
+msgstr "Označ za splněné:"
 
 #: includes/ZeroBSCRM.MetaBoxes.Events.php:160
 msgid "Do you like this?"
-msgstr ""
+msgstr "Líbí se vám to?"
 
 #: includes/ZeroBSCRM.MetaBoxes.Events.php:161
 msgid "Do you like this feature? Let us know."
@@ -12057,7 +12062,7 @@ msgstr "Líbí se vám tato funkce? Dej nám vědět."
 #: includes/ZeroBSCRM.MetaBoxes.Forms.php:76
 #: includes/ZeroBSCRM.MetaBoxes3.Forms.php:73
 msgid "Form Language Labels"
-msgstr ""
+msgstr "Jazykové štítky formulářů"
 
 #: includes/ZeroBSCRM.MetaBoxes.Forms.php:216
 #: includes/ZeroBSCRM.MetaBoxes3.Forms.php:300
@@ -12072,32 +12077,33 @@ msgstr "Potřebujete více polí?"
 #: includes/ZeroBSCRM.MetaBoxes.Forms.php:243
 #: includes/ZeroBSCRM.MetaBoxes3.Forms.php:662
 msgid "See Options"
-msgstr ""
+msgstr "Zobrazit možnosti"
 
 #: includes/ZeroBSCRM.MetaBoxes.Forms.php:247
 #: includes/ZeroBSCRM.MetaBoxes3.Forms.php:599
 msgid "Embed Code"
-msgstr ""
+msgstr "Kód pro vložení"
 
 #: includes/ZeroBSCRM.MetaBoxes.Forms.php:248
 #: includes/ZeroBSCRM.MetaBoxes3.Forms.php:600
 msgid "Use the code below to embed this form on another site"
-msgstr ""
+msgstr "Pomocí níže uvedeného kódu vložte tento formulář na jiný web"
 
 #: includes/ZeroBSCRM.MetaBoxes.Forms.php:294
 #: includes/ZeroBSCRM.MetaBoxes3.Forms.php:338
 msgid "Welcome to Jetpack CRM Form Creator"
-msgstr ""
+msgstr "Vítejte v Jetpack CRM Form Creator"
 
 #: includes/ZeroBSCRM.MetaBoxes.Forms.php:295
 #: includes/ZeroBSCRM.MetaBoxes3.Forms.php:339
 msgid "Choose your style for the form you wish to embed (click to choose)"
 msgstr ""
+"Vyberte svůj styl pro formulář, který chcete vložit (vyberte kliknutím)"
 
 #: includes/ZeroBSCRM.MetaBoxes.Forms.php:296
 #: includes/ZeroBSCRM.MetaBoxes3.Forms.php:340
 msgid "Make sure to save the form before using the shortcode"
-msgstr ""
+msgstr "Před použitím krátkého kódu nezapomeňte formulář uložit"
 
 #: includes/ZeroBSCRM.MetaBoxes.Forms.php:298
 #: includes/ZeroBSCRM.MetaBoxes3.Forms.php:342
@@ -12113,16 +12119,16 @@ msgstr ""
 #: includes/ZeroBSCRM.MetaBoxes.Forms.php:329
 #: includes/ZeroBSCRM.MetaBoxes3.Forms.php:377
 msgid "Naked Style"
-msgstr ""
+msgstr "Nahý styl"
 
 #: includes/ZeroBSCRM.MetaBoxes.Forms.php:400
 #: includes/ZeroBSCRM.MetaBoxes3.Forms.php:442
 msgid "Simple Style"
-msgstr ""
+msgstr "Jednoduchý styl"
 
 #: includes/ZeroBSCRM.MetaBoxes.Invoices.php:30
 msgid "Attachments"
-msgstr ""
+msgstr "Přílohy"
 
 #: includes/ZeroBSCRM.MetaBoxes.Invoices.php:66
 #: includes/ZeroBSCRM.MetaBoxes3.Invoices.php:722
@@ -12142,16 +12148,18 @@ msgstr "Koupit nyní"
 #: includes/ZeroBSCRM.MetaBoxes.Invoices.php:136
 #: includes/ZeroBSCRM.MetaBoxes3.Invoices.php:125
 msgid "Loading Invoice"
-msgstr ""
+msgstr "Načítání faktury"
 
 #: includes/ZeroBSCRM.MetaBoxes.Invoices.php:251
 msgid "Attach Files"
-msgstr ""
+msgstr "Připojit soubory"
 
 #: includes/ZeroBSCRM.MetaBoxes.Invoices.php:251
 msgid ""
 "You can attach as many file types as you like. Supported file formats are"
 msgstr ""
+"Můžete připojit tolik typů souborů, kolik chcete. Podporované formáty "
+"souborů jsou"
 
 #: includes/ZeroBSCRM.MetaBoxes.Invoices.php:251
 msgid "You can manage these in"
@@ -12162,23 +12170,25 @@ msgid ""
 "Use this for attaching things like a PDF version of the invoice or your "
 "Terms and Conditions"
 msgstr ""
+"Použijte jej pro připojení věcí, jako je PDF verze faktury nebo vaše smluvní "
+"podmínky"
 
 #: includes/ZeroBSCRM.MetaBoxes.Invoices.php:258
 msgid "Add memo to self"
-msgstr ""
+msgstr "Přidat poznámku k sobě"
 
 #: includes/ZeroBSCRM.MetaBoxes.Invoices.php:262
 msgid "Memo"
-msgstr ""
+msgstr "Poznámka"
 
 #: includes/ZeroBSCRM.MetaBoxes.Invoices.php:263
 msgid "Add memo to self (your recipient won't see this)"
-msgstr ""
+msgstr "Přidat poznámku pro sebe (váš příjemce to neuvidí)"
 
 #: includes/ZeroBSCRM.MetaBoxes.Invoices.php:277
 #: includes/ZeroBSCRM.MetaBoxes.Quotes.php:870
 msgid "Send as Attachments"
-msgstr ""
+msgstr "Odeslat jako přílohy"
 
 #: includes/ZeroBSCRM.MetaBoxes.Invoices.php:278
 msgid ""
@@ -12190,7 +12200,7 @@ msgstr ""
 
 #: includes/ZeroBSCRM.MetaBoxes.Invoices.php:281
 msgid "Note:"
-msgstr ""
+msgstr "Poznámka:"
 
 #: includes/ZeroBSCRM.MetaBoxes.Invoices.php:282
 msgid ""
@@ -12203,63 +12213,63 @@ msgstr ""
 
 #: includes/ZeroBSCRM.MetaBoxes.Locked.php:63
 msgid "Locked Contact"
-msgstr ""
+msgstr "Uzamčený kontakt"
 
 #: includes/ZeroBSCRM.MetaBoxes.Locked.php:93
 msgid "Back to Contact List"
-msgstr ""
+msgstr "Zpět na seznam kontaktů"
 
 #: includes/ZeroBSCRM.MetaBoxes.Logs.php:52
 #: includes/ZeroBSCRM.MetaBoxes.Logs.php:88
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:51
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:87
 msgid "Note"
-msgstr ""
+msgstr "Poznámka"
 
 #: includes/ZeroBSCRM.MetaBoxes.Logs.php:56
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:55
 msgid "Meeting"
-msgstr ""
+msgstr "Jednání"
 
 #: includes/ZeroBSCRM.MetaBoxes.Logs.php:57
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:56
 msgid "Quote: Sent"
-msgstr ""
+msgstr "Nabídka: Odeslána"
 
 #: includes/ZeroBSCRM.MetaBoxes.Logs.php:59
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:58
 msgid "Quote: Refused"
-msgstr ""
+msgstr "Nabídka: Odmítnuta"
 
 #: includes/ZeroBSCRM.MetaBoxes.Logs.php:60
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:59
 msgid "Invoice: Sent"
-msgstr ""
+msgstr "Faktura: Odeslána"
 
 #: includes/ZeroBSCRM.MetaBoxes.Logs.php:61
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:60
 msgid "Invoice: Part Paid"
-msgstr ""
+msgstr "Faktura: Část zaplacená"
 
 #: includes/ZeroBSCRM.MetaBoxes.Logs.php:62
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:61
 msgid "Invoice: Paid"
-msgstr ""
+msgstr "Faktura: Zaplacená"
 
 #: includes/ZeroBSCRM.MetaBoxes.Logs.php:63
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:62
 msgid "Invoice: Refunded"
-msgstr ""
+msgstr "Faktura: Vzácena"
 
 #: includes/ZeroBSCRM.MetaBoxes.Logs.php:66
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:65
 msgid "Tweet"
-msgstr ""
+msgstr "Tweet"
 
 #: includes/ZeroBSCRM.MetaBoxes.Logs.php:67
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:66
 msgid "Facebook Post"
-msgstr ""
+msgstr "Facebook příspěvek"
 
 #: includes/ZeroBSCRM.MetaBoxes.Logs.php:72
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:71
@@ -12269,17 +12279,17 @@ msgstr "Událost vytvořena"
 #: includes/ZeroBSCRM.MetaBoxes.Logs.php:75
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:74
 msgid "Transaction Updated"
-msgstr ""
+msgstr "Transakce aktualizována."
 
 #: includes/ZeroBSCRM.MetaBoxes.Logs.php:76
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:75
 msgid "Form Filled"
-msgstr ""
+msgstr "Formulář vyplněn"
 
 #: includes/ZeroBSCRM.MetaBoxes.Logs.php:77
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:76
 msgid "API Action"
-msgstr ""
+msgstr "Akce API"
 
 #: includes/ZeroBSCRM.MetaBoxes.Logs.php:78
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:77
@@ -12294,7 +12304,7 @@ msgstr "Uživatel klientského portálu vytvořen"
 #: includes/ZeroBSCRM.MetaBoxes.Logs.php:80
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:79
 msgid "Client Portal Access Changed"
-msgstr ""
+msgstr "Přístup na klientský portál změněn"
 
 #: includes/ZeroBSCRM.MetaBoxes.Logs.php:81
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:80
@@ -12304,7 +12314,7 @@ msgstr "Změna stavu"
 #: includes/ZeroBSCRM.MetaBoxes.Logs.php:82
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:81
 msgid "Contact Changed Details via Portal"
-msgstr ""
+msgstr "Kontakt Změněné údaje prostřednictvím portálu"
 
 #: includes/ZeroBSCRM.MetaBoxes.Logs.php:214
 #: includes/ZeroBSCRM.MetaBoxes.Logs.php:288
@@ -12315,7 +12325,7 @@ msgstr ""
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:1560
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:1634
 msgid "Activity Type"
-msgstr ""
+msgstr "Typ aktivity"
 
 #: includes/ZeroBSCRM.MetaBoxes.Logs.php:264
 #: includes/ZeroBSCRM.MetaBoxes.Logs.php:336
@@ -12326,14 +12336,14 @@ msgstr ""
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:1610
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:1682
 msgid "Activity Description"
-msgstr ""
+msgstr "Popis činnosti"
 
 #: includes/ZeroBSCRM.MetaBoxes.Logs.php:265
 #: includes/ZeroBSCRM.MetaBoxes.Logs.php:1605
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:276
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:1611
 msgid "Called and talked to Todd about service x, seemed keen"
-msgstr ""
+msgstr "Zavolal a mluvil s Toddem o službě x, zdálo se, že má zájem"
 
 #: includes/ZeroBSCRM.MetaBoxes.Logs.php:267
 #: includes/ZeroBSCRM.MetaBoxes.Logs.php:339
@@ -12355,14 +12365,14 @@ msgstr "Podrobné poznámky k aktivitě"
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:1619
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:1691
 msgid "Save Log"
-msgstr ""
+msgstr "Uložit protokol"
 
 #: includes/ZeroBSCRM.MetaBoxes.Logs.php:744
 #: includes/ZeroBSCRM.MetaBoxes.Logs.php:2058
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:752
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:2070
 msgid "Delete Log"
-msgstr ""
+msgstr "Smazat protokol"
 
 #: includes/ZeroBSCRM.MetaBoxes.Logs.php:1163
 #: includes/ZeroBSCRM.MetaBoxes.Logs.php:1241
@@ -12373,7 +12383,7 @@ msgstr ""
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:2472
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:2550
 msgid "Saving..."
-msgstr ""
+msgstr "Ukládání..."
 
 #: includes/ZeroBSCRM.MetaBoxes.Logs.php:1442
 #: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2617
@@ -12384,19 +12394,19 @@ msgstr "Log aktivity"
 #: includes/ZeroBSCRM.MetaBoxes.Quotes.php:100
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:78
 msgid "Step 1: Quote Details"
-msgstr ""
+msgstr "Krok 1: Podrobnosti nabídky"
 
 #: includes/ZeroBSCRM.MetaBoxes.Quotes.php:171
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:173
 msgid "Quote (ID)"
-msgstr ""
+msgstr "Nabídka (ID)"
 
 #: includes/ZeroBSCRM.MetaBoxes.Quotes.php:336
 #: includes/ZeroBSCRM.MetaBoxes.Quotes.php:618
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:310
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:723
 msgid "Publish this Quote"
-msgstr ""
+msgstr "Zveřejněte tuto nabídku"
 
 #: includes/ZeroBSCRM.MetaBoxes.Quotes.php:337
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:311
@@ -12410,12 +12420,12 @@ msgstr ""
 #: includes/ZeroBSCRM.MetaBoxes.Quotes.php:341
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:315
 msgid "Select a template"
-msgstr ""
+msgstr "Vyberte šablonu"
 
 #: includes/ZeroBSCRM.MetaBoxes.Quotes.php:361
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:335
 msgid "Blank Template"
-msgstr ""
+msgstr "Prázdná šablona"
 
 #: includes/ZeroBSCRM.MetaBoxes.Quotes.php:366
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:338
@@ -12425,7 +12435,7 @@ msgstr "Vytvořte další šablony nabídek"
 #: includes/ZeroBSCRM.MetaBoxes.Quotes.php:369
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:339
 msgid "Use Quote Builder"
-msgstr ""
+msgstr "Použijte Tvůrce nabídek"
 
 #: includes/ZeroBSCRM.MetaBoxes.Quotes.php:371
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:341
@@ -12436,12 +12446,12 @@ msgstr ""
 #: includes/ZeroBSCRM.MetaBoxes.Quotes.php:514
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:611
 msgid "Step 2: Quote Content"
-msgstr ""
+msgstr "Krok 2: Obsah nabídky"
 
 #: includes/ZeroBSCRM.MetaBoxes.Quotes.php:580
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:669
 msgid "Step 3: Publish and Send"
-msgstr ""
+msgstr "Krok 3: Publikování a odeslání"
 
 #: includes/ZeroBSCRM.MetaBoxes.Quotes.php:619
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:724
@@ -12458,7 +12468,7 @@ msgstr "Uložit nabídku"
 #: includes/ZeroBSCRM.MetaBoxes.Quotes.php:634
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:739
 msgid "Client Portal Deactivated"
-msgstr ""
+msgstr "Klientský portál deaktivován"
 
 #: includes/ZeroBSCRM.MetaBoxes.Quotes.php:635
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:740
@@ -12474,7 +12484,7 @@ msgstr ""
 #: includes/ZeroBSCRM.MetaBoxes.Quotes.php:636
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:741
 msgid "Enable Client Portal"
-msgstr ""
+msgstr "Povolit klientský portál"
 
 #: includes/ZeroBSCRM.MetaBoxes.Quotes.php:654
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:1324
@@ -12504,12 +12514,12 @@ msgstr "Je vyžadována e-mailová adresa pro odeslání"
 #: includes/ZeroBSCRM.MetaBoxes.Quotes.php:676
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:788
 msgid "Share the Link or"
-msgstr ""
+msgstr "Sdílejte odkaz popř"
 
 #: includes/ZeroBSCRM.MetaBoxes.Quotes.php:676
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:788
 msgid "preview"
-msgstr ""
+msgstr "náhled"
 
 #: includes/ZeroBSCRM.MetaBoxes.Quotes.php:737
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:763
@@ -12533,7 +12543,7 @@ msgstr ""
 
 #: includes/ZeroBSCRM.MetaBoxes.Quotes.php:789
 msgid "Quote Files (optional)"
-msgstr ""
+msgstr "Soubory nabídek (volitelné)"
 
 #: includes/ZeroBSCRM.MetaBoxes.Quotes.php:856
 #: includes/ZeroBSCRM.MetaBoxes3.Companies.php:866
@@ -12551,7 +12561,7 @@ msgstr "Vložte soubor"
 #: includes/ZeroBSCRM.MetaBoxes3.Invoices.php:513
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:964
 msgid "Optional"
-msgstr ""
+msgstr "Volitelné"
 
 #: includes/ZeroBSCRM.MetaBoxes.Quotes.php:856
 #: includes/ZeroBSCRM.MetaBoxes3.Companies.php:866
@@ -12578,16 +12588,16 @@ msgstr "Citovat veřejný stav"
 #: includes/ZeroBSCRM.MetaBoxes.Quotes.php:1125
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:1231
 msgid "By: "
-msgstr ""
+msgstr "Od:"
 
 #: includes/ZeroBSCRM.MetaBoxes.Quotes.php:1137
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:1243
 msgid "Not Yet Accepted"
-msgstr ""
+msgstr "Dosud nepřijato"
 
 #: includes/ZeroBSCRM.MetaBoxes.SubmitBoxes.php:180
 msgid "Move to Trash"
-msgstr ""
+msgstr "Přesunout do koše"
 
 #: includes/ZeroBSCRM.MetaBoxes.Tags.php:70
 #: includes/ZeroBSCRM.MetaBoxes3.Tags.php:78
@@ -12597,7 +12607,7 @@ msgstr "Zadejte značky"
 #: includes/ZeroBSCRM.MetaBoxes.Tags.php:72
 #: includes/ZeroBSCRM.MetaBoxes3.Tags.php:80
 msgid "Add"
-msgstr ""
+msgstr "Přidat"
 
 #: includes/ZeroBSCRM.MetaBoxes.Tags.php:156
 #: includes/ZeroBSCRM.MetaBoxes3.Tags.php:127
@@ -12607,33 +12617,33 @@ msgstr "Doporučené značky"
 #: includes/ZeroBSCRM.MetaBoxes.Tags.php:165
 #: includes/ZeroBSCRM.MetaBoxes3.Tags.php:136
 msgid "Show More"
-msgstr ""
+msgstr "Zobrazit více"
 
 #: includes/ZeroBSCRM.MetaBoxes.Tags.php:170
 #: includes/ZeroBSCRM.MetaBoxes3.Tags.php:141
 msgid "Add Tag"
-msgstr ""
+msgstr "Přidat značku"
 
 #: includes/ZeroBSCRM.MetaBoxes.Tags.php:178
 #: includes/ZeroBSCRM.MetaBoxes3.Tags.php:149
 msgid "Show Less"
-msgstr ""
+msgstr "Zobrazit méně"
 
 #: includes/ZeroBSCRM.MetaBoxes.Transactions.php:30
 msgid "Transaction Info"
-msgstr ""
+msgstr "Informace o transakci"
 
 #: includes/ZeroBSCRM.MetaBoxes.Transactions.php:109
 #: includes/ZeroBSCRM.MetaBoxes.Transactions.php:325
 #: includes/ZeroBSCRM.MetaBoxes3.Transactions.php:179
 msgid "Transaction unique ID"
-msgstr ""
+msgstr "Jedinečné ID transakce"
 
 #: includes/ZeroBSCRM.MetaBoxes.Transactions.php:122
 #: includes/ZeroBSCRM.MetaBoxes.Transactions.php:346
 #: includes/ZeroBSCRM.MetaBoxes3.Transactions.php:193
 msgid "Transaction Value "
-msgstr ""
+msgstr "Hodnota transakce"
 
 #: includes/ZeroBSCRM.MetaBoxes.Transactions.php:127
 #: includes/ZeroBSCRM.MetaBoxes.Transactions.php:351
@@ -12647,11 +12657,13 @@ msgid ""
 "If possible, keep these the same for the same item (they are used in the "
 "transaction index)"
 msgstr ""
+"Pokud je to možné, ponechte je stejné pro stejnou položku (jsou použity v "
+"indexu transakcí)"
 
 #: includes/ZeroBSCRM.MetaBoxes.Transactions.php:152
 #: includes/ZeroBSCRM.MetaBoxes.Transactions.php:426
 msgid "Assign to a Contact or "
-msgstr ""
+msgstr "Přiřadit ke kontaktu nebo"
 
 #: includes/ZeroBSCRM.MetaBoxes.Transactions.php:180
 #: includes/ZeroBSCRM.MetaBoxes.Transactions.php:198
@@ -12672,16 +12684,18 @@ msgid ""
 "Is this transaction a payment for an invoice? If so enter the Invoice ID. "
 "Otherwise leave blank"
 msgstr ""
+"Je tato transakce platbou za fakturu? Pokud ano, zadejte ID faktury. V "
+"opačném případě ponechte prázdné"
 
 #: includes/ZeroBSCRM.MetaBoxes.Transactions.php:204
 #: includes/ZeroBSCRM.MetaBoxes.Transactions.php:452
 #: includes/ZeroBSCRM.MetaBoxes3.Transactions.php:344
 msgid "Or"
-msgstr ""
+msgstr "Nebo"
 
 #: includes/ZeroBSCRM.MetaBoxes.Transactions.php:320
 msgid "Transaction Data"
-msgstr ""
+msgstr "Údaje o transakci"
 
 #: includes/ZeroBSCRM.MetaBoxes.Transactions.php:380
 #: includes/ZeroBSCRM.MetaBoxes3.Transactions.php:265
@@ -12691,7 +12705,7 @@ msgstr "Řádkové položky"
 #: includes/ZeroBSCRM.MetaBoxes.Transactions.php:388
 #: includes/ZeroBSCRM.MetaBoxes3.Transactions.php:273
 msgid "Handling"
-msgstr ""
+msgstr "Manipulace"
 
 #: includes/ZeroBSCRM.MetaBoxes.Transactions.php:411
 #: includes/ZeroBSCRM.MetaBoxes3.Transactions.php:296
@@ -12701,11 +12715,11 @@ msgstr "Žádné položky nenalezeny"
 #: includes/ZeroBSCRM.MetaBoxes.Transactions.php:702
 #: includes/ZeroBSCRM.MetaBoxes3.Transactions.php:367
 msgid "No Invoices Found!"
-msgstr ""
+msgstr "Faktury nenalezeny!"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Companies.php:85
 msgid "Details"
-msgstr ""
+msgstr "Detaily"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Companies.php:491
 #: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:617
@@ -12716,7 +12730,7 @@ msgstr ""
 #: includes/ZeroBSCRM.MetaBoxes3.QuoteTemplates.php:252
 #: includes/ZeroBSCRM.MetaBoxes3.Transactions.php:473
 msgid "Insert/Update Failed with general error"
-msgstr ""
+msgstr "Vložení/aktualizace se nezdařila s obecnou chybou"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Companies.php:539
 msgid ""
@@ -12728,7 +12742,7 @@ msgstr ""
 
 #: includes/ZeroBSCRM.MetaBoxes3.Companies.php:568
 msgid "Associated Contacts"
-msgstr ""
+msgstr "Přidružené kontakty"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Companies.php:692
 msgid "No contacts found at"
@@ -12738,12 +12752,12 @@ msgstr "Nenalezeny žádné kontakty"
 #: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1281
 #: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1567
 msgid "File(s)"
-msgstr ""
+msgstr "Soubor(y)"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Companies.php:821
 #: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1572
 msgid "File"
-msgstr ""
+msgstr "Soubor"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:151
 msgid "Contact Details"
@@ -12751,7 +12765,7 @@ msgstr "Kontaktní informace"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:647
 msgid "Contact Updated"
-msgstr ""
+msgstr "Kontakt aktualizován"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:662
 msgid ""
@@ -12769,7 +12783,7 @@ msgstr "Další soubory"
 #: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1301
 #: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1598
 msgid "Not shown on Portal"
-msgstr ""
+msgstr "Nezobrazuje se na portálu"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1864
 msgid "Contact Portal"
@@ -12788,11 +12802,11 @@ msgstr "Profily sociálních sítí"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2240
 msgid "Contact Aliases (AKA)"
-msgstr ""
+msgstr "Kontaktní aliasy (AKA)"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2282
 msgid "You will not be able to add an alias until you've saved this contact"
-msgstr ""
+msgstr "Dokud tento kontakt neuložíte, nebudete moci přidat alias"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2297
 msgid "Remove Alias"
@@ -12800,7 +12814,7 @@ msgstr "Odebrat alias"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2305
 msgid "Add Alias.. e.g."
-msgstr ""
+msgstr "Přidat alias, např"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2306
 msgid "Must be a valid email"
@@ -12808,25 +12822,25 @@ msgstr "Musí to být platný e-mail"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2307
 msgid "Add Alias"
-msgstr ""
+msgstr "Přidat alias"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2391
 msgid "This Alias is already in use by another contact."
-msgstr ""
+msgstr "Tento alias již používá jiný kontakt."
 
 #: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2402
 #: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2418
 msgid "There was an error adding this alias"
-msgstr ""
+msgstr "Při přidávání tohoto aliasu došlo k chybě"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2516
 #: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2530
 msgid "There was an error removing this alias"
-msgstr ""
+msgstr "Při odstraňování tohoto aliasu došlo k chybě"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2694
 msgid "Type to assign "
-msgstr ""
+msgstr "Napište, co chcete přiřadit"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2717
 msgid ""
@@ -12841,7 +12855,7 @@ msgstr "Akce úkolu"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Events.php:358
 msgid "Event Actions"
-msgstr ""
+msgstr "Akce události"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Events.php:462
 msgid "Task Tags"
@@ -12849,7 +12863,7 @@ msgstr "Značky úkolů"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Events.php:645
 msgid "Mark Complete"
-msgstr ""
+msgstr "Označit jako dokončené"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Events.php:816
 msgid "Admin: Notification Settings"
@@ -12857,19 +12871,19 @@ msgstr "Správce: Nastavení oznámení"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Events.php:822
 msgid "Remind CRM member 24 hours before"
-msgstr ""
+msgstr "Připomeňte členovi CRM 24 hodin předem"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Events.php:852
 msgid "Linked to Online Calendar (will always show on CRM Calendar)"
-msgstr ""
+msgstr "Propojeno s online kalendářem (vždy se zobrazí v kalendáři CRM)"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Events.php:856
 msgid "Show on Calendar"
-msgstr ""
+msgstr "Zobrazit v kalendáři"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Events.php:877
 msgid "Show on Client Portal (if assigned to contact)"
-msgstr ""
+msgstr "Zobrazit na klientském portálu (pokud je přiřazen ke kontaktu)"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Events.php:897
 msgid "Task Description..."
@@ -12877,15 +12891,15 @@ msgstr "Popis úkolu"
 
 #: includes/ZeroBSCRM.MetaBoxes3.ExternalSources.php:63
 msgid "External Source"
-msgstr ""
+msgstr "Externí zdroj"
 
 #: includes/ZeroBSCRM.MetaBoxes3.ExternalSources.php:154
 msgid "added manually."
-msgstr ""
+msgstr "přidán ručně."
 
 #: includes/ZeroBSCRM.MetaBoxes3.Forms.php:566
 msgid "Form Embedding"
-msgstr ""
+msgstr "Vložení formuláře"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Forms.php:636
 msgid "Want More Fields?"
@@ -12893,17 +12907,17 @@ msgstr "Chcete více polí?"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Invoices.php:65
 msgid "Invoice Information"
-msgstr ""
+msgstr "Informace o faktuře"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Invoices.php:454
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:906
 msgid "Associated Files"
-msgstr ""
+msgstr "Přidružené soubory"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Invoices.php:525
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:976
 msgid "Unable to delete this file"
-msgstr ""
+msgstr "Tento soubor nelze smazat"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Invoices.php:749
 msgid "Invoice Tags"
@@ -12912,14 +12926,14 @@ msgstr "Fakturační značky"
 #: includes/ZeroBSCRM.MetaBoxes3.Invoices.php:794
 #: includes/ZeroBSCRM.MetaBoxes3.Invoices.php:822
 msgid "Invoice Actions"
-msgstr ""
+msgstr "Fakturační akce"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Locked.php:66
 #: includes/ZeroBSCRM.MetaBoxes3.Locked.php:126
 #: includes/ZeroBSCRM.MetaBoxes3.Locked.php:194
 #: includes/ZeroBSCRM.MetaBoxes3.Locked.php:264
 msgid "CRM Database Update Needed"
-msgstr ""
+msgstr "Je nutná aktualizace databáze CRM"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Locked.php:66
 #: includes/ZeroBSCRM.MetaBoxes3.Locked.php:126
@@ -12937,11 +12951,11 @@ msgstr ""
 #: includes/ZeroBSCRM.MetaBoxes3.Locked.php:198
 #: includes/ZeroBSCRM.MetaBoxes3.Locked.php:268
 msgid "Go to Migration"
-msgstr ""
+msgstr "Přejděte na Migraci"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Locked.php:105
 msgid "Locked"
-msgstr ""
+msgstr "Uzamčeno"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:764
 msgid ""
@@ -12961,7 +12975,7 @@ msgstr "např. customer@yahoo.com"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:772
 msgid "Send Quote"
-msgstr ""
+msgstr "Odeslat nabídku"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:848
 msgid "Add Contact's Email"
@@ -12969,11 +12983,11 @@ msgstr "Přidat e-mail kontaktu"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:863
 msgid "Assign to Contact"
-msgstr ""
+msgstr "Přiřadit kontaktu"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:864
 msgid "To proceed, assign this quote to a contact and save it."
-msgstr ""
+msgstr "Chcete-li pokračovat, přiřaďte tuto nabídku kontaktu a uložte ji."
 
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:1284
 msgid "Quote Tags"
@@ -12982,11 +12996,11 @@ msgstr "Značky nabídky"
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:1364
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:1371
 msgid "Published, Unaccepted"
-msgstr ""
+msgstr "Publikováno, nepřijato"
 
 #: includes/ZeroBSCRM.MetaBoxes3.QuoteTemplates.php:118
 msgid "Template Title"
-msgstr ""
+msgstr "Název šablony"
 
 #: includes/ZeroBSCRM.MetaBoxes3.QuoteTemplates.php:127
 msgid "Starting Value"
@@ -12998,15 +13012,15 @@ msgstr "Věděli jste: Nyní můžete používat zástupné symboly nabídek?"
 
 #: includes/ZeroBSCRM.MetaBoxes3.TagManager.php:121
 msgid "Tag Exists"
-msgstr ""
+msgstr "Značka existuje"
 
 #: includes/ZeroBSCRM.MetaBoxes3.TagManager.php:121
 msgid "Cannot add a tag. A tag already exists with this text"
-msgstr ""
+msgstr "Nelze přidat značku. Značka s tímto textem již existuje"
 
 #: includes/ZeroBSCRM.MetaBoxes3.TagManager.php:122
 msgid "Tag Text Empty"
-msgstr ""
+msgstr "Text značky je prázdný"
 
 #: includes/ZeroBSCRM.MetaBoxes3.TagManager.php:122
 msgid "You cannot add empty tags"
@@ -13014,11 +13028,11 @@ msgstr "Nemůžete přidávat prázdné značky"
 
 #: includes/ZeroBSCRM.MetaBoxes3.TagManager.php:131
 msgid "Slug"
-msgstr ""
+msgstr "Slug"
 
 #: includes/ZeroBSCRM.MetaBoxes3.TagManager.php:133
 msgid "Count"
-msgstr ""
+msgstr "Počet"
 
 #: includes/ZeroBSCRM.MetaBoxes3.TagManager.php:158
 msgid "There are no Tags here, create one using the box to the right."
@@ -13030,11 +13044,11 @@ msgstr "Tímto smažete značku a odstraníte ji ze všech značek"
 
 #: includes/ZeroBSCRM.MetaBoxes3.TagManager.php:171
 msgid "Yes, delete the tag!"
-msgstr ""
+msgstr "Ano, smazat značku!"
 
 #: includes/ZeroBSCRM.MetaBoxes3.TagManager.php:174
 msgid "Tag Deleted!"
-msgstr ""
+msgstr "Značka byla smazána."
 
 #: includes/ZeroBSCRM.MetaBoxes3.TagManager.php:175
 msgid "Your tag has been removed."
@@ -13042,7 +13056,7 @@ msgstr "Váš štítek byl odstraněn."
 
 #: includes/ZeroBSCRM.MetaBoxes3.TagManager.php:176
 msgid "Tag Not Deleted!"
-msgstr ""
+msgstr "Značka nebyla smazána!"
 
 #: includes/ZeroBSCRM.MetaBoxes3.TagManager.php:177
 msgid "Your tag was not removed, please try again."
@@ -13050,38 +13064,40 @@ msgstr "Váš štítek nebyl odstraněn, zkuste to prosím znovu."
 
 #: includes/ZeroBSCRM.MetaBoxes3.TagManager.php:210
 msgid "Add "
-msgstr ""
+msgstr "Přidat"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Transactions.php:64
 msgid "Transaction Information"
-msgstr ""
+msgstr "informace o transakci"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Transactions.php:187
 msgid ""
 "If possible, keep these the same if you routinely use common products here "
 "(they are used in the transaction index)"
 msgstr ""
+"Pokud je to možné, ponechte je stejné, pokud zde běžně používáte běžné "
+"produkty (používají se v indexu transakcí)"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Transactions.php:312
 msgid "Assign Transaction to"
-msgstr ""
+msgstr "Přiřadit transakci k"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Transactions.php:372
 msgid "Select Invoice"
-msgstr ""
+msgstr "Vyberte fakturu"
 
 #: includes/ZeroBSCRM.Migrations.Database.php:1742
 msgid "Extension could not be re-activated:"
-msgstr ""
+msgstr "Rozšíření se nepodařilo znovu aktivovat:"
 
 #: includes/ZeroBSCRM.Migrations.Database.php:1764
 msgid "ZBSCRM Migration Report [Errors]"
-msgstr ""
+msgstr "Zpráva o migraci ZBSCRM [Chyby]"
 
 #: includes/ZeroBSCRM.Migrations.Database.php:1766
 msgid ""
 "Jetpack CRM has completed an important migration from v2 to v3.0 on your site"
-msgstr ""
+msgstr "Jetpack CRM dokončil důležitou migraci z v2 na v3.0 na vašem webu"
 
 #: includes/ZeroBSCRM.Migrations.Database.php:1767
 msgid ""
@@ -13097,11 +13113,11 @@ msgstr ""
 
 #: includes/ZeroBSCRM.Migrations.Database.php:1767
 msgid "or visit the migration support page"
-msgstr ""
+msgstr "nebo navštivte stránku podpory migrace"
 
 #: includes/ZeroBSCRM.Migrations.Database.php:1785
 msgid "Jetpack CRM Admin Notice"
-msgstr ""
+msgstr "Upozornění správce Jetpack CRM"
 
 #: includes/ZeroBSCRM.Migrations.Database.php:2050
 msgid "Two objects were found with matching emails. Merged..."
@@ -13116,7 +13132,7 @@ msgstr "S e-mailem"
 
 #: includes/ZeroBSCRM.Migrations.Database.php:2061
 msgid "Merged with"
-msgstr ""
+msgstr "Sloučeno s"
 
 #: includes/ZeroBSCRM.Migrations.Database.php:2203
 #: includes/ZeroBSCRM.Migrations.Database.php:2473
@@ -13126,7 +13142,7 @@ msgstr ""
 #: includes/ZeroBSCRM.Migrations.Database.php:3933
 #: includes/ZeroBSCRM.Migrations.Database.php:4123
 msgid "There was an error migrating an object (non-unique field found)"
-msgstr ""
+msgstr "Při migraci objektu došlo k chybě (nalezeno nejedinečné pole)"
 
 #: includes/ZeroBSCRM.Migrations.Database.php:2222
 #: includes/ZeroBSCRM.Migrations.Database.php:2484
@@ -13136,7 +13152,7 @@ msgstr ""
 #: includes/ZeroBSCRM.Migrations.Database.php:3944
 #: includes/ZeroBSCRM.Migrations.Database.php:4134
 msgid "There was an error migrating an object (could not insert)"
-msgstr ""
+msgstr "Při migraci objektu došlo k chybě (nelze vložit)"
 
 #: includes/ZeroBSCRM.Migrations.Database.php:2611
 msgid "General Invoice Tax"
@@ -13151,11 +13167,11 @@ msgstr "Obecná daň"
 #: includes/ZeroBSCRM.Migrations.Database.php:4124
 #: includes/ZeroBSCRM.Migrations.Database.php:4134
 msgid "Quote template"
-msgstr ""
+msgstr "Šablona nabídky"
 
 #: includes/ZeroBSCRM.Migrations.Database.php:4135
 msgid "Quote template`"
-msgstr ""
+msgstr "Šablona nabídky`"
 
 #: includes/ZeroBSCRM.Migrations.php:356 includes/ZeroBSCRM.Migrations.php:456
 #: includes/ZeroBSCRM.Migrations.php:494 includes/ZeroBSCRM.Migrations.php:543
@@ -13163,6 +13179,8 @@ msgid ""
 "Jetpack CRM has completed a necessary migration to version %s. Thanks for "
 "using Jetpack CRM."
 msgstr ""
+"Jetpack CRM dokončil nezbytnou migraci na verzi %s. Děkujeme, že používáte "
+"Jetpack CRM."
 
 #: includes/ZeroBSCRM.Migrations.php:579 includes/ZeroBSCRM.Migrations.php:623
 #: includes/ZeroBSCRM.Migrations.php:660 includes/ZeroBSCRM.Migrations.php:761
@@ -13173,11 +13191,11 @@ msgstr ""
 #: includes/ZeroBSCRM.Migrations.php:1405
 #: includes/ZeroBSCRM.Migrations.php:1450
 msgid "Your CRM has completed a necessary migration to version %s."
-msgstr ""
+msgstr "Vaše CRM dokončilo nezbytnou migraci na verzi %s."
 
 #: includes/ZeroBSCRM.Migrations.php:925
 msgid "Your CRM was unable to complete a necessary migration to version %s."
-msgstr ""
+msgstr "Váš CRM nemohl dokončit nezbytnou migraci na verzi %s."
 
 #: includes/ZeroBSCRM.Migrations.php:925
 msgid ""
@@ -13203,7 +13221,7 @@ msgstr "Heslo vašeho klientského portálu"
 
 #: includes/ZeroBSCRM.Migrations.php:1601
 msgid "Your Statement"
-msgstr ""
+msgstr "Vaše prohlášení"
 
 #: includes/ZeroBSCRM.Migrations.php:2040
 msgid ""
@@ -13215,11 +13233,11 @@ msgstr ""
 
 #: includes/ZeroBSCRM.Migrations.php:2480
 msgid "View the update"
-msgstr ""
+msgstr "Zobrazit aktualizaci"
 
 #: includes/ZeroBSCRM.Migrations.php:2634
 msgid "Database Upgrade"
-msgstr ""
+msgstr "Upgrade databáze"
 
 #: includes/ZeroBSCRM.Migrations.php:2635
 msgid ""
@@ -13239,15 +13257,15 @@ msgstr "Vaše kontaktní údaje budou migrovány ze stávající databáze do no
 
 #: includes/ZeroBSCRM.Migrations.php:2638
 msgid "Before we begin, please back-up your database!"
-msgstr ""
+msgstr "Než začneme, zazálohujte si prosím svou databázi!"
 
 #: includes/ZeroBSCRM.Migrations.php:2639
 msgid "Please allow 1 - 30 minutes, (likely less)"
-msgstr ""
+msgstr "Počkejte prosím 1–30 minut (pravděpodobně méně)"
 
 #: includes/ZeroBSCRM.Migrations.php:2640
 msgid "Please leave this open until completed"
-msgstr ""
+msgstr "Nechte to otevřené, dokud nebude dokončeno"
 
 #: includes/ZeroBSCRM.Migrations.php:2642
 msgid ""
@@ -13259,32 +13277,32 @@ msgstr ""
 
 #: includes/ZeroBSCRM.Migrations.php:2646
 msgid "I have backed up my database, Begin"
-msgstr ""
+msgstr "Zálohoval jsem svou databázi, Begine"
 
 #: includes/ZeroBSCRM.Migrations.php:2657
 #: includes/ZeroBSCRM.Migrations.php:3273
 msgid "Database Upgrade: Processing"
-msgstr ""
+msgstr "Aktualizace databáze: Zpracovává se"
 
 #: includes/ZeroBSCRM.Migrations.php:2660
 #: includes/ZeroBSCRM.Migrations.php:3276
 msgid "Beginning Database Upgrade..."
-msgstr ""
+msgstr "Zahájení upgradu databáze..."
 
 #: includes/ZeroBSCRM.Migrations.php:2667
 #: includes/ZeroBSCRM.Migrations.php:3283
 msgid "Pause"
-msgstr ""
+msgstr "Pozastavit"
 
 #: includes/ZeroBSCRM.Migrations.php:2668
 #: includes/ZeroBSCRM.Migrations.php:3284
 msgid "Resume"
-msgstr ""
+msgstr "Obnovit"
 
 #: includes/ZeroBSCRM.Migrations.php:2678
 #: includes/ZeroBSCRM.Migrations.php:3294
 msgid "Database Upgrade Complete"
-msgstr ""
+msgstr "Databáze Aktualizace dokončena"
 
 #: includes/ZeroBSCRM.Migrations.php:2679
 #: includes/ZeroBSCRM.Migrations.php:3295
@@ -13296,7 +13314,7 @@ msgstr ""
 
 #: includes/ZeroBSCRM.Migrations.php:2682
 msgid "Your Contacts are now stored in an optimised table"
-msgstr ""
+msgstr "Vaše kontakty jsou nyní uloženy v optimalizované tabulce"
 
 #: includes/ZeroBSCRM.Migrations.php:2683
 msgid "Your Logs, Settings, Tags, External Sources have also been optimised"
@@ -13319,7 +13337,7 @@ msgstr "z nich během migrace. To platí pro následující kontakty:"
 #: includes/ZeroBSCRM.Migrations.php:2717
 #: includes/ZeroBSCRM.Migrations.php:3376
 msgid "NOTE: It is essential that you update any"
-msgstr ""
+msgstr "POZNÁMKA: Je nezbytné, abyste jakékoli aktualizovali"
 
 #: includes/ZeroBSCRM.Migrations.php:2717
 #: includes/ZeroBSCRM.Migrations.php:3376 includes/ZeroBSCRM.NotifyMe.php:159
@@ -13349,7 +13367,7 @@ msgstr "Migroval"
 #: includes/ZeroBSCRM.Migrations.php:2761
 #: includes/ZeroBSCRM.Migrations.php:3425
 msgid "Remaining"
-msgstr ""
+msgstr "Zbývající"
 
 #: includes/ZeroBSCRM.Migrations.php:2762
 msgid "Contacts successfully migrated!"
@@ -13359,7 +13377,7 @@ msgstr "Kontakty byly úspěšně migrovány!"
 #: includes/ZeroBSCRM.Migrations.php:3427
 #: includes/ZeroBSCRM.Migrations.php:3428
 msgid "Finalising..."
-msgstr ""
+msgstr "Finalizace..."
 
 #: includes/ZeroBSCRM.Migrations.php:2764
 msgid "Migrating Jetpack CRM Settings and finalising"
@@ -13372,52 +13390,54 @@ msgstr "Migrace dat byla úspěšně dokončena"
 
 #: includes/ZeroBSCRM.Migrations.php:2769
 msgid "Migration Error #321"
-msgstr ""
+msgstr "Chyba migrace #321"
 
 #: includes/ZeroBSCRM.Migrations.php:2770
 msgid "Migration Error #322"
-msgstr ""
+msgstr "Chyba migrace #322"
 
 #: includes/ZeroBSCRM.Migrations.php:2771
 msgid "There was a general error migrating a contact"
-msgstr ""
+msgstr "Při migraci kontaktu došlo k obecné chybě"
 
 #: includes/ZeroBSCRM.Migrations.php:2772
 msgid "Migration Error #421"
-msgstr ""
+msgstr "Chyba migrace #421"
 
 #: includes/ZeroBSCRM.Migrations.php:2773
 #: includes/ZeroBSCRM.Migrations.php:3438
 msgid "There was an error closing this migration"
-msgstr ""
+msgstr "Při uzavírání této migrace došlo k chybě"
 
 #: includes/ZeroBSCRM.Migrations.php:2774
 #: includes/ZeroBSCRM.Migrations.php:3439
 msgid "Debug:"
-msgstr ""
+msgstr "Ladění:"
 
 #: includes/ZeroBSCRM.Migrations.php:2775
 #: includes/ZeroBSCRM.Migrations.php:3440
 msgid "Please click here to try again"
-msgstr ""
+msgstr "Klikněte sem a zkuste to znovu"
 
 #: includes/ZeroBSCRM.Migrations.php:3160
 msgid "Give Migration Feedback"
-msgstr ""
+msgstr "Poskytněte zpětnou vazbu k migraci"
 
 #: includes/ZeroBSCRM.Migrations.php:3161
 msgid "Give v3 Migration Feedback:"
-msgstr ""
+msgstr "Poskytněte zpětnou vazbu k migraci v3:"
 
 #: includes/ZeroBSCRM.Migrations.php:3162
 msgid ""
 "Got feedback on this migration routine? Please leave your comment here with "
 "as much specific detail as possible."
 msgstr ""
+"Máte zpětnou vazbu k této migrační rutině? Zanechte zde prosím svůj komentář "
+"s co nejkonkrétnějšími detaily."
 
 #: includes/ZeroBSCRM.Migrations.php:3163
 msgid "Please type your comment giving as much detail as possible..."
-msgstr ""
+msgstr "Napište prosím svůj komentář a uveďte co nejvíce podrobností..."
 
 #: includes/ZeroBSCRM.Migrations.php:3165
 msgid "Your Email..."
@@ -13434,18 +13454,22 @@ msgstr ""
 #: includes/ZeroBSCRM.Migrations.php:3169
 msgid "Failed sending feedback! Please try again, or open a support ticket:"
 msgstr ""
+"Odeslání zpětné vazby se nezdařilo! Zkuste to znovu nebo otevřete lístek "
+"podpory:"
 
 #: includes/ZeroBSCRM.Migrations.php:3169
 msgid "Contact support"
-msgstr ""
+msgstr "Kontaktujte podporu"
 
 #: includes/ZeroBSCRM.Migrations.php:3170
 msgid "Note: Sending feedback here also sends us your site url."
 msgstr ""
+"Poznámka: Pokud zde odešlete zpětnou vazbu, odešlete nám také adresu URL "
+"vašeho webu."
 
 #: includes/ZeroBSCRM.Migrations.php:3192
 msgid "Ready for v3.0?"
-msgstr ""
+msgstr "Jste připraveni na verzi 3.0?"
 
 #: includes/ZeroBSCRM.Migrations.php:3193
 msgid ""
@@ -13453,6 +13477,8 @@ msgid ""
 "Jetpack CRM. This update will significantly improve the performance of "
 "Jetpack CRM."
 msgstr ""
+"Než budete moci pokračovat v používání Jetpack CRM, je nutná nezbytná "
+"aktualizace databáze. Tato aktualizace výrazně zlepší výkon Jetpack CRM."
 
 #: includes/ZeroBSCRM.Migrations.php:3195
 msgid "Your data will be migrated into our new v3.0 architecture:"
@@ -13460,7 +13486,7 @@ msgstr "Vaše data budou migrována do naší nové architektury v3.0:"
 
 #: includes/ZeroBSCRM.Migrations.php:3196
 msgid "Up to 5x faster, throughout"
-msgstr ""
+msgstr "Až 5x rychleji, v celém rozsahu"
 
 #: includes/ZeroBSCRM.Migrations.php:3197
 msgid "Seperated from your WordPress data"
@@ -13468,11 +13494,11 @@ msgstr "Odděleno od vašich dat WordPress"
 
 #: includes/ZeroBSCRM.Migrations.php:3198
 msgid "Groundwork for API v3.0, Custom Objects, and more!"
-msgstr ""
+msgstr "Základ pro API v3.0, vlastní objekty a další!"
 
 #: includes/ZeroBSCRM.Migrations.php:3215
 msgid "Extension Licensing Warning"
-msgstr ""
+msgstr "Upozornění na rozšíření licence"
 
 #: includes/ZeroBSCRM.Migrations.php:3215
 msgid ""
@@ -13486,7 +13512,7 @@ msgstr ""
 
 #: includes/ZeroBSCRM.Migrations.php:3221
 msgid "Extension Notice"
-msgstr ""
+msgstr "Oznámení o rozšíření"
 
 #: includes/ZeroBSCRM.Migrations.php:3221
 msgid ""
@@ -13502,7 +13528,7 @@ msgstr "Začínáme"
 
 #: includes/ZeroBSCRM.Migrations.php:3240
 msgid "Upgrading to v3.0"
-msgstr ""
+msgstr "Upgrade na v3.0"
 
 #: includes/ZeroBSCRM.Migrations.php:3241
 msgid ""
@@ -13514,18 +13540,19 @@ msgstr ""
 #: includes/ZeroBSCRM.Migrations.php:3243
 msgid "Please back up your database and files now! Then, when you are ready:"
 msgstr ""
+"Prosím, zálohujte si databázi a soubory hned! Poté, až budete připraveni:"
 
 #: includes/ZeroBSCRM.Migrations.php:3246
 msgid "I have backed up my database and files"
-msgstr ""
+msgstr "Zálohoval jsem databázi a soubory"
 
 #: includes/ZeroBSCRM.Migrations.php:3251
 msgid "I am aware this upgrade will temporarily disable my crm extensions"
-msgstr ""
+msgstr "Jsem si vědom, že tento upgrade dočasně zakáže moje rozšíření crm"
 
 #: includes/ZeroBSCRM.Migrations.php:3256
 msgid "I've got enough time to let this finish now (1-20 minutes)"
-msgstr ""
+msgstr "Mám dost času to teď dokončit (1-20 minut)"
 
 #: includes/ZeroBSCRM.Migrations.php:3258
 msgid "You have to agree to these before you can start the migration!"
@@ -13541,15 +13568,15 @@ msgstr "Vaše data jsou nyní plně migrována na novou architekturu"
 
 #: includes/ZeroBSCRM.Migrations.php:3326
 msgid "has been recalculated and resulted in a value discrepancy:"
-msgstr ""
+msgstr "byl přepočítán a výsledkem je nesoulad hodnoty:"
 
 #: includes/ZeroBSCRM.Migrations.php:3327
 msgid "Original Invoice Value:"
-msgstr ""
+msgstr "Původní hodnota faktury:"
 
 #: includes/ZeroBSCRM.Migrations.php:3328
 msgid "Recalculated Invoice Value:"
-msgstr ""
+msgstr "Přepočítaná hodnota faktury:"
 
 #: includes/ZeroBSCRM.Migrations.php:3353
 msgid ""
@@ -13563,23 +13590,23 @@ msgstr ""
 
 #: includes/ZeroBSCRM.Migrations.php:3353
 msgid "this link"
-msgstr ""
+msgstr "tento odkaz"
 
 #: includes/ZeroBSCRM.Migrations.php:3419
 msgid "Computing current Jetpack CRM Setup..."
-msgstr ""
+msgstr "Výpočet aktuálního nastavení Jetpack CRM..."
 
 #: includes/ZeroBSCRM.Migrations.php:3420
 msgid "Temporarily disabling extensions..."
-msgstr ""
+msgstr "Dočasně se deaktivují rozšíření..."
 
 #: includes/ZeroBSCRM.Migrations.php:3421
 msgid "Pre-migration checks & actions complete..."
-msgstr ""
+msgstr "Kontroly a akce před migrací dokončeny..."
 
 #: includes/ZeroBSCRM.Migrations.php:3422
 msgid "Retrieving & Migrating objects..."
-msgstr ""
+msgstr "Načítání a migrace objektů..."
 
 #: includes/ZeroBSCRM.Migrations.php:3423
 msgid "Successfully migrated objects..."
@@ -13591,41 +13618,46 @@ msgstr "dat bylo úspěšně migrováno"
 
 #: includes/ZeroBSCRM.Migrations.php:3433
 msgid "Migration Error #703"
-msgstr ""
+msgstr "Chyba migrace #703"
 
 #: includes/ZeroBSCRM.Migrations.php:3434
 msgid "There was an error beginning this migration"
-msgstr ""
+msgstr "Při zahájení této migrace došlo k chybě"
 
 #: includes/ZeroBSCRM.Migrations.php:3435
 msgid "Migration Error #704"
-msgstr ""
+msgstr "Chyba migrace #704"
 
 #: includes/ZeroBSCRM.Migrations.php:3436
 msgid "There was a general error migrating an object"
-msgstr ""
+msgstr "Při migraci objektu došlo k obecné chybě"
 
 #: includes/ZeroBSCRM.Migrations.php:3437
 msgid "Migration Error #711"
-msgstr ""
+msgstr "Chyba migrace #711"
 
 #: includes/ZeroBSCRM.Migrations.php:3443
 msgid ""
 "Your server continues to timeout despite lowering the bar. Please contact "
 "support"
 msgstr ""
+"Váš server pokračuje v vypršení časového limitu i přes snížení laťky. "
+"Kontaktujte prosím podporu"
 
 #: includes/ZeroBSCRM.NotifyMe.php:130
 msgid ""
 "There has been a general error with CRM migrations, a single migration "
 "appears to be blocked. Please contact support."
 msgstr ""
+"Při migracích CRM došlo k obecné chybě, zdá se, že jedna migrace je "
+"zablokována. Kontaktujte prosím podporu."
 
 #: includes/ZeroBSCRM.NotifyMe.php:134
 msgid ""
 "🎯 we have detected that you are running WooCommerce. We have a kick ass "
 "extension for that. "
 msgstr ""
+"🎯 Zjistili jsme, že používáte WooCommerce. Na to máme nástavec na zadnici. "
 
 #: includes/ZeroBSCRM.NotifyMe.php:138
 msgid ""
@@ -13636,23 +13668,23 @@ msgstr ""
 
 #: includes/ZeroBSCRM.NotifyMe.php:143
 msgid "🔔 Want notifications PRO? This is coming soon to our "
-msgstr ""
+msgstr "🔔 Chcete oznámení PRO? Brzy to přijde i k nám "
 
 #: includes/ZeroBSCRM.NotifyMe.php:143
 msgid "Entrepreneur's Bundle"
-msgstr ""
+msgstr "Podnikatelský svazek"
 
 #: includes/ZeroBSCRM.NotifyMe.php:143
 msgid ". Get it while its hot. "
-msgstr ""
+msgstr ". Získejte to, dokud je horké."
 
 #: includes/ZeroBSCRM.NotifyMe.php:148
 msgid "🔔 [URGENT] Your extension(s) need updating "
-msgstr ""
+msgstr "🔔 [NALÉHAVÉ] Vaše rozšíření potřebují aktualizaci"
 
 #: includes/ZeroBSCRM.NotifyMe.php:148
 msgid "Click here to retrieve the new versions"
-msgstr ""
+msgstr "Kliknutím sem získáte nové verze"
 
 #: includes/ZeroBSCRM.NotifyMe.php:148
 msgid "(If you don't know your login, please"
@@ -13664,20 +13696,20 @@ msgstr "E-mailová podpora"
 
 #: includes/ZeroBSCRM.NotifyMe.php:154
 msgid "🔔 [URGENT] Your Contact Database needs migrating."
-msgstr ""
+msgstr "🔔 [NALÉHAVÉ] Vaše databáze kontaktů potřebuje migraci."
 
 #: includes/ZeroBSCRM.NotifyMe.php:154 includes/ZeroBSCRM.NotifyMe.php:234
 msgid "Click here to run migration routine"
-msgstr ""
+msgstr "Kliknutím sem spustíte rutinu migrace"
 
 #: includes/ZeroBSCRM.NotifyMe.php:154
 msgid ""
 "Running this database update will increase your CRM load-times by up to 25x!"
-msgstr ""
+msgstr "Spuštění této aktualizace databáze zvýší dobu načítání CRM až 25x!"
 
 #: includes/ZeroBSCRM.NotifyMe.php:154 includes/ZeroBSCRM.NotifyMe.php:234
 msgid "Run now"
-msgstr ""
+msgstr "Spustit teď"
 
 #: includes/ZeroBSCRM.NotifyMe.php:159
 msgid "Your contact database was successfully migrated. Please update any"
@@ -13694,11 +13726,11 @@ msgstr ""
 
 #: includes/ZeroBSCRM.NotifyMe.php:169
 msgid "Migration Error Report:"
-msgstr ""
+msgstr "Zpráva o chybě migrace:"
 
 #: includes/ZeroBSCRM.NotifyMe.php:169
 msgid "Contact Support"
-msgstr ""
+msgstr "Kontaktovat podporu"
 
 #: includes/ZeroBSCRM.NotifyMe.php:175 includes/ZeroBSCRM.NotifyMe.php:251
 msgid "Please Update your Extensions (DB Migration makes this essential!)"
@@ -13706,27 +13738,32 @@ msgstr "Aktualizujte prosím svá rozšíření (Migrace DB je to nezbytné!)"
 
 #: includes/ZeroBSCRM.NotifyMe.php:175 includes/ZeroBSCRM.NotifyMe.php:251
 msgid "View Extension Updates"
-msgstr ""
+msgstr "Zobrazit aktualizace rozšíření"
 
 #: includes/ZeroBSCRM.NotifyMe.php:181
 msgid ""
 "🔔 One or more of your extensions need updating. Please update to avoid any "
 "issues with security or compatibility"
 msgstr ""
+"🔔 Jedno nebo více vašich rozšíření potřebuje aktualizaci. Aktualizujte "
+"prosím, abyste předešli problémům se zabezpečením nebo kompatibilitou"
 
 #: includes/ZeroBSCRM.NotifyMe.php:186 includes/ZeroBSCRM.NotifyMe.php:190
 msgid "⚠️ "
-msgstr ""
+msgstr "⚠️ "
 
 #: includes/ZeroBSCRM.NotifyMe.php:195 includes/ZeroBSCRM.NotifyMe.php:200
 msgid "Important:"
-msgstr ""
+msgstr "Důležité:"
 
 #: includes/ZeroBSCRM.NotifyMe.php:195
 msgid ""
 "Jetpack CRM has just updated the way it handles SMTP Delivery Methods.<br /"
 ">Please check each of your Delivery Methods still works by loading "
 msgstr ""
+"Jetpack CRM právě aktualizoval způsob, jakým zpracovává metody doručování "
+"SMTP.<br /> Načtením zkontrolujte, zda každý z vašich způsobů doručení stále "
+"funguje"
 
 #: includes/ZeroBSCRM.NotifyMe.php:195 includes/ZeroBSCRM.NotifyMe.php:200
 msgid "Mail Delivery Methods"
@@ -13734,7 +13771,7 @@ msgstr "Způsoby doručování pošty"
 
 #: includes/ZeroBSCRM.NotifyMe.php:195 includes/ZeroBSCRM.NotifyMe.php:200
 msgid "and clicking 'send test', validating that it still sends"
-msgstr ""
+msgstr "a kliknutím na „odeslat test“ ověříte, že stále odesílá"
 
 #: includes/ZeroBSCRM.NotifyMe.php:200
 msgid ""
@@ -13747,12 +13784,12 @@ msgstr ""
 #: includes/ZeroBSCRM.NotifyMe.php:207 includes/ZeroBSCRM.NotifyMe.php:210
 #: includes/ZeroBSCRM.NotifyMe.php:218
 msgid "🔔"
-msgstr ""
+msgstr "🔔"
 
 #: includes/ZeroBSCRM.NotifyMe.php:207 includes/ZeroBSCRM.NotifyMe.php:210
 #: includes/ZeroBSCRM.NotifyMe.php:218
 msgid " Update Now"
-msgstr ""
+msgstr "Aktualizovat nyní"
 
 #: includes/ZeroBSCRM.NotifyMe.php:225
 msgid ""
@@ -13760,15 +13797,18 @@ msgid ""
 "template file. This will mean that related documents will not be loaded "
 "properly.<br/>Template File: "
 msgstr ""
+"Chyba souboru šablony:<br /> Nebylo možné načíst následující soubor šablony. "
+"To bude znamenat, že související dokumenty nebudou správně načteny.<br/> "
+"Soubor šablony:"
 
 #: includes/ZeroBSCRM.NotifyMe.php:234
 msgid "🔔 [URGENT] Your CRM Database needs migrating."
-msgstr ""
+msgstr "🔔 [NALÉHAVÉ] Vaše databáze CRM potřebuje migraci."
 
 #: includes/ZeroBSCRM.NotifyMe.php:234
 msgid ""
 "Running this database update will increase your CRM load-times by up to 60x!"
-msgstr ""
+msgstr "Spuštění této aktualizace databáze zvýší dobu načítání CRM až 60x!"
 
 #: includes/ZeroBSCRM.NotifyMe.php:239
 msgid "Your CRM database was successfully migrated. Please update any"
@@ -13784,69 +13824,76 @@ msgstr ""
 
 #: includes/ZeroBSCRM.NotifyMe.php:245
 msgid "View Migration Report"
-msgstr ""
+msgstr "Zobrazit zprávu o migraci"
 
 #: includes/ZeroBSCRM.NotifyMe.php:258
 msgid " something went wrong"
-msgstr ""
+msgstr " něco se pokazilo"
 
 #: includes/ZeroBSCRM.NotifyMe.php:375
 msgid "Here is another notification example. From a random person."
-msgstr ""
+msgstr "Zde je další příklad oznámení. Od náhodného člověka."
 
 #: includes/ZeroBSCRM.NotifyMe.php:377
 msgid ""
 "Here is another example. This time from Mike, one of our Jetpack CRM "
 "Founders."
 msgstr ""
+"Zde je další příklad. Tentokrát od Mikea, jednoho z našich zakladatelů "
+"Jetpack CRM."
 
 #: includes/ZeroBSCRM.NotifyMe.php:399
 msgid ""
 "This is an example notification. Here is where you will be kept notified :) "
 "simple. effective."
 msgstr ""
+"Toto je příklad oznámení. Zde budete informováni :) jednoduché. efektivní."
 
 #: includes/ZeroBSCRM.OnboardMe.php:49
 msgid "Welcome to your Jetpack CRM"
-msgstr ""
+msgstr "Vítejte ve vašem Jetpack CRM"
 
 #: includes/ZeroBSCRM.OnboardMe.php:50
 msgid "This quick tour will guide you through the basics."
-msgstr ""
+msgstr "Tato rychlá prohlídka vás provede základy."
 
 #: includes/ZeroBSCRM.OnboardMe.php:50
 msgid "Clicking this logo will switch to full-screen mode. Try it!"
-msgstr ""
+msgstr "Kliknutím na toto logo se přepnete do režimu celé obrazovky. Zkus to!"
 
 #: includes/ZeroBSCRM.OnboardMe.php:55
 msgid "There are "
-msgstr ""
+msgstr "Jsou tam"
 
 #: includes/ZeroBSCRM.OnboardMe.php:55
 msgid ""
 "buttons throughout the CRM. Use these to find out more about each area. Try "
 "clicking this one!"
 msgstr ""
+"tlačítka v celém CRM. Pomocí těchto se dozvíte více o každé oblasti. Zkuste "
+"kliknout na toto!"
 
 #: includes/ZeroBSCRM.OnboardMe.php:59
 msgid ""
 "Here is where your notifications can be found. This shows up-to-date events "
 "in your CRM"
-msgstr ""
+msgstr "Zde najdete svá oznámení. To ukazuje aktuální události ve vašem CRM"
 
 #: includes/ZeroBSCRM.OnboardMe.php:62
 msgid "Notification Alert"
-msgstr ""
+msgstr "Upozornění na oznámení"
 
 #: includes/ZeroBSCRM.OnboardMe.php:63
 msgid ""
 "When you have a notification. The icon will change. Next we will look at "
 "what notifcations are available."
 msgstr ""
+"Když máte oznámení. Ikona se změní. Dále se podíváme na to, jaká oznámení "
+"jsou k dispozici."
 
 #: includes/ZeroBSCRM.OnboardMe.php:66
 msgid "Example Notification"
-msgstr ""
+msgstr "Příklad oznámení"
 
 #: includes/ZeroBSCRM.OnboardMe.php:67
 msgid ""
@@ -13858,13 +13905,15 @@ msgstr ""
 
 #: includes/ZeroBSCRM.OnboardMe.php:70
 msgid "Hi from Mike"
-msgstr ""
+msgstr "Ahoj od Mika"
 
 #: includes/ZeroBSCRM.OnboardMe.php:71
 msgid ""
 "Here is another example of a notification. This time from one of our "
 "founders. Mike."
 msgstr ""
+"Zde je další příklad oznámení. Tentokrát od jednoho z našich zakladatelů. "
+"Mike."
 
 #: includes/ZeroBSCRM.OnboardMe.php:74
 msgid "Tools (Extensions)"
@@ -13882,30 +13931,35 @@ msgstr "Svá rozšíření můžete spravovat z této nabídky."
 msgid ""
 "This is where Jetpack CRM shines as THE modular, 'build-it-yourself' CRM!"
 msgstr ""
+"To je místo, kde Jetpack CRM září jako modulární CRM „postavte si sami“!"
 
 #: includes/ZeroBSCRM.OnboardMe.php:82
 msgid "Free extensions"
-msgstr ""
+msgstr "Bezplatné rozšíření"
 
 #: includes/ZeroBSCRM.OnboardMe.php:83
 msgid ""
 "Jetpack CRM comes with additional features which you can turn on and off "
 "through this page."
 msgstr ""
+"Jetpack CRM přichází s dalšími funkcemi, které můžete zapnout a vypnout "
+"prostřednictvím této stránky."
 
 #: includes/ZeroBSCRM.OnboardMe.php:86
 msgid "Paid extensions"
-msgstr ""
+msgstr "Placená rozšíření"
 
 #: includes/ZeroBSCRM.OnboardMe.php:87
 msgid ""
 "Here are our paid extensions. Want them all? You can take advantage of our "
 "limited time offer."
 msgstr ""
+"Zde jsou naše placená rozšíření. Chcete je všechny? Můžete využít naši "
+"časově omezenou nabídku."
 
 #: includes/ZeroBSCRM.OnboardMe.php:88
 msgid "Upgrade to PRO"
-msgstr ""
+msgstr "Upgradovat na PRO"
 
 #: includes/ZeroBSCRM.OnboardMe.php:91
 msgid "Jetpack CRM Settings"
@@ -13944,7 +13998,7 @@ msgstr ""
 
 #: includes/ZeroBSCRM.OnboardMe.php:103
 msgid "Getting in touch"
-msgstr ""
+msgstr "Jak zůstat v kontaktu"
 
 #: includes/ZeroBSCRM.OnboardMe.php:104
 msgid ""
@@ -13959,15 +14013,17 @@ msgid ""
 "Hover over your avatar, and select an option on the menu any time you need "
 "support. Enjoy!"
 msgstr ""
+"Umístěte ukazatel myši na svůj avatar a kdykoli budete potřebovat podporu, "
+"vyberte možnost z nabídky. Užívat si!"
 
 #: includes/ZeroBSCRM.PDFBuilder.php:104 includes/ZeroBSCRM.PDFBuilder.php:113
 #: includes/ZeroBSCRM.PDFBuilder.php:122
 msgid "(fonts)"
-msgstr ""
+msgstr "(fonty)"
 
 #: includes/ZeroBSCRM.Permissions.php:47
 msgid "Jetpack CRM Admin (Full CRM Permissions)"
-msgstr ""
+msgstr "Jetpack CRM Admin (úplná oprávnění CRM)"
 
 #: includes/ZeroBSCRM.Permissions.php:167
 msgid "Jetpack CRM Customer Manager"
@@ -14007,22 +14063,24 @@ msgstr "Změnit nastavení"
 
 #: includes/ZeroBSCRM.PluginUpdates.ImminentRelease.php:70
 msgid "ZBS CRM is now Jetpack CRM."
-msgstr ""
+msgstr "ZBS CRM je nyní Jetpack CRM."
 
 #: includes/ZeroBSCRM.PluginUpdates.ImminentRelease.php:70
 msgid ""
 "Once you update this plugin it will be called `Jetpack CRM` instead of `Zero "
 "BS CRM`."
 msgstr ""
+"Jakmile aktualizujete tento plugin, bude se jmenovat `Jetpack CRM` místo "
+"`Zero BS CRM`."
 
 #: includes/ZeroBSCRM.PluginUpdates.ImminentRelease.php:71
 msgid "Read about this change"
-msgstr ""
+msgstr "Přečtěte si o této změně"
 
 #: includes/ZeroBSCRM.PluginUpdates.ImminentRelease.php:172
 #: includes/ZeroBSCRM.PluginUpdates.ImminentRelease.php:187
 msgid "is ready to update to v3.0."
-msgstr ""
+msgstr "je připraven k aktualizaci na v3.0."
 
 #: includes/ZeroBSCRM.PluginUpdates.ImminentRelease.php:172
 #: includes/ZeroBSCRM.PluginUpdates.ImminentRelease.php:187
@@ -14036,31 +14094,31 @@ msgstr ""
 #: includes/ZeroBSCRM.PluginUpdates.ImminentRelease.php:173
 #: includes/ZeroBSCRM.PluginUpdates.ImminentRelease.php:188
 msgid "Read about the v3.0 Migration"
-msgstr ""
+msgstr "Přečtěte si o migraci v3.0"
 
 #: includes/ZeroBSCRM.PluginUpdates.php:179
 msgid "Your License Key is incorrect "
-msgstr ""
+msgstr "Váš licenční klíč je nesprávný"
 
 #: includes/ZeroBSCRM.PluginUpdates.php:179
 #: includes/ZeroBSCRM.PluginUpdates.php:207
 msgid "Please enter your license key</a>."
-msgstr ""
+msgstr "Zadejte prosím svůj licenční klíč</a>."
 
 #: includes/ZeroBSCRM.PluginUpdates.php:300
 #: includes/ZeroBSCRM.PluginUpdates.php:366
 msgid "Please update "
-msgstr ""
+msgstr "Proveďte aktualizaci"
 
 #: includes/ZeroBSCRM.PluginUpdates.php:300
 #: includes/ZeroBSCRM.PluginUpdates.php:366
 msgid " from version "
-msgstr ""
+msgstr "z verze"
 
 #: includes/ZeroBSCRM.PluginUpdates.php:300
 #: includes/ZeroBSCRM.PluginUpdates.php:366
 msgid " to version "
-msgstr ""
+msgstr "na verzi"
 
 #: includes/ZeroBSCRM.PluginUpdates.php:392
 msgid ""
