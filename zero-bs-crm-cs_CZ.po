@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Jetpack CRM &#8211; Clients, Leads, Invoices, Billing, Email Marketing, &amp; Automation - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-06-11 07:47+0100\n"
+"PO-Revision-Date: 2022-07-08 08:22+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,201 +14,213 @@ msgstr ""
 "Last-Translator: \n"
 "Language-Team: \n"
 
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:155
+#: modules/woo-sync/includes/class-woo-sync-background-sync.php:380
+msgid "Syncing content from WooCommerce..."
+msgstr "Synchronizace obsahu z WooCommerce ..."
+
+#: modules/woo-sync/includes/class-woo-sync-background-sync.php:465
+#: modules/woo-sync/includes/class-woo-sync-background-sync.php:530
+#: modules/woo-sync/includes/class-woo-sync-background-sync.php:654
+#: modules/woo-sync/includes/class-woo-sync-background-sync.php:709
+msgid "Sync Completed"
+msgstr "Synchronizace dokončena"
+
+#: modules/woo-sync/includes/class-woo-sync-background-sync.php:471
+msgid "You currently have no WooCommerce orders. As orders get added, they will be automatically imported!"
+msgstr "V současné době nemáte žádné objednávky WooCommerce. Jakmile budou objednávky přidány, budou automaticky importovány!"
+
+#: modules/woo-sync/includes/class-woo-sync-background-sync.php:536
+#: modules/woo-sync/includes/class-woo-sync-background-sync.php:715
+msgid "WooSync has imported all existing orders and will continue to import future orders."
+msgstr "WooSync importoval všechny existující objednávky a bude pokračovat v importu budoucích objednávek."
+
+#: modules/woo-sync/includes/class-woo-sync-background-sync.php:660
+msgid "There were no WooCommerce orders to import from this API endpoint. As orders get added, they will be automatically imported!"
+msgstr "Z tohoto koncového bodu rozhraní API nebyly žádné objednávky WooCommerce pro import. Jakmile budou objednávky přidány, budou automaticky importovány!"
+
+#: modules/woo-sync/includes/class-woo-sync.php:1097
+msgid "Latest import:"
+msgstr "Poslední import:"
+
+#: includes/jpcrm-templating-placeholders.php:1184
+msgid "DateTime string"
+msgstr "DateTime (string)"
+
+#: includes/jpcrm-templating-placeholders.php:1194
+msgid "Date string"
+msgstr "Řetězec data"
+
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:26
+msgid "Yes, do a full resync"
+msgstr "Ano, proveďte úplnou opětovnou synchronizaci"
+
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:26
+msgid "No, cancel and go back to hub"
+msgstr "Ne, zrušte a vraťte se do centra"
+
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:78
+msgid "No domain specified!"
+msgstr "Nebyla zadána žádná doména."
+
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:84
+msgid "You have not setup your WooCommerce API details. Please fill in your API details on the <a href=\"%s\" target=\"_blank\">settings page</a>."
+msgstr "Nenastavili jste podrobnosti WooCommerce API. Vyplňte prosím podrobnosti o svém API na &lt;a href=\"%s\" target=\"_blank\"&gt;stránce nastavení&lt;/a&gt;."
+
 #: includes/jpcrm-feature-sniffer.php:59
 msgid "Your CRM has an optional integration with your <code>%s</code> plugin, but feature is not currently enabled."
 msgstr "Aplikace CRM má volitelnou integraci s modulem plug-in <code>%s</code>, ale funkce není aktuálně povolena."
 
-#: modules/woo-sync/includes/class-woo-sync-background-sync.php:612
+#: modules/woo-sync/includes/class-woo-sync-background-sync.php:620
 msgid "Missing headers in API response. It seems that WooCommerce has not responded in a standard way."
 msgstr "Chybějící hlavičky v odpovědi rozhraní API. Zdá se, že WooCommerce nereagoval standardním způsobem."
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:221
-msgid "You are set up to import from an external site, but you have not set an 'order prefix'. This is recommended so that orders from external sites do not clash with local/other site orders. Please add a prefix on the <a href=\"%s\" target=\"_blank\">settings page</a>."
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:90
+msgid "You are set up to import from an external site, but you have not set an order prefix. This is recommended so that orders from external sites do not clash with local/other site orders. Please add a prefix on the <a href=\"%s\" target=\"_blank\">settings page</a>."
 msgstr "Jste nastaveni na import z externího webu, ale nenastavili jste \"předponu objednávky\". To se doporučuje, aby objednávky z externích webů nebyly v rozporu s místními/jinými objednávkami stránek. Přidejte předponu na <a href=\"%s\" target=\"_blank\">stránku nastavení</a>."
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:261
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:154
 msgid "Status: "
 msgstr "Stav:"
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:264
-msgid "Nothing to do here, WooSync will continue to add orders as they come in."
-msgstr "WooSync zde nebude mít co dělat, bude i nadále přidávat objednávky, jakmile přijdou."
-
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:266
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:159
 msgid "Setup Type:"
 msgstr "Typ nastavení:"
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:269
-msgid "Same site (Local WooCommerce store)"
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:99
+msgid "Same site (local WooCommerce store)"
 msgstr "Stejný web (místní WooCommerce obchod)"
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:271
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:73
 msgid "External site"
 msgstr "Externí stránky"
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:274
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:76
 msgid "Domain: "
 msgstr "Doména:"
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:276
-msgid "(No site specified)"
-msgstr "(Není zadána žádná lokalita)"
-
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:295
 #: modules/woo-sync/includes/class-woo-sync.php:702
 msgid " from "
 msgstr "od"
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:298
-msgid "Last imported order: "
-msgstr "Poslední importovaná objednávka:"
-
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:319
-msgid "Up to date."
-msgstr "Aktuální"
-
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:324
-msgid "Ready."
-msgstr "Připraveno"
-
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:325
-msgid "WooSync will add orders as they come in."
-msgstr "WooSync bude přidávat objednávky, jakmile přijdou."
-
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:332
-msgid "Working on first import."
-msgstr "Práce na prvním importu."
-
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:336
-msgid "WooSync is still importing orders..."
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:164
+msgid "WooSync is importing orders..."
 msgstr "WooSync stále importuje objednávky..."
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:341
-msgid "Setup required."
+#: modules/woo-sync/includes/class-woo-sync-background-sync.php:303
+msgid "Setup required"
 msgstr "Je vyžadováno nastavení."
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:342
+#: modules/woo-sync/includes/class-woo-sync-background-sync.php:310
 msgid "WooSync will start importing data when you have updated your settings."
 msgstr "WooSync začne importovat data, jakmile aktualizujete nastavení."
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:347
-msgid "Missing WooCommerce."
+#: modules/woo-sync/includes/class-woo-sync-background-sync.php:323
+msgid "Missing WooCommerce"
 msgstr "Chybí WooCommerce."
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:348
+#: modules/woo-sync/includes/class-woo-sync-background-sync.php:330
 msgid "WooSync will start importing data when you have installed WooCommerce."
 msgstr "WooSync začne importovat data, když máte nainstalovaný WooCommerce."
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:362
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:170
 msgid "Keeping this page open will improve the background sync speed."
 msgstr "Ponecháte-li tuto stránku otevřenou, zlepšíte rychlost synchronizace na pozadí."
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:392
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:180
 msgid "You don't have any data synced from WooCommerce yet."
 msgstr "Zatím nemáte žádná data synchronizovaná z WooCommerce."
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:401
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:189
 msgid "Visit Setup Guide"
 msgstr "Navštivte Průvodce nastavením"
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:405
-msgid "Watch YouTube Guide"
-msgstr "Podívejte se na průvodce YouTube"
-
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:468
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:252
 msgid "WooCommerce Transaction Total"
 msgstr "WooCommerce transakce Celkem"
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:477
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:261
 msgid "Admin Tools:"
 msgstr "Nástroje správce"
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:487
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:268
 msgid "Restart Sync"
 msgstr "Restartovat synchronizaci"
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:489
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:269
 msgid "Run Sync debug"
 msgstr "Spuštění ladění synchronizace"
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:507
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:288
 msgid "Failed retrieving data."
 msgstr "Načítání dat se nezdařilo."
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:508
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:289
 msgid "Completed Sync."
 msgstr "Dokončená synchronizace."
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:509
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:290
 msgid "{0} remaining pages."
 msgstr "{0} zbývající stránky."
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:510
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:291
 msgid "Import job is running in the back end. If this message is still shown after some time, please contact support."
 msgstr "Úloha importu je spuštěna v back-endu. Pokud se tato zpráva zobrazuje i po nějaké době, kontaktujte prosím podporu."
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:511
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:292
 msgid "There was a general server error."
 msgstr "Došlo k obecné chybě serveru."
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:513
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:294
 msgid "Completed page. Next: page {0} of {1} pages. ({2})"
 msgstr "Dokončená stránka. Další: {0} stránky {1} stránek. ({2})"
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:514
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:295
 msgid "Completed last page, (page {0} of {1} pages)"
 msgstr "Dokončená poslední stránka ({0} stránky {1} stránek)"
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:515
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:296
 msgid "Return: {0}"
 msgstr "Zpět k instalátoru pluginu"
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:516
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:297
 msgid "Retrieving page {0}"
 msgstr "Načítání {0} stránky"
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:565
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:346
 msgid "Go back to WooSync Hub"
 msgstr "Zpět do WooSync Hubu"
 
-#: modules/woo-sync/includes/class-woo-sync-background-sync.php:468
-msgid "You do not have any WooCommerce orders to import. Try adding some."
-msgstr "Nemáte žádné wooCommerce objednávky k importu. Zkuste nějaké přidat."
-
-#: modules/woo-sync/includes/class-woo-sync-background-sync.php:653
-msgid "There were no WooCommerce orders to import from this API endpoint."
-msgstr "Z tohoto koncového bodu rozhraní API nebyly žádné objednávky WooCommerce pro import."
-
-#: modules/woo-sync/includes/class-woo-sync-background-sync.php:745
+#: modules/woo-sync/includes/class-woo-sync-background-sync.php:763
 msgid "Missing:"
 msgstr "Chybějící:"
 
-#: modules/woo-sync/includes/class-woo-sync-background-sync.php:1389
+#: modules/woo-sync/includes/class-woo-sync-background-sync.php:1424
 msgid "WooCommerce Customer notes"
 msgstr "WooCommerce Poznámky zákazníků"
 
-#: modules/woo-sync/includes/class-woo-sync-background-sync.php:1390
+#: modules/woo-sync/includes/class-woo-sync-background-sync.php:1425
 msgid "WooCommerce Customer notes:"
 msgstr "WooCommerce Poznámky zákazníků:"
 
-#: modules/woo-sync/includes/class-woo-sync-background-sync.php:1567
-#: modules/woo-sync/includes/class-woo-sync-background-sync.php:1872
+#: modules/woo-sync/includes/class-woo-sync-background-sync.php:1601
+#: modules/woo-sync/includes/class-woo-sync-background-sync.php:1918
 msgid "Multiple Items"
 msgstr "Více položek"
 
-#: modules/woo-sync/includes/class-woo-sync-background-sync.php:1680
+#: modules/woo-sync/includes/class-woo-sync-background-sync.php:1716
 msgid "Refund against transaction #%s"
 msgstr "Vrácení peněz proti transakci #%s"
 
-#: modules/woo-sync/includes/class-woo-sync-background-sync.php:1681
+#: modules/woo-sync/includes/class-woo-sync-background-sync.php:1717
 msgid "Reason: "
 msgstr "Důvod:"
 
-#: modules/woo-sync/includes/class-woo-sync-background-sync.php:2572
+#: modules/woo-sync/includes/class-woo-sync-background-sync.php:2623
 msgid "WooCommerce Order Deleted"
 msgstr "WooCommerce Objednávka odstraněna"
 
-#: modules/woo-sync/includes/class-woo-sync-background-sync.php:2573
+#: modules/woo-sync/includes/class-woo-sync-background-sync.php:2624
 msgid "Transaction #%s was removed from your CRM after the related WooCommerce order #%s was deleted."
 msgstr "Transakce #%s byla odstraněna z vašeho CRM poté, co byla odstraněna související objednávka WooCommerce #%s."
 
@@ -256,27 +268,27 @@ msgstr "Pokud to nenastavíte, všechny objednávky WooCommerce budou importová
 msgid "Import WooCommerce History"
 msgstr "Import historie WooCommerce"
 
-#: modules/woo-sync/includes/class-woo-sync.php:714
 #: modules/woo-sync/includes/class-woo-sync.php:718
-#: modules/woo-sync/includes/class-woo-sync.php:730
+#: modules/woo-sync/includes/class-woo-sync.php:722
 #: modules/woo-sync/includes/class-woo-sync.php:734
+#: modules/woo-sync/includes/class-woo-sync.php:738
 msgid "Order"
 msgstr "Objednávka"
 
-#: modules/woo-sync/includes/class-woo-sync.php:714
-#: modules/woo-sync/includes/class-woo-sync.php:730
+#: modules/woo-sync/includes/class-woo-sync.php:718
+#: modules/woo-sync/includes/class-woo-sync.php:734
 msgid "View Order"
 msgstr "Zobrazení objednávku"
 
-#: modules/woo-sync/includes/class-woo-sync.php:822
+#: modules/woo-sync/includes/class-woo-sync.php:833
 msgid "Pay Invoice"
 msgstr "Platba faktury"
 
-#: modules/woo-sync/includes/class-woo-sync.php:823
+#: modules/woo-sync/includes/class-woo-sync.php:834
 msgid "Pay Now"
 msgstr "Zaplatit nyní"
 
-#: modules/woo-sync/includes/class-woo-sync.php:1144
+#: modules/woo-sync/includes/class-woo-sync.php:1220
 msgid "Error. Your WooCommerce endpoint may be incorrect!"
 msgstr "Chyba. Váš koncový bod WooCommerce může být nesprávný!"
 
@@ -517,51 +529,35 @@ msgstr "Pozastaveno"
 msgid "Map order status "
 msgstr "Stav objednávky"
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:25
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:24
 msgid "This will restart syncing your WooCommerce orders from scratch, using your current settings."
 msgstr "Tím se obnoví synchronizace objednávek WooCommerce od nuly pomocí aktuálního nastavení."
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:26
-msgid "This will not remove any existing orders or data, but it will update objects if they're reimported and have since changed."
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:25
+msgid "This will not remove any existing orders or data, but it will update objects if they are reimported and have since changed."
 msgstr "Tím se neodstraní žádné existující objednávky nebo data, ale aktualizují se objekty, pokud jsou znovu importovány a od té doby se změnily."
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:27
-msgid "Yes, Restart Sync."
-msgstr "Ano, restartujte synchronizaci."
-
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:27
-msgid "Cancel and go back to Hub"
-msgstr "Zrušit a vrátit se do Hubu"
-
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:31
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:28
 msgid "Want to restart your sync?"
 msgstr "Chcete restartovat synchronizaci?"
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:168
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:169
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:396
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:117
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:118
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:184
 msgid "Change Settings"
 msgstr "Změnit nastavení"
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:185
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:134
 msgid "Sync restarted"
 msgstr "Synchronizace restartována"
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:185
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:134
 msgid "The WooSync import has been restarted. This will start running in the background from the beginning."
 msgstr "Import WooSync byl restartován. To začne běžet na pozadí od začátku."
 
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:203
-msgid "You have not setup your WooCommerce API details. Please fill in your API details on the <a href=\"%s\" target=\"_blank\">settings page</a>. (WooCommerce Legacy API required)"
-msgstr "Nenastavili jste podrobnosti WooCommerce API. Vyplňte prosím podrobnosti o svém API na <a href=\"%s\" target=\"_blank\">settings page</a>. (Je vyžadováno WooCommerce Legacy API)"
-
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:208
-msgid "You do not have WooCommerce installed. Please install WooCommerce to use this service."
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:104
+msgid "You do not have WooCommerce installed. Please first install WooCommerce to use this function."
 msgstr "Nemáte nainstalovaný WooCommerce. Chcete-li používat tuto službu, nainstalujte prosím WooCommerce."
-
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:213
-msgid "You have no WooCommerce orders to import. As orders get added, they'll automatically get imported! (Nothing to do here.)"
-msgstr "Nemáte žádné objednávky WooCommerce k importu. Jakmile se objednávky přidají, automaticky se importují! (Tady není co dělat.)"
 
 #: includes/ZeroBSCRM.AdminPages.php:2436
 msgid "To control which modules are active, please go the <a href=\"%s\">Core Module page</a>."
@@ -925,8 +921,8 @@ msgid "Click here to Manage WooSync Connection"
 msgstr "Klikněte zde pro správu připojení WooSync"
 
 #: modules/woo-sync/admin/settings/main.page.php:114
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:169
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:481
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:118
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:265
 msgid "WooSync Settings"
 msgstr "Nastavení WooSync"
 
@@ -967,19 +963,19 @@ msgstr "Všimněte si, že budete také potřebovat web, který má nainstalovan
 msgid "You can always enable or disable these and other CRM features from the WordPress admin menu under CRM Settings → Core Modules."
 msgstr "Tyto a další funkce CRM můžete vždy povolit nebo zakázat z administrátorské nabídky WordPress v části Nastavení CRM → Základní moduly."
 
-#: admin/company/view.page.php:366 admin/contact/view.page.php:341
+#: admin/company/view.page.php:370 admin/contact/view.page.php:345
 msgid "Sources"
 msgstr "Zdroje"
 
-#: admin/contact/view.page.php:636
+#: admin/contact/view.page.php:640
 msgid "View All Quotes"
 msgstr "Zobrazit všechny nabídky"
 
-#: admin/contact/view.page.php:749
+#: admin/contact/view.page.php:753
 msgid "View All Invoices"
 msgstr "Zobrazit všechny faktury"
 
-#: admin/contact/view.page.php:858
+#: admin/contact/view.page.php:862
 msgid "View All Transactions"
 msgstr "Všechny transakce"
 
@@ -1073,7 +1069,7 @@ msgstr "Vítejte v Jetpack CRM Tools"
 
 #: includes/ZeroBSCRM.AdminPages.php:2305
 msgid "This is the home for all of the different admin tools for Jetpack CRM which import data, excluding the <strong>Sync</strong> Extensions."
-msgstr "Toto je domov pro všechny různé nástroje pro správu jetpack CRM, které importují data, s výjimkou <strong>rozšíření synchronizace</strong>."
+msgstr "Toto je domov pro všechny různé nástroje pro správu jetpack CRM, které importují data, s výjimkou <strong>rozšíření synchronizace</strong> ."
 
 #: includes/ZeroBSCRM.AdminPages.php:2435
 msgid "Installing Extensions for Jetpack CRM"
@@ -1147,11 +1143,11 @@ msgstr "Chyba instalačního programu:"
 msgid "Reference:"
 msgstr "Reference:"
 
-#: includes/ZeroBSCRM.Core.php:1470
+#: includes/ZeroBSCRM.Core.php:1471
 msgid "Jetpack CRM knowledgebase"
 msgstr "Jetpack CRM znalostní báze"
 
-#: includes/ZeroBSCRM.Core.php:1477
+#: includes/ZeroBSCRM.Core.php:1478
 msgid "Your account"
 msgstr "Váš účet"
 
@@ -1247,17 +1243,17 @@ msgstr "Aktualizujte %s z verze %s na verzi %s."
 
 #: includes/ZeroBSCRM.NotifyMe.php:234
 msgid "🔔 [URGENT] Your CRM Database needs migrating. <a href=\"%s\">Click here to run migration routine</a><div style=\"margin: 2em;margin-left: 4em;\">Running this database update will increase your CRM load-times by up to 60x!<br /><a href=\"%s\" target=\"_blank\" class=\"ui button basic\">Read Guide</a> <a href=\"%s\" class=\"ui button green\">Run now</a>"
-msgstr "🔔 [NALÉHAVÉ] Vaše databáze CRM potřebuje migraci. <a href=\"%s\">Kliknutím sem spustíte rutinu migrace</a><div style=\"margin: 2em;margin-left: 4em;\">Spuštění této aktualizace databáze zvýší zatížení vašeho CRM- krát až 60x!<br /><a href=\"%s\" target=\"_blank\" class=\"ui button basic\">Přečíst průvodce</a> <a href=\"% s\" class=\"ui button green\">Spustit nyní</a>"
+msgstr "🔔 [NALÉHAVÉ] Vaše databáze CRM potřebuje migraci. <a href=\"%s\">Kliknutím sem spustíte rutinu migrace</a><div style=\"margin: 2em;margin-left: 4em;\">Spuštění této aktualizace databáze zvýší zatížení vašeho CRM- krát až 60x!<br /><a href=\"%s\" target=\"_blank\" class=\"ui button basic\">Přečíst průvodce</a> <a href=\"%s\" class=\"ui button green\">Spustit nyní</a>"
 
 #: includes/ZeroBSCRM.OnboardMe.php:55
 msgid "There are <strong>Learn</strong> buttons throughout the CRM. Use these to find out more about each area. Try clicking this one!"
 msgstr "V celém CRM jsou tlačítka <strong>Učit </strong> . Použijte je, abyste se dozvěděli více o každé oblasti. Zkuste kliknout na tento!"
 
-#: includes/ZeroBSCRM.Portal.php:1745
+#: includes/ZeroBSCRM.Portal.php:1756
 msgid "Quote accepted, Thank you."
 msgstr "Citace přijata, Děkuji."
 
-#: includes/ZeroBSCRM.Portal.php:1748
+#: includes/ZeroBSCRM.Portal.php:1759
 msgid "Quote could not be accepted at this time."
 msgstr "Citace nemohla být v tuto chvíli přijata."
 
@@ -1604,7 +1600,7 @@ msgstr "Vloží odkaz, kde lze resetovat heslo."
 msgid "Core Modules"
 msgstr "Základní moduly"
 
-#: includes/ZeroBSCRM.Config.Init.php:546
+#: includes/ZeroBSCRM.Config.Init.php:548
 #: includes/ZeroBSCRM.List.Columns.php:473
 #: includes/ZeroBSCRM.List.Columns.php:480
 msgid "Assigned to me"
@@ -1614,7 +1610,7 @@ msgstr "Přiřazeno k uživateli"
 msgid "Not assigned"
 msgstr "Není přiřazeno"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1948
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1949
 msgid "Client Portal Access:"
 msgstr "Přístup na klientský portál změněn"
 
@@ -1626,11 +1622,11 @@ msgstr "Poštovní kampaň byla pozastavena kvůli chybě."
 msgid "A mail campaign which was previously blocked from sending by an error is now able to send. Please unpause the campaign to continue to send."
 msgstr "Odeslání e-mailové kampaně, jejíž odeslání bylo dříve zablokováno chybou, je nyní možné odeslat. Chcete-li pokračovat v odesílání, zrušte pozastavení kampaně."
 
-#: includes/ZeroBSCRM.Portal.php:1481
+#: includes/ZeroBSCRM.Portal.php:1492
 msgid "Admins will see all invoices below, but clients will only see invoices assigned to them."
 msgstr "Správci uvidí níže všechny faktury, ale klienti uvidí pouze faktury, které jsou jim přiřazeny."
 
-#: includes/ZeroBSCRM.Portal.php:2005
+#: includes/ZeroBSCRM.Portal.php:2016
 msgid "Error loading object"
 msgstr "Chyba při načítání objektu"
 
@@ -1969,11 +1965,11 @@ msgstr "Typy formulářů jsou skvělé pro výběr typu rozvržení, který chc
 msgid "Tasks are our internal word for managing things to do related to contacts."
 msgstr "Úkoly jsou naše interní slovo pro správu věcí, které je třeba udělat v souvislosti s kontakty."
 
-#: admin/contact/view.page.php:1013
+#: admin/contact/view.page.php:1017
 msgid "Want to show clients files on their Client Portal? <a href=\"%s\"> target=\"_blank\">Upgrade to a Bundle</a> (and get Client Portal Pro) to enable this."
 msgstr "Chcete zobrazovat soubory klientů na jejich klientském portálu? <a href=\"%s\"> target=\"_blank\">Upgradujte na balíček</a> (a získejte Client Portal Pro), abyste to umožnili."
 
-#: admin/contact/view.page.php:1020
+#: admin/contact/view.page.php:1024
 msgid "<strong>Bundle holder:</strong> Please install the Client Portal Pro extension if you'd like to show clients their files on the client portal."
 msgstr "<strong>Držitel balíčku:</strong> Nainstalujte si prosím rozšíření Client Portal Pro, pokud chcete klientům zobrazovat jejich soubory na klientském portálu."
 
@@ -2148,7 +2144,7 @@ msgstr "Vaše databáze CRM byla úspěšně migrována. Aktualizujte prosím v�
 msgid "Template File Error:<br /> It was not possible to load the following template file. This will mean that related documents will not be loaded properly.<br/>Template File: "
 msgstr "Chyba souboru šablony:<br /> Nebylo možné načíst následující soubor šablony. To bude znamenat, že související dokumenty nebudou správně načteny.<br/> Soubor šablony:"
 
-#: includes/ZeroBSCRM.Portal.php:1803
+#: includes/ZeroBSCRM.Portal.php:1814
 msgid "You are viewing the Client Portal as an admin"
 msgstr "Klientský portál si prohlížíte jako správce"
 
@@ -2235,7 +2231,7 @@ msgstr "Šablona PDF nabídky"
 msgid "Select a template for quote PDFs."
 msgstr "Vyberte předlohu pro uvozovky PDF."
 
-#: admin/settings/tax.page.php:125
+#: admin/settings/tax.page.php:124
 msgid "There are no tax rates defined yet. Do you want to <a href=\"%s\" id=\"zbs-new-add-tax-rate\">create one</a>?"
 msgstr "Zatím nejsou stanoveny žádné daňové sazby. Chcete jej <a href=\"%s\" id=\"zbs-new-add-tax-rate\">vytvořit</a> ?"
 
@@ -2316,33 +2312,33 @@ msgstr "Základní plugin"
 msgid "Demo Contact Owner"
 msgstr "Kontakt na demo majitele"
 
-#: modules/givewp/class-jpcrm-givewp.php:98
+#: modules/givewp/class-jpcrm-givewp.php:100
 msgid "GiveWP donation via the %s form"
 msgstr "Darujte prostřednictvím formuláře %s"
 
-#: modules/givewp/class-jpcrm-givewp.php:155
+#: modules/givewp/class-jpcrm-givewp.php:158
 #: modules/givewp/jpcrm-givewp-init.php:73
 msgid "Donor"
 msgstr "Dárce"
 
-#: modules/givewp/class-jpcrm-givewp.php:212
+#: modules/givewp/class-jpcrm-givewp.php:215
 msgid "User was created from GiveWP when submitting donation %s through the %s form."
 msgstr "Uživatel byl vytvořen z GiveWP při odesílání daru %s prostřednictvím formuláře %s."
 
-#: modules/givewp/class-jpcrm-givewp.php:216
-#: modules/givewp/class-jpcrm-givewp.php:225
+#: modules/givewp/class-jpcrm-givewp.php:219
+#: modules/givewp/class-jpcrm-givewp.php:228
 msgid "Form filled"
 msgstr "Formulář vyplněn"
 
-#: modules/givewp/class-jpcrm-givewp.php:217
+#: modules/givewp/class-jpcrm-givewp.php:220
 msgid "Created from GiveWP"
 msgstr "Vytvořeno z GiveWP"
 
-#: modules/givewp/class-jpcrm-givewp.php:223
+#: modules/givewp/class-jpcrm-givewp.php:226
 msgid "A GiveWP donation was submitted by this user via the %s form."
 msgstr "Dar GiveWP byl odeslán tímto uživatelem prostřednictvím formuláře %s."
 
-#: modules/givewp/class-jpcrm-givewp.php:226
+#: modules/givewp/class-jpcrm-givewp.php:229
 msgid "Donation via GiveWP"
 msgstr "Darování přes GiveWP"
 
@@ -2616,43 +2612,45 @@ msgstr "Tlačítko odkazu na úkol (HTML)"
 msgid "Task content (HTML)"
 msgstr "Obsah úkolu (HTML)"
 
-#: includes/jpcrm-templating-placeholders.php:1124
+#: includes/jpcrm-templating-placeholders.php:1128
 msgid "Date %s was created"
 msgstr "Datum vytvoření %s"
 
-#: includes/jpcrm-templating-placeholders.php:1127
+#: includes/jpcrm-templating-placeholders.php:1131
 msgid "Date %s was last updated"
 msgstr "Datum poslední aktualizace %s"
 
-#: includes/jpcrm-templating-placeholders.php:1130
+#: includes/jpcrm-templating-placeholders.php:1134
 msgid "Date %s was last contacted"
 msgstr "Datum, kdy byl %s naposledy kontaktován"
 
-#: includes/jpcrm-templating-placeholders.php:1133
+#: includes/jpcrm-templating-placeholders.php:1137
 msgid "Twitter handle for %s"
 msgstr "Úchyt pro Twitter pro %s"
 
-#: includes/jpcrm-templating-placeholders.php:1136
+#: includes/jpcrm-templating-placeholders.php:1140
 msgid "LinkedIn handle for %s"
 msgstr "Popisovač LinkedIn pro %s"
 
-#: includes/jpcrm-templating-placeholders.php:1139
+#: includes/jpcrm-templating-placeholders.php:1143
 msgid "Facebook page ID for %s"
 msgstr "ID stránky na Facebooku pro %s"
 
-#: includes/jpcrm-templating-placeholders.php:1142
+#: includes/jpcrm-templating-placeholders.php:1146
 msgid "WordPress ID for %s"
 msgstr "WordPress ID pro %s"
 
-#: includes/jpcrm-templating-placeholders.php:1161
+#: includes/jpcrm-templating-placeholders.php:1170
+#: includes/jpcrm-templating-placeholders.php:1185
+#: includes/jpcrm-templating-placeholders.php:1195
 msgid "%s object model"
 msgstr "%s objektový model"
 
-#: includes/jpcrm-templating-placeholders.php:1879
+#: includes/jpcrm-templating-placeholders.php:1935
 msgid "Insert Placeholder"
 msgstr "Vložit zástupce"
 
-#: includes/jpcrm-templating-placeholders.php:1915
+#: includes/jpcrm-templating-placeholders.php:1971
 msgid "No Placeholders Available"
 msgstr "Nejsou k dispozici žádné zástupné symboly"
 
@@ -2661,7 +2659,7 @@ msgstr "Nejsou k dispozici žádné zástupné symboly"
 msgid "View List"
 msgstr "Zobrazit seznam"
 
-#: includes/ZeroBSCRM.Portal.php:2006
+#: includes/ZeroBSCRM.Portal.php:2017
 msgid "Either this object does not exist or you do not have permission to view it."
 msgstr "Tato faktura buď neexistuje, nebo nemáte oprávnění k jejímu zobrazení."
 
@@ -3103,14 +3101,14 @@ msgstr "Koupit nyní"
 msgid "Recent Activity"
 msgstr "Nedávná aktivita"
 
-#: admin/company/view.page.php:283 admin/contact/view.page.php:380
+#: admin/company/view.page.php:287 admin/contact/view.page.php:384
 msgid "Address Details"
 msgstr "Podrobnosti o adrese"
 
-#: includes/ZeroBSCRM.DAL3.Obj.Invoices.php:2771
-#: includes/ZeroBSCRM.DAL3.Obj.Transactions.php:2295
+#: includes/ZeroBSCRM.DAL3.Obj.Invoices.php:2717
+#: includes/ZeroBSCRM.DAL3.Obj.Transactions.php:2241
 #: includes/ZeroBSCRM.MetaBoxes3.Transactions.php:189
-#: modules/woo-sync/includes/class-woo-sync-background-sync.php:1692
+#: modules/woo-sync/includes/class-woo-sync-background-sync.php:1728
 msgid "Refund"
 msgstr "Dobropis"
 
@@ -3130,7 +3128,7 @@ msgstr "Výpis v tuto chvíli nelze odeslat"
 msgid "Latest Contacts"
 msgstr "Nejnovější kontakty"
 
-#: admin/company/view.page.php:294 admin/contact/view.page.php:391
+#: admin/company/view.page.php:298 admin/contact/view.page.php:395
 msgid "Main address"
 msgstr "Hlavní adresa"
 
@@ -3138,8 +3136,8 @@ msgstr "Hlavní adresa"
 msgid "This settings page lets you control all of the different areas of Jetpack CRM. As you install extensions you will also see their settings pages showing up on the left hand menu below."
 msgstr "Tato stránka nastavení vám umožňuje ovládat všechny různé oblasti Jetpack CRM. Při instalaci rozšíření se v nabídce vlevo níže zobrazí také stránky s jejich nastavením."
 
-#: includes/ZeroBSCRM.DAL3.Obj.Invoices.php:2772
-#: includes/ZeroBSCRM.DAL3.Obj.Transactions.php:2295
+#: includes/ZeroBSCRM.DAL3.Obj.Invoices.php:2718
+#: includes/ZeroBSCRM.DAL3.Obj.Transactions.php:2241
 msgid "Credit Note"
 msgstr "Dobropis"
 
@@ -3159,16 +3157,12 @@ msgstr "Název položky"
 msgid "You do not have any contacts. Make sure you have contacts in each stage of your funnel."
 msgstr "Nemáte žádné kontakty. Ujistěte se, že máte kontakty v každé fázi cesty."
 
-#: admin/company/view.page.php:298 admin/contact/view.page.php:395
-msgid "Secondary address"
-msgstr "Sekundární adresa"
-
 #: includes/class-learn-menu.php:438
 msgid "Learn"
 msgstr "Výuka"
 
-#: includes/ZeroBSCRM.DAL3.ObjectLayer.php:860
-#: includes/ZeroBSCRM.DAL3.ObjectLayer.php:974
+#: includes/ZeroBSCRM.DAL3.ObjectLayer.php:870
+#: includes/ZeroBSCRM.DAL3.ObjectLayer.php:984
 msgid "The value for the field:"
 msgstr "Hodnota pole:"
 
@@ -3189,7 +3183,7 @@ msgstr "Zadejte popis (nepovinný)"
 msgid "Read Guide"
 msgstr "Přečtěte si průvodce"
 
-#: admin/company/view.page.php:304 admin/contact/view.page.php:401
+#: admin/company/view.page.php:308 admin/contact/view.page.php:405
 msgid "No Address on File"
 msgstr "Adresa ve složce"
 
@@ -3200,7 +3194,7 @@ msgstr "Adresa ve složce"
 msgid "Dashboard"
 msgstr "Řídicí panel"
 
-#: includes/ZeroBSCRM.DAL3.ObjectLayer.php:860
+#: includes/ZeroBSCRM.DAL3.ObjectLayer.php:870
 msgid "was too long and has been abbreviated"
 msgstr "byl příliš dlouhý a byl zkrácen"
 
@@ -3220,7 +3214,7 @@ msgstr "Verze WordPress %s"
 msgid "Want More?"
 msgstr "Chcete více?"
 
-#: admin/company/view.page.php:310 admin/contact/view.page.php:407
+#: admin/company/view.page.php:314 admin/contact/view.page.php:411
 msgid "Telephone Contacts"
 msgstr "Telefonické kontakty"
 
@@ -3229,7 +3223,7 @@ msgstr "Telefonické kontakty"
 msgid "Add Contact"
 msgstr "Přidat do kontaktů"
 
-#: includes/ZeroBSCRM.DAL3.ObjectLayer.php:972
+#: includes/ZeroBSCRM.DAL3.ObjectLayer.php:982
 msgid "Duplicated reference. The reference should be unique"
 msgstr "Duplicitní reference. Odkaz by měl být jedinečný"
 
@@ -3250,18 +3244,18 @@ msgstr "Produkce"
 msgid "Sales Dashboard"
 msgstr "Prodejní panel"
 
-#: admin/company/view.page.php:336 admin/contact/view.page.php:436
+#: admin/company/view.page.php:340 admin/contact/view.page.php:440
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:52
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:92
 msgid "Call"
 msgstr "Hovor"
 
 #: includes/class-learn-menu.php:728
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2586
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2587
 msgid "Contact Tags"
 msgstr "Značky kontaktu"
 
-#: includes/ZeroBSCRM.DAL3.ObjectLayer.php:974
+#: includes/ZeroBSCRM.DAL3.ObjectLayer.php:984
 msgid "was not unique (exists)"
 msgstr "nebyl jedinečný (existuje)"
 
@@ -3281,7 +3275,7 @@ msgstr "Zdá se, že je v pořádku"
 msgid "You do not have any transactions that match your chosen settings. You need transactions for your revenue chart to show. If you have transactions check your settings and then transaction statuses to include."
 msgstr "Nemáte žádné transakce, které by odpovídaly zvolenému nastavení. Pro zobrazení grafu tržeb potřebujete transakce. Pokud máte transakce, zkontrolujte nastavení a poté stavy transakcí, které je třeba zahrnout."
 
-#: admin/company/view.page.php:347 admin/contact/view.page.php:447
+#: admin/company/view.page.php:351 admin/contact/view.page.php:451
 msgid "No phone number on File"
 msgstr "V souboru není žádné telefonní číslo"
 
@@ -3292,7 +3286,7 @@ msgstr "V souboru není žádné telefonní číslo"
 msgid "Notifications"
 msgstr "Oznámení"
 
-#: includes/ZeroBSCRM.DAL3.ObjectLayer.php:1054
+#: includes/ZeroBSCRM.DAL3.ObjectLayer.php:1064
 msgid "The field:"
 msgstr "Pole:"
 
@@ -3313,7 +3307,7 @@ msgstr "K dispozici"
 msgid "No recent activity."
 msgstr "Žádná nedávná aktivita."
 
-#: admin/contact/view.page.php:454
+#: admin/contact/view.page.php:458
 msgid "Flags"
 msgstr "Vlajky"
 
@@ -3345,7 +3339,7 @@ msgstr "Vlajky"
 msgid "Add New"
 msgstr "Přidat nový"
 
-#: includes/ZeroBSCRM.DAL3.ObjectLayer.php:1054
+#: includes/ZeroBSCRM.DAL3.ObjectLayer.php:1064
 msgid "is required"
 msgstr "je vyžadováno"
 
@@ -3367,7 +3361,7 @@ msgstr "Není k dispozici"
 msgid "Contact Image"
 msgstr "Kontaktní obrázek"
 
-#: admin/company/view.page.php:423 admin/contact/view.page.php:548
+#: admin/company/view.page.php:427 admin/contact/view.page.php:552
 msgid "Documents"
 msgstr "Dokumenty"
 
@@ -3402,8 +3396,8 @@ msgstr "zlib je na vašem serveru správně povolen."
 msgid " ago"
 msgstr " před"
 
-#: admin/company/view.page.php:431 admin/contact/view.page.php:556
-#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:780
+#: admin/company/view.page.php:435 admin/contact/view.page.php:560
+#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:792
 msgid "Files"
 msgstr "Soubory"
 
@@ -3432,7 +3426,7 @@ msgstr "zlib je na vašem serveru zakázán."
 msgid "Contact Log Feed"
 msgstr "Kontaktní kanál protokolu"
 
-#: admin/contact/view.page.php:568
+#: admin/contact/view.page.php:572
 msgid "ID & Title"
 msgstr "ID a titul"
 
@@ -3440,12 +3434,12 @@ msgstr "ID a titul"
 msgid "At a glance"
 msgstr "Rychlý přehled"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:8794 includes/ZeroBSCRM.Delete.php:343
+#: includes/ZeroBSCRM.DAL3.Helpers.php:8489 includes/ZeroBSCRM.Delete.php:343
 #: includes/ZeroBSCRM.FormatHelpers.php:859 includes/ZeroBSCRM.List.php:68
 #: includes/ZeroBSCRM.List.Views.php:312 includes/ZeroBSCRM.Migrations.php:644
 #: modules/woo-sync/admin/settings/main.page.php:27
-#: modules/woo-sync/includes/class-woo-sync-background-sync.php:2532
-#: modules/woo-sync/includes/class-woo-sync-background-sync.php:2536
+#: modules/woo-sync/includes/class-woo-sync-background-sync.php:2583
+#: modules/woo-sync/includes/class-woo-sync-background-sync.php:2587
 msgid "Deleted"
 msgstr "Smazáno"
 
@@ -3466,15 +3460,15 @@ msgstr "Ale nebojte se, zdá se, že záložní PclZip funguje."
 msgid "Just now"
 msgstr "Právě nyní"
 
-#: admin/company/view.page.php:441 admin/company/view.page.php:711
-#: admin/contact/view.page.php:569 admin/contact/view.page.php:683
-#: admin/contact/view.page.php:1040 includes/ZeroBSCRM.InvoiceBuilder.php:1687
+#: admin/company/view.page.php:445 admin/company/view.page.php:715
+#: admin/contact/view.page.php:573 admin/contact/view.page.php:687
+#: admin/contact/view.page.php:1044 includes/ZeroBSCRM.InvoiceBuilder.php:1687
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1932
 #: includes/ZeroBSCRM.List.CompletedEvents.php:220
 #: includes/ZeroBSCRM.List.Events.php:147
 #: includes/ZeroBSCRM.MetaBoxes3.Events.php:733
-#: includes/ZeroBSCRM.Portal.php:1525 includes/ZeroBSCRM.Portal.php:1543
-#: includes/ZeroBSCRM.Portal.php:1587 includes/ZeroBSCRM.Portal.php:1631
+#: includes/ZeroBSCRM.Portal.php:1536 includes/ZeroBSCRM.Portal.php:1554
+#: includes/ZeroBSCRM.Portal.php:1598 includes/ZeroBSCRM.Portal.php:1642
 #: portal/v1/templates/quotes.php:67 portal/v3/templates/quotes.php:110
 #: portal/v3/templates/quotes.php:122
 msgid "Date"
@@ -3504,8 +3498,8 @@ msgstr "Správce pole"
 msgid "This is where recent Contact actions will show up"
 msgstr "Zde se zobrazí poslední akce kontaktu"
 
-#: admin/contact/view.page.php:570 includes/ZeroBSCRM.Config.Init.php:485
-#: includes/ZeroBSCRM.Config.Init.php:525
+#: admin/contact/view.page.php:574 includes/ZeroBSCRM.Config.Init.php:487
+#: includes/ZeroBSCRM.Config.Init.php:527
 #: includes/ZeroBSCRM.List.Columns.php:228
 #: includes/ZeroBSCRM.List.Columns.php:244
 #: includes/ZeroBSCRM.List.Columns.php:275
@@ -3540,7 +3534,7 @@ msgstr "Aktuální pole"
 msgid "View All"
 msgstr "Zobrazit vše"
 
-#: admin/contact/view.page.php:650
+#: admin/contact/view.page.php:654
 msgid "No Quotes"
 msgstr "Žádné nabídky"
 
@@ -3570,13 +3564,13 @@ msgstr "Dostupná pole"
 msgid "No contacts."
 msgstr "Žádné kontakty."
 
-#: admin/contact/view.page.php:651
+#: admin/contact/view.page.php:655
 msgid "This contact does not have any quotes yet. Do you want to <a href=\"%s\">create one</a>?"
 msgstr "Tento kontakt zatím nemá žádné nabídky. Chcete jej <a href=\"%s\">vytvořit</a>?"
 
 #: includes/class-learn-menu.php:767 includes/class-learn-menu.php:985
 #: includes/jpcrm-learn-menu-legacy-functions.php:192
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5556
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5251
 msgid "New "
 msgstr "Nový "
 
@@ -3600,8 +3594,8 @@ msgstr "Toto je <b>náhled šablony e-mailu Jetpack CRM</b><br/> <em>Tento text 
 msgid "Avatar"
 msgstr "Avatar"
 
-#: admin/company/view.page.php:442 admin/contact/view.page.php:684
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5523
+#: admin/company/view.page.php:446 admin/contact/view.page.php:688
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5218
 #: includes/ZeroBSCRM.InvoiceBuilder.php:441
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1690
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1936
@@ -3629,7 +3623,7 @@ msgstr "Nelze označit jako nepřijaté!"
 msgid "You cannot add empty tags"
 msgstr "Nemůžete přidávat prázdné značky"
 
-#: includes/jpcrm-templating-placeholders.php:1507
+#: includes/jpcrm-templating-placeholders.php:1536
 msgid "Set Your Password"
 msgstr "Nastavení hesla"
 
@@ -3638,7 +3632,7 @@ msgstr "Nastavení hesla"
 msgid "First Name"
 msgstr "Jméno"
 
-#: admin/company/view.page.php:504 admin/contact/view.page.php:763
+#: admin/company/view.page.php:508 admin/contact/view.page.php:767
 msgid "No Invoices"
 msgstr "Žádné faktury"
 
@@ -3668,7 +3662,7 @@ msgstr "Příklad nabídky #101"
 msgid "Last Name"
 msgstr "Příjmení"
 
-#: admin/contact/view.page.php:764
+#: admin/contact/view.page.php:768
 msgid "This contact does not have any invoices yet. Do you want to <a href=\"%s\">create one</a>?"
 msgstr "Tento kontakt zatím nemá žádné faktury. Chcete jej <a href=\"%s\">vytvořit</a> ?"
 
@@ -3692,14 +3686,14 @@ msgstr "Počet"
 msgid "Your Invoice Item"
 msgstr "Vaše položka na faktuře"
 
-#: admin/company/view.page.php:232 admin/company/view.page.php:443
-#: admin/company/view.page.php:713 admin/contact/view.page.php:289
-#: admin/contact/view.page.php:571 admin/contact/view.page.php:685
-#: admin/contact/view.page.php:1042 admin/dashboard/main.page.php:561
+#: admin/company/view.page.php:236 admin/company/view.page.php:447
+#: admin/company/view.page.php:717 admin/contact/view.page.php:293
+#: admin/contact/view.page.php:575 admin/contact/view.page.php:689
+#: admin/contact/view.page.php:1046 admin/dashboard/main.page.php:561
 #: includes/jpcrm-segment-conditions.php:82
-#: includes/ZeroBSCRM.Config.Init.php:456
-#: includes/ZeroBSCRM.Config.Init.php:512
-#: includes/ZeroBSCRM.Config.Init.php:524
+#: includes/ZeroBSCRM.Config.Init.php:458
+#: includes/ZeroBSCRM.Config.Init.php:514
+#: includes/ZeroBSCRM.Config.Init.php:526
 #: includes/ZeroBSCRM.CustomerFilters.php:523
 #: includes/ZeroBSCRM.CustomerSearch.php:143
 #: includes/ZeroBSCRM.DAL3.Export.php:46
@@ -3716,12 +3710,12 @@ msgstr "Vaše položka na faktuře"
 #: includes/ZeroBSCRM.List.Columns.php:424
 #: includes/ZeroBSCRM.List.Columns.php:436
 #: includes/ZeroBSCRM.MetaBoxes.SubmitBoxes.php:144
-#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:1158
+#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:1170
 #: includes/ZeroBSCRM.MetaBoxes3.Invoices.php:853
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:1390
 #: includes/ZeroBSCRM.MetaBoxes3.Transactions.php:644
-#: includes/ZeroBSCRM.Portal.php:1528 includes/ZeroBSCRM.Portal.php:1546
-#: includes/ZeroBSCRM.Portal.php:1590 includes/ZeroBSCRM.Portal.php:1634
+#: includes/ZeroBSCRM.Portal.php:1539 includes/ZeroBSCRM.Portal.php:1557
+#: includes/ZeroBSCRM.Portal.php:1601 includes/ZeroBSCRM.Portal.php:1645
 #: modules/woo-sync/includes/jpcrm-woo-sync-contact-tabs.php:133
 #: modules/woo-sync/includes/jpcrm-woo-sync-contact-tabs.php:199
 #: modules/woo-sync/includes/jpcrm-woo-sync-contact-tabs.php:257
@@ -3730,7 +3724,7 @@ msgstr "Vaše položka na faktuře"
 msgid "Status"
 msgstr "Status"
 
-#: admin/company/view.page.php:595 admin/contact/view.page.php:873
+#: admin/company/view.page.php:599 admin/contact/view.page.php:877
 msgid "No Transactions"
 msgstr "Žádné transakce"
 
@@ -3755,30 +3749,30 @@ msgstr "Nejsou zde žádné značky, vytvořte si je pomocí pole vpravo."
 msgid "Your invoice item description goes here"
 msgstr "Zde je uveden popis položky vaší faktury"
 
-#: admin/company/view.page.php:662 admin/company/view.page.php:714
-#: admin/company/view.page.php:760 admin/contact/view.page.php:167
-#: admin/contact/view.page.php:529 admin/contact/view.page.php:954
-#: admin/contact/view.page.php:1043 admin/contact/view.page.php:1090
+#: admin/company/view.page.php:666 admin/company/view.page.php:718
+#: admin/company/view.page.php:764 admin/contact/view.page.php:171
+#: admin/contact/view.page.php:533 admin/contact/view.page.php:958
+#: admin/contact/view.page.php:1047 admin/contact/view.page.php:1094
 #: admin/dashboard/main.page.php:562 admin/dashboard/main.page.php:581
 #: includes/ZeroBSCRM.AdminPages.php:2818
 #: includes/ZeroBSCRM.AdminPages.php:2829
 #: includes/ZeroBSCRM.AdminPages.php:2873
 #: includes/ZeroBSCRM.AdminPages.php:2891
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5554 includes/ZeroBSCRM.Edit.php:387
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5249 includes/ZeroBSCRM.Edit.php:387
 #: includes/ZeroBSCRM.FormatHelpers.php:1002
 #: includes/ZeroBSCRM.FormatHelpers.php:1035
 #: includes/ZeroBSCRM.List.Columns.php:83
 #: includes/ZeroBSCRM.List.Columns.php:126
 #: includes/ZeroBSCRM.List.Columns.php:157 includes/ZeroBSCRM.List.php:53
-#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:537
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2197
+#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:549
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2198
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:273
 #: includes/ZeroBSCRM.MetaBoxes3.Transactions.php:398
 #: includes/ZeroBSCRM.ScriptsStyles.php:48
 msgid "View"
 msgstr "Zobrazit"
 
-#: admin/contact/view.page.php:874
+#: admin/contact/view.page.php:878
 msgid "This contact does not have any transactions yet. Do you want to <a href=\"%s\">create one</a>?"
 msgstr "Tento kontakt zatím nemá žádné transakce. Chcete jej <a href=\"%s\">vytvořit</a> ?"
 
@@ -3802,9 +3796,9 @@ msgstr "Tímto smažete značku a odstraníte ji ze všech značek"
 msgid "Invoice Template"
 msgstr "Šablona faktury"
 
-#: admin/dashboard/main.page.php:563 includes/ZeroBSCRM.Config.Init.php:458
-#: includes/ZeroBSCRM.Config.Init.php:500
-#: includes/ZeroBSCRM.Config.Init.php:527
+#: admin/dashboard/main.page.php:563 includes/ZeroBSCRM.Config.Init.php:460
+#: includes/ZeroBSCRM.Config.Init.php:502
+#: includes/ZeroBSCRM.Config.Init.php:529
 #: includes/ZeroBSCRM.FormatHelpers.php:512
 #: includes/ZeroBSCRM.List.Columns.php:53
 #: includes/ZeroBSCRM.List.Columns.php:78
@@ -3818,7 +3812,7 @@ msgstr "Šablona faktury"
 msgid "Added"
 msgstr "Přidáno"
 
-#: admin/company/view.page.php:627 admin/contact/view.page.php:918
+#: admin/company/view.page.php:631 admin/contact/view.page.php:922
 msgid "Info"
 msgstr "Info"
 
@@ -3843,7 +3837,7 @@ msgstr "Ano, smazat značku!"
 msgid "Jetpack CRM is the ultimate CRM tool for WordPress.<br/ >Help us get the word out and show some love... You know what to do..."
 msgstr "Jetpack CRM je dokonalý CRM nástroj pro WordPress.<br/ > Pomozte nám dostat slovo a ukázat trochu lásky... Víte, co dělat..."
 
-#: admin/company/view.page.php:628 admin/contact/view.page.php:919
+#: admin/company/view.page.php:632 admin/contact/view.page.php:923
 msgid "View File"
 msgstr "Zobrazit soubor"
 
@@ -3868,9 +3862,9 @@ msgstr "Toto je nahrazeno<br> s podrobnostmi o zákaznících<br> z jejich profi
 msgid "Recent Email Activity"
 msgstr "Nedávná e-mailová aktivita"
 
-#: admin/contact/view.page.php:920
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1303
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1600
+#: admin/contact/view.page.php:924
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1304
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1601
 msgid "Shown on Portal"
 msgstr "Zobrazeno na portálu"
 
@@ -3901,11 +3895,11 @@ msgstr "Příklad události č. 101"
 msgid "Template Settings"
 msgstr "Nastavení šablony"
 
-#: admin/company/view.page.php:629 admin/contact/view.page.php:921
-#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:822
-#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:1118
-#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:1144
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1577
+#: admin/company/view.page.php:633 admin/contact/view.page.php:925
+#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:834
+#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:1130
+#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:1156
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1578
 #: includes/ZeroBSCRM.MetaBoxes3.Forms.php:686
 #: includes/ZeroBSCRM.MetaBoxes3.Forms.php:712
 #: includes/ZeroBSCRM.MetaBoxes3.QuoteTemplates.php:318
@@ -3943,7 +3937,7 @@ msgstr "Zobrazit událost"
 msgid "System Email Templates"
 msgstr "Systémové e-mailové šablony"
 
-#: admin/company/view.page.php:653 admin/contact/view.page.php:945
+#: admin/company/view.page.php:657 admin/contact/view.page.php:949
 #: includes/ZeroBSCRM.FormatHelpers.php:1164
 msgid "Untitled"
 msgstr "Bez názvu"
@@ -3979,11 +3973,11 @@ msgstr "Toto je příklad obsahu pro náhled šablony e-mailu.<p> Tento obsah bu
 msgid "Inactive"
 msgstr "Neaktivní"
 
-#: admin/company/view.page.php:671 admin/contact/view.page.php:973
-#: includes/ZeroBSCRM.Config.Init.php:459
-#: includes/ZeroBSCRM.Config.Init.php:472
-#: includes/ZeroBSCRM.Config.Init.php:488
-#: includes/ZeroBSCRM.Config.Init.php:501
+#: admin/company/view.page.php:675 admin/contact/view.page.php:977
+#: includes/ZeroBSCRM.Config.Init.php:461
+#: includes/ZeroBSCRM.Config.Init.php:474
+#: includes/ZeroBSCRM.Config.Init.php:490
+#: includes/ZeroBSCRM.Config.Init.php:503
 #: includes/ZeroBSCRM.FormatHelpers.php:1805
 #: includes/ZeroBSCRM.List.Columns.php:84
 #: includes/ZeroBSCRM.List.Columns.php:158
@@ -3993,10 +3987,10 @@ msgstr "Neaktivní"
 #: includes/ZeroBSCRM.List.Columns.php:247
 #: includes/ZeroBSCRM.List.Columns.php:323
 #: includes/ZeroBSCRM.List.Columns.php:337
-#: includes/ZeroBSCRM.List.Columns.php:1010
-#: includes/ZeroBSCRM.List.Columns.php:1017 includes/ZeroBSCRM.List.php:54
+#: includes/ZeroBSCRM.List.Columns.php:970
+#: includes/ZeroBSCRM.List.Columns.php:977 includes/ZeroBSCRM.List.php:54
 #: includes/ZeroBSCRM.List.php:506 includes/ZeroBSCRM.List.php:1084
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1607
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1608
 #: includes/ZeroBSCRM.ScriptsStyles.php:47
 msgid "Edit"
 msgstr "Upravit"
@@ -4028,13 +4022,13 @@ msgstr "Děkujeme, že používáte Jetpack CRM"
 msgid "Active"
 msgstr "Aktivní"
 
-#: admin/company/view.page.php:672 admin/contact/view.page.php:974
+#: admin/company/view.page.php:676 admin/contact/view.page.php:978
 #: includes/class-learn-menu.php:1208
 #: includes/jpcrm-learn-menu-legacy-functions.php:686
 #: includes/jpcrm-learn-menu-legacy-functions.php:704
 #: includes/ZeroBSCRM.Delete.php:418 includes/ZeroBSCRM.List.php:55
-#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:852
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1607
+#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:864
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1608
 #: includes/ZeroBSCRM.MetaBoxes3.TagManager.php:149
 #: includes/ZeroBSCRM.MetaBoxes3.TagManager.php:167
 msgid "Delete"
@@ -4066,7 +4060,7 @@ msgstr "Náhled šablony"
 msgid "Email Templates"
 msgstr "Šablony e-mailů"
 
-#: admin/company/view.page.php:689 admin/contact/view.page.php:991
+#: admin/company/view.page.php:693 admin/contact/view.page.php:995
 msgid "No Files"
 msgstr "Žádné soubory"
 
@@ -4094,7 +4088,7 @@ msgstr "Toto oznámení jste obdrželi, protože vám byl zaslán návrh"
 msgid "HTML Template"
 msgstr "HTML šablona"
 
-#: admin/contact/view.page.php:992
+#: admin/contact/view.page.php:996
 msgid "This contact does not have any files yet. Do you want to <a href=\"%s\">upload one</a>?"
 msgstr "Tento kontakt zatím nemá žádné soubory. Chcete <a href=\"%s\">jeden nahrát</a> ?"
 
@@ -4122,7 +4116,7 @@ msgstr ". Pokud se domníváte, že toto bylo odesláno omylem, odpovězte a dej
 msgid "This template is used for all outgoing CRM emails. The <code>##MSG-CONTENT##</code> placeholder represents the per-template content and must not be removed."
 msgstr "Tato šablona se používá pro všechny odchozí e-maily CRM. <code>##MSG-CONTENT##</code> představuje obsah jednotlivých šablon a nesmí být odstraněn."
 
-#: admin/company/view.page.php:734 admin/contact/view.page.php:1065
+#: admin/company/view.page.php:738 admin/contact/view.page.php:1069
 msgid "Upcoming Tasks"
 msgstr "Nadcházející úkoly"
 
@@ -4152,7 +4146,7 @@ msgstr "Vyberte fakturu"
 msgid "Proposal Notification"
 msgstr "Oznámení o návrhu"
 
-#: admin/company/view.page.php:748 admin/contact/view.page.php:1078
+#: admin/company/view.page.php:752 admin/contact/view.page.php:1082
 msgid "Past Tasks"
 msgstr "Minulé úkoly"
 
@@ -4173,8 +4167,8 @@ msgstr "Smazat transakce"
 msgid "You have received this notification because your proposal has been accepted in Jetpack CRM"
 msgstr "Toto upozornění jste obdrželi, protože váš návrh byl přijat v Jetpack CRM"
 
-#: admin/company/view.page.php:753 admin/contact/view.page.php:1083
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5547
+#: admin/company/view.page.php:757 admin/contact/view.page.php:1087
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5242
 #: includes/ZeroBSCRM.List.Columns.php:684
 #: includes/ZeroBSCRM.List.Columns.php:694
 #: includes/ZeroBSCRM.List.Views.php:609
@@ -4202,7 +4196,7 @@ msgstr "Prohlášení"
 msgid "Back to Activity"
 msgstr "Zpět na Aktivitu"
 
-#: admin/company/view.page.php:772 admin/contact/view.page.php:1103
+#: admin/company/view.page.php:776 admin/contact/view.page.php:1107
 msgid "No Tasks"
 msgstr "Žádné úlohy"
 
@@ -4226,11 +4220,11 @@ msgstr "Vítejte na svém klientském portálu"
 
 #: includes/ZeroBSCRM.AdminPages.php:1421
 #: includes/ZeroBSCRM.AdminPages.php:1780
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5537
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5232
 msgid "Preview"
 msgstr "Náhled"
 
-#: admin/contact/view.page.php:1104
+#: admin/contact/view.page.php:1108
 msgid "This contact does not have any tasks yet. Do you want to <a href=\"%s\">create one</a>?"
 msgstr "Tento kontakt zatím nemá žádné úkoly. Chcete jej <a href=\"%s\">vytvořit</a> ?"
 
@@ -4254,7 +4248,7 @@ msgstr "Heslo vašeho klientského portálu bylo resetováno"
 msgid "Creating templates...."
 msgstr "Vytváření šablon...."
 
-#: admin/company/view.page.php:811 admin/contact/view.page.php:1141
+#: admin/company/view.page.php:815 admin/contact/view.page.php:1145
 #: includes/ZeroBSCRM.List.Columns.php:82
 #: includes/ZeroBSCRM.List.Columns.php:160
 #: includes/ZeroBSCRM.List.Columns.php:287 includes/ZeroBSCRM.List.php:601
@@ -4283,7 +4277,7 @@ msgstr "Vaše akce začíná v "
 msgid "No Email Templates"
 msgstr "Žádné e-mailové šablony"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1929
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1930
 msgid "WordPress User Linked"
 msgstr "WordPress propojen s uživatelem"
 
@@ -4311,7 +4305,7 @@ msgstr "Událost můžete zobrazit na následující adrese URL: "
 msgid "Something went wrong with the email template creation.<br/>"
 msgstr "Při vytváření šablony e-mailu se něco pokazilo.<br/>"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1938
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1939
 msgid "View WordPress Profile"
 msgstr "Zobrazit profil WordPress"
 
@@ -4357,8 +4351,8 @@ msgstr "Testování možnosti doručování pošty"
 msgid "Template Creation Succeeded"
 msgstr "Vytvoření šablony bylo úspěšné"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1956
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2038
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1957
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2039
 msgid "Enabled"
 msgstr "Povoleno"
 
@@ -4383,7 +4377,7 @@ msgstr "Toto je testovací e-mail, který vám zaslal Jetpack CRM. Pokud to dost
 msgid "Reload Page"
 msgstr "Znovu načíst stránku"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1961
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1962
 msgid "Reset Password"
 msgstr "Obnovit heslo"
 
@@ -4407,8 +4401,8 @@ msgstr "Proč nás nesledovat na twitteru a oslavit to?"
 msgid "Back to Mail Settings"
 msgstr "Zpět na Nastavení pošty"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1964
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2039
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1965
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2040
 msgid "Disable Access"
 msgstr "Zakázat přístup"
 
@@ -4432,8 +4426,8 @@ msgstr "Odesláno z vašeho přátelského okolí CRM."
 msgid "Template updated"
 msgstr "Šablona byla aktualizována"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1974
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2046
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1975
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2047
 msgid "Disabled"
 msgstr "Zakázáno"
 
@@ -4458,8 +4452,8 @@ msgstr "Přejeme krásný den."
 msgid "Test Email Sent to "
 msgstr "E-mail poslán na adresu "
 
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1977
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2047
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1978
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2048
 msgid "Enable Access"
 msgstr "Přístup povolen"
 
@@ -4485,7 +4479,7 @@ msgstr "Běží na Jetpack CRM"
 msgid "Note: This email requires cron."
 msgstr "Poznámka: Tento e-mail vyžaduje cron."
 
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1991
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1992
 msgid "No WordPress User exists with this email"
 msgstr "S tímto e-mailem neexistuje žádný uživatel WordPress"
 
@@ -4507,8 +4501,8 @@ msgstr "do"
 msgid "Using Segments"
 msgstr "Použití segmentů"
 
-#: includes/jpcrm-templating-placeholders.php:1487
-#: includes/jpcrm-templating-placeholders.php:1488
+#: includes/jpcrm-templating-placeholders.php:1516
+#: includes/jpcrm-templating-placeholders.php:1517
 msgid "Go to CRM"
 msgstr "Přejděte do CRM"
 
@@ -4516,7 +4510,7 @@ msgstr "Přejděte do CRM"
 msgid "Read about WordPress cron"
 msgstr "Přečtěte si o tématu WordPress cron"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1994
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1995
 msgid "Generate WordPress User"
 msgstr "Vygenerovat uživatele WordPress"
 
@@ -4537,7 +4531,7 @@ msgstr "např."
 msgid "Segment like a PRO"
 msgstr "Segmentujte jako PRO"
 
-#: includes/jpcrm-templating-placeholders.php:1493
+#: includes/jpcrm-templating-placeholders.php:1522
 msgid "View Portal"
 msgstr "Zobrazit portál"
 
@@ -4594,7 +4588,7 @@ msgid "Delivery Method"
 msgstr "Způsob doručení"
 
 #: includes/ZeroBSCRM.DAL3.Obj.Transactions.php:1336
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2079
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2080
 msgid "Unknown"
 msgstr "Neznámý"
 
@@ -4622,7 +4616,7 @@ msgstr "Vítejte ve svém řídicím panelu"
 msgid "You can set up different delivery methods in your "
 msgstr "Můžete nastavit různé způsoby doručení ve svém "
 
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2084
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2085
 msgid "Client Portal Password Reset"
 msgstr "Obnovení hesla klientského portálu"
 
@@ -4654,7 +4648,7 @@ msgstr "Vítejte na vašem klientském panelu. Odtud můžete zobrazit své info
 msgid "Delivery Methods Settings"
 msgstr "Nastavení způsobů doručení"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2085
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2086
 msgid "Client Portal password has been reset for this contact, and they have been emailed with the new password. The new password is:"
 msgstr "Heslo klientského portálu bylo pro tento kontakt resetováno a bylo mu zasláno e-mailem nové heslo. Nové heslo je:"
 
@@ -4732,7 +4726,7 @@ msgstr "Heslo a podrobnosti byly aktualizovány"
 msgid "Edit HTML Template"
 msgstr "Upravit HTML šablonu"
 
-#: admin/company/view.page.php:350
+#: admin/company/view.page.php:354
 msgid "Contacts at this "
 msgstr "Kontakty na tomto "
 
@@ -4796,9 +4790,9 @@ msgstr "Kontakt změnil některé své údaje prostřednictvím Klientského por
 #: includes/ZeroBSCRM.AdminPages.php:1782
 #: includes/ZeroBSCRM.FormatHelpers.php:1005
 #: includes/ZeroBSCRM.MetaBoxes.SubmitBoxes.php:196
-#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:1204
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:451
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:453
+#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:1216
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:452
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:454
 #: includes/ZeroBSCRM.MetaBoxes3.Events.php:428
 #: includes/ZeroBSCRM.MetaBoxes3.Forms.php:752
 #: includes/ZeroBSCRM.MetaBoxes3.Invoices.php:908
@@ -4808,7 +4802,7 @@ msgstr "Kontakt změnil některé své údaje prostřednictvím Klientského por
 msgid "Save"
 msgstr "Uložit"
 
-#: admin/company/view.page.php:508
+#: admin/company/view.page.php:512
 msgid "This %s does not have any invoices yet. Do you want to <a href=\"%s\">create one</a>?"
 msgstr "Tento %s zatím nemá žádné faktury. Chcete jej <a href=\"%s\">vytvořit</a> ?"
 
@@ -4828,7 +4822,7 @@ msgstr "Vaše segmenty byly smazány."
 msgid "Your Statement"
 msgstr "Vaše prohlášení"
 
-#: portal/v1/templates/details.php:864 portal/v3/templates/details.php:212
+#: portal/v1/templates/details.php:864 portal/v3/templates/details.php:219
 msgid "Change your password (or leave blank to keep the same)"
 msgstr "Změňte své heslo (nebo ponechte prázdné, aby zůstalo stejné)"
 
@@ -4836,7 +4830,7 @@ msgstr "Změňte své heslo (nebo ponechte prázdné, aby zůstalo stejné)"
 msgid "No templates. Please generate"
 msgstr "Žádné šablony. Prosím vygenerujte"
 
-#: admin/company/view.page.php:599
+#: admin/company/view.page.php:603
 msgid "This %s does not have any transactions yet. Do you want to <a href=\"%s\">create one</a>?"
 msgstr "Tento %s zatím nemá žádné transakce. Chcete jej <a href=\"%s\">vytvořit</a> ?"
 
@@ -4853,7 +4847,7 @@ msgstr "Před datem"
 msgid "Your segment(s) could not be deleted."
 msgstr "Vaše segmenty nelze smazat."
 
-#: portal/v1/templates/details.php:866 portal/v3/templates/details.php:216
+#: portal/v1/templates/details.php:866 portal/v3/templates/details.php:223
 msgid "Re-enter password"
 msgstr "Zadejte znovu heslo"
 
@@ -4861,7 +4855,7 @@ msgstr "Zadejte znovu heslo"
 msgid "Sent Emails"
 msgstr "Odeslané e-maily"
 
-#: admin/company/view.page.php:692
+#: admin/company/view.page.php:696
 msgid "This %s does not have any files yet. Do you want to <a href=\"%s\">upload one</a>?"
 msgstr "Tento %s zatím nemá žádné soubory. Chcete <a href=\"%s\">jeden nahrát</a> ?"
 
@@ -4890,7 +4884,7 @@ msgstr "Přístup zakázán"
 msgid "Your latest 50 emails are shown here so you can keep track of activity."
 msgstr "Zde je zobrazeno vašich posledních 50 e-mailů, takže můžete sledovat aktivitu."
 
-#: admin/company/view.page.php:776
+#: admin/company/view.page.php:780
 msgid "This %s does not have any tasks yet. Do you want to <a href=\"%s\">create one</a>?"
 msgstr "Tento %s zatím nemá žádné úkoly. Chcete jej <a href=\"%s\">vytvořit</a> ?"
 
@@ -5074,7 +5068,7 @@ msgstr "Celkem faktur v databázi:"
 msgid "Complete"
 msgstr "Kompletní"
 
-#: includes/jpcrm-templating-placeholders.php:1507
+#: includes/jpcrm-templating-placeholders.php:1536
 #: portal/v1/templates/login.php:94 portal/v3/templates/login.php:72
 msgid "Lost Password"
 msgstr "Zapomenuté heslo"
@@ -5104,7 +5098,7 @@ msgid "Delete Task(s)"
 msgstr "Smazat úkol(y)"
 
 #: portal/v1/templates/quotes.php:80 portal/v1/templates/transactions.php:61
-#: portal/v3/templates/quotes.php:84 portal/v3/templates/transactions.php:68
+#: portal/v3/templates/quotes.php:84 portal/v3/templates/transactions.php:78
 msgid "No date"
 msgstr "Bez data"
 
@@ -5221,7 +5215,7 @@ msgid "Tags"
 msgstr "Značky"
 
 #: includes/ZeroBSCRM.CSVImporter.php:743
-#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:522
+#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:534
 #: includes/ZeroBSCRM.MetaBoxes3.Events.php:307
 #: includes/ZeroBSCRM.MetaBoxes3.Forms.php:268
 #: includes/ZeroBSCRM.MetaBoxes3.Invoices.php:429
@@ -5272,7 +5266,7 @@ msgstr "Omlouváme se, vaši zprávu se nepodařilo ověřit."
 msgid "Are you sure you want to mark these events as completed?"
 msgstr "Opravdu chcete tyto události označit jako dokončené?"
 
-#: includes/ZeroBSCRM.Portal.php:1805
+#: includes/ZeroBSCRM.Portal.php:1816
 #: portal/v1/templates/single-invoice.php:212
 msgid "This message is only shown to admins"
 msgstr "Tato zpráva se zobrazuje pouze administrátorům"
@@ -5303,7 +5297,7 @@ msgstr "přidáno"
 msgid "Are you sure you want to mark these events as incomplete?"
 msgstr "Opravdu chcete tyto události označit jako nedokončené?"
 
-#: includes/ZeroBSCRM.Portal.php:1807
+#: includes/ZeroBSCRM.Portal.php:1818
 #: portal/v1/templates/single-invoice.php:214
 msgid "Learn more about the client portal"
 msgstr "Zjistěte více o klientském portálu"
@@ -5355,7 +5349,7 @@ msgstr "Připojte se k našemu Slacku"
 msgid ".CSV file"
 msgstr "Soubor CSV"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:663
+#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:675
 msgid "Contact since"
 msgstr "Kontakt od"
 
@@ -5393,7 +5387,7 @@ msgid "<span>#289</span>Could not load settings for this mail delivery option"
 msgstr "<span>#289</span> Nelze načíst nastavení pro tuto možnost doručování pošty"
 
 #: portal/v1/templates/transactions.php:83
-#: portal/v3/templates/transactions.php:102
+#: portal/v3/templates/transactions.php:111
 msgid "You do not have any transactions yet."
 msgstr "Zatím nemáte žádné transakce."
 
@@ -5477,7 +5471,7 @@ msgstr "Odhlásit se"
 #: includes/ZeroBSCRM.FormatHelpers.php:689
 #: includes/ZeroBSCRM.FormatHelpers.php:694
 #: includes/ZeroBSCRM.List.QuoteTemplate.php:210
-#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:522
+#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:534
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:67
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:94
 msgid "Created"
@@ -5505,7 +5499,7 @@ msgstr "Správce CRM"
 
 #: includes/ZeroBSCRM.FormatHelpers.php:302
 #: includes/ZeroBSCRM.FormatHelpers.php:307
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:648
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:649
 msgid "Contact Created"
 msgstr "Kontakt vytvořen"
 
@@ -5805,7 +5799,7 @@ msgstr "V rámci PSČ"
 msgid "No Recent Emails"
 msgstr "Žádné nedávné e-maily"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:692
+#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:704
 msgid "No contacts found at"
 msgstr "Nenalezeny žádné kontakty"
 
@@ -5833,9 +5827,9 @@ msgstr "např. AL1 nebo 90012"
 msgid "sent"
 msgstr "odesláno"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:816
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1285
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1571
+#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:828
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1286
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1572
 msgid "File(s)"
 msgstr "Soubor(y)"
 
@@ -5866,8 +5860,8 @@ msgstr " Export"
 msgid " sent to "
 msgstr " odesláno na "
 
-#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:821
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1576
+#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:833
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1577
 msgid "File"
 msgstr "Soubor"
 
@@ -5896,9 +5890,9 @@ msgstr "Datum přidání"
 msgid " by "
 msgstr " od "
 
-#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:866
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1323
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1622
+#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:878
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1324
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1623
 #: includes/ZeroBSCRM.MetaBoxes3.Invoices.php:513
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:967
 msgid "Add File"
@@ -5928,9 +5922,9 @@ msgstr "Celkem: "
 msgid "opened"
 msgstr "otevřeno"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:866
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1323
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1622
+#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:878
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1324
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1623
 #: includes/ZeroBSCRM.MetaBoxes3.Invoices.php:513
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:967
 msgid "Optional"
@@ -5964,9 +5958,9 @@ msgstr "Vyhledat kontakty"
 msgid "Select"
 msgstr "Vybrat"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:866
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1323
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1622
+#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:878
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1324
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1623
 #: includes/ZeroBSCRM.MetaBoxes3.Invoices.php:513
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:967
 msgid "Accepted File Types"
@@ -6182,7 +6176,7 @@ msgid "This Administrator level utility will remove all data in your CRM, includ
 msgstr "Tento nástroj na úrovni správce odstraní všechna data ve vašem CRM, včetně nastavení CRM. To nelze vrátit zpět. Postupujte obezřetně."
 
 #: includes/ZeroBSCRM.AJAX.php:4073
-#: includes/ZeroBSCRM.DAL3.Obj.Quotes.php:2403
+#: includes/ZeroBSCRM.DAL3.Obj.Quotes.php:2349
 msgid "Not accepted yet"
 msgstr "Zatím nepřijato"
 
@@ -6203,9 +6197,9 @@ msgid "CRM Factory Reset"
 msgstr "Obnovení továrního nastavení CRM"
 
 #: includes/ZeroBSCRM.AJAX.php:4078 includes/ZeroBSCRM.AJAX.php:6993
-#: includes/ZeroBSCRM.DAL3.Helpers.php:8790
+#: includes/ZeroBSCRM.DAL3.Helpers.php:8485
 #: includes/ZeroBSCRM.DAL3.Obj.Invoices.php:1265
-#: includes/ZeroBSCRM.DAL3.Obj.Quotes.php:2408
+#: includes/ZeroBSCRM.DAL3.Obj.Quotes.php:2354
 #: includes/ZeroBSCRM.FormatHelpers.php:847
 #: includes/ZeroBSCRM.InvoiceBuilder.php:274
 #: includes/ZeroBSCRM.InvoiceBuilder.php:288
@@ -6218,7 +6212,7 @@ msgstr "Obnovení továrního nastavení CRM"
 #: includes/ZeroBSCRM.MetaBoxes3.Invoices.php:837
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:1366
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:1372
-#: includes/ZeroBSCRM.Permissions.php:954 includes/ZeroBSCRM.Portal.php:1505
+#: includes/ZeroBSCRM.Permissions.php:954 includes/ZeroBSCRM.Portal.php:1516
 msgid "Draft"
 msgstr "Koncept"
 
@@ -6234,14 +6228,14 @@ msgstr "Nastavení formuláře"
 msgid "Mode"
 msgstr "Režim"
 
-#: includes/ZeroBSCRM.AJAX.php:4084 includes/ZeroBSCRM.DAL3.Helpers.php:4520
-#: includes/ZeroBSCRM.DAL3.Obj.Quotes.php:2414
+#: includes/ZeroBSCRM.AJAX.php:4084 includes/ZeroBSCRM.DAL3.Helpers.php:4215
+#: includes/ZeroBSCRM.DAL3.Obj.Quotes.php:2360
 #: includes/ZeroBSCRM.List.Columns.php:524
 #: includes/ZeroBSCRM.List.Columns.php:531
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:1233
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:1368
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:1375
-#: includes/ZeroBSCRM.Portal.php:1761
+#: includes/ZeroBSCRM.Portal.php:1772
 msgid "Accepted"
 msgstr "Přijato"
 
@@ -6304,12 +6298,12 @@ msgstr "Kód pro vložení"
 msgid "Getting Contacts into your CRM"
 msgstr "Získání kontaktů do vašeho CRM"
 
-#: includes/ZeroBSCRM.AJAX.php:6995 includes/ZeroBSCRM.DAL3.Helpers.php:8791
+#: includes/ZeroBSCRM.AJAX.php:6995 includes/ZeroBSCRM.DAL3.Helpers.php:8486
 #: includes/ZeroBSCRM.FormatHelpers.php:850
 #: includes/ZeroBSCRM.List.Columns.php:553
 #: includes/ZeroBSCRM.List.Columns.php:562
 #: includes/ZeroBSCRM.List.Views.php:309
-#: modules/woo-sync/includes/class-woo-sync-background-sync.php:1541
+#: modules/woo-sync/includes/class-woo-sync-background-sync.php:1575
 msgid "Unpaid"
 msgstr "Nezaplaceno"
 
@@ -6331,7 +6325,7 @@ msgstr "E-mail"
 
 #: includes/ZeroBSCRM.Forms.php:296 includes/ZeroBSCRM.Forms.php:388
 #: includes/ZeroBSCRM.Forms.php:481 includes/ZeroBSCRM.Forms.php:530
-#: portal/v1/templates/details.php:870 portal/v3/templates/details.php:221
+#: portal/v1/templates/details.php:870 portal/v3/templates/details.php:228
 msgid "Submit"
 msgstr "Odeslat"
 
@@ -6397,7 +6391,7 @@ msgstr "<strong>Provozování elektronického obchodu je těžká práce...</str
 msgid "Data Tool Extensions Installed"
 msgstr "Nainstalovaná rozšíření datového nástroje"
 
-#: includes/ZeroBSCRM.Config.Init.php:432
+#: includes/ZeroBSCRM.Config.Init.php:434
 #: includes/ZeroBSCRM.List.Columns.php:49
 #: includes/ZeroBSCRM.List.Columns.php:60
 msgid "Name and Avatar"
@@ -6424,14 +6418,14 @@ msgstr "Volitelné funkce"
 msgid "CSV Importer"
 msgstr "Importér CSV"
 
-#: includes/ZeroBSCRM.Config.Init.php:471
+#: includes/ZeroBSCRM.Config.Init.php:473
 #: includes/ZeroBSCRM.List.Columns.php:186
 #: includes/ZeroBSCRM.List.Columns.php:199
 msgid "Quote Value"
 msgstr "Hodnota nabídky"
 
 #: includes/ZeroBSCRM.Core.Page.Controller.php:195
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5562
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5257
 msgid "To Email:"
 msgstr "na e-mail"
 
@@ -6452,7 +6446,7 @@ msgstr "Povolit nabídky"
 msgid "CSV Tagger"
 msgstr "CSV štítky"
 
-#: includes/ZeroBSCRM.Config.Init.php:497
+#: includes/ZeroBSCRM.Config.Init.php:499
 #: includes/ZeroBSCRM.List.Columns.php:319
 #: includes/ZeroBSCRM.List.Columns.php:333
 msgid "Style"
@@ -6483,14 +6477,14 @@ msgstr "Cenové nabídky (nebo návrhy) jsou velmi silnou součástí"
 msgid "You do not have any Pro Data Tools installed as of yet"
 msgstr "Dosud nemáte nainstalované žádné nástroje Pro Data Tools"
 
-#: includes/ZeroBSCRM.Config.Init.php:498
+#: includes/ZeroBSCRM.Config.Init.php:500
 #: includes/ZeroBSCRM.List.Columns.php:320
 #: includes/ZeroBSCRM.List.Columns.php:334
 msgid "Views"
 msgstr "Zobrazit"
 
 #: includes/ZeroBSCRM.Core.Page.Controller.php:197
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5564
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5259
 msgid "Attach associated files"
 msgstr "Připojte související soubory"
 
@@ -6510,14 +6504,14 @@ msgstr "Doporučujeme tuto funkci používat, ale pokud nechcete uvozovky, můž
 msgid "Get some now"
 msgstr "Získejte nějaké"
 
-#: includes/ZeroBSCRM.Config.Init.php:499
+#: includes/ZeroBSCRM.Config.Init.php:501
 #: includes/ZeroBSCRM.List.Columns.php:321
 #: includes/ZeroBSCRM.List.Columns.php:335
 msgid "Conversions"
 msgstr "Konverze"
 
 #: includes/ZeroBSCRM.Core.Page.Controller.php:198
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5565
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5260
 msgid "Attach as PDF"
 msgstr "Přiložit jako PDF"
 
@@ -6535,7 +6529,7 @@ msgstr "Povolit faktury"
 msgid "Import Tools"
 msgstr "Nástroje pro import"
 
-#: includes/ZeroBSCRM.Config.Init.php:510
+#: includes/ZeroBSCRM.Config.Init.php:512
 #: includes/ZeroBSCRM.List.Columns.php:422
 #: includes/ZeroBSCRM.List.Columns.php:434
 msgid "Starting"
@@ -6562,19 +6556,19 @@ msgstr "Jetpack CRM můžete provozovat s fakturací nebo bez ní. Doporučujeme
 msgid "View Available Import Tools"
 msgstr "Zobrazit dostupné nástroje pro import"
 
-#: includes/ZeroBSCRM.Config.Init.php:511
+#: includes/ZeroBSCRM.Config.Init.php:513
 #: includes/ZeroBSCRM.List.Columns.php:423
 #: includes/ZeroBSCRM.List.Columns.php:435
 msgid "Finishing"
 msgstr "Dokončování"
 
 #: includes/ZeroBSCRM.Core.Page.Controller.php:201
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5568
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5263
 msgid "Sending Email..."
 msgstr "Odesílání e-mailu..."
 
 #: includes/jpcrm-templating-placeholders.php:512
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5501
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5196
 #: includes/ZeroBSCRM.InvoiceBuilder.php:623
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1179
 #: includes/ZeroBSCRM.InvoiceBuilder.php:2544
@@ -6599,7 +6593,7 @@ msgstr "Přijměte online platby s"
 msgid "Export Tools"
 msgstr "Nástroje pro export"
 
-#: includes/ZeroBSCRM.Config.Init.php:513
+#: includes/ZeroBSCRM.Config.Init.php:515
 #: includes/ZeroBSCRM.List.Columns.php:80
 #: includes/ZeroBSCRM.List.Columns.php:159
 #: includes/ZeroBSCRM.List.Columns.php:425
@@ -6631,7 +6625,7 @@ msgstr "(Nechte své klienty platit pomocí Stripe nebo PayPal)"
 msgid "Want to use the refined object exporter? "
 msgstr "Chcete používat exportér rafinovaných objektů?"
 
-#: includes/ZeroBSCRM.Config.Init.php:514
+#: includes/ZeroBSCRM.Config.Init.php:516
 #: includes/ZeroBSCRM.List.Columns.php:359
 #: includes/ZeroBSCRM.List.Columns.php:367
 #: includes/ZeroBSCRM.List.Columns.php:391
@@ -6659,8 +6653,8 @@ msgstr "Načítání faktury"
 msgid "Delete CRM Data"
 msgstr "Smazat data CRM"
 
-#: includes/ZeroBSCRM.Config.Init.php:523
-#: includes/ZeroBSCRM.Config.Init.php:545
+#: includes/ZeroBSCRM.Config.Init.php:525
+#: includes/ZeroBSCRM.Config.Init.php:547
 #: includes/ZeroBSCRM.CSVImporter.php:218
 #: includes/ZeroBSCRM.List.Columns.php:184
 #: includes/ZeroBSCRM.List.Columns.php:197
@@ -6672,15 +6666,15 @@ msgstr "Smazat data CRM"
 #: includes/ZeroBSCRM.List.Columns.php:479
 #: includes/ZeroBSCRM.List.Columns.php:500
 #: includes/ZeroBSCRM.List.Columns.php:505
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:249
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:252
 #: includes/ZeroBSCRM.MetaBoxes3.Transactions.php:353
 #: includes/ZeroBSCRM.MetaBoxes3.Transactions.php:364
-#: modules/woo-sync/includes/class-woo-sync-background-sync.php:1479
+#: modules/woo-sync/includes/class-woo-sync-background-sync.php:1514
 msgid "Customer"
 msgstr "Zákazník"
 
 #: includes/ZeroBSCRM.Core.Page.Controller.php:204
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5571
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5266
 msgid "Error Sending"
 msgstr "Chyba při odesílání"
 
@@ -6689,7 +6683,7 @@ msgstr "Chyba při odesílání"
 msgid "Transaction Created"
 msgstr "Transakce vytvořena"
 
-#: includes/ZeroBSCRM.Config.Init.php:526
+#: includes/ZeroBSCRM.Config.Init.php:528
 #: includes/ZeroBSCRM.List.Columns.php:276
 #: includes/ZeroBSCRM.List.Columns.php:290 includes/ZeroBSCRM.List.php:1028
 msgid "Item"
@@ -6703,7 +6697,7 @@ msgstr "Při odesílání této nabídky e-mailem došlo k chybě."
 msgid "Starts at "
 msgstr "Začíná v "
 
-#: includes/ZeroBSCRM.Config.Init.php:528
+#: includes/ZeroBSCRM.Config.Init.php:530
 #: includes/ZeroBSCRM.List.Columns.php:278
 #: includes/ZeroBSCRM.List.Columns.php:293
 msgid "Edit Link"
@@ -6759,7 +6753,7 @@ msgstr "Nápověda"
 msgid "Retrieve all customer data from WooCommerce."
 msgstr "Získejte všechna zákaznická data z WooCommerce."
 
-#: includes/ZeroBSCRM.Core.php:2528
+#: includes/ZeroBSCRM.Core.php:2529
 msgid "View | Jetpack CRM"
 msgstr "Zobrazit | Jetpack CRM"
 
@@ -6771,7 +6765,7 @@ msgstr "Přístup vytvořen (změnou stavu na"
 msgid "Retrieve all customer data from Stripe automatically."
 msgstr "Automaticky načtěte všechna zákaznická data z Stripe."
 
-#: includes/ZeroBSCRM.Core.php:2547 includes/ZeroBSCRM.List.Views.php:507
+#: includes/ZeroBSCRM.Core.php:2548 includes/ZeroBSCRM.List.Views.php:507
 msgid "Segment"
 msgstr "Segment"
 
@@ -6791,7 +6785,7 @@ msgstr "Resetovat CRM"
 msgid "Create Customers from World Pay Sync."
 msgstr "Vytvořte zákazníky z World Pay Sync."
 
-#: includes/ZeroBSCRM.Core.php:2577 includes/ZeroBSCRM.List.php:1024
+#: includes/ZeroBSCRM.Core.php:2578 includes/ZeroBSCRM.List.php:1024
 #: includes/ZeroBSCRM.List.QuoteTemplate.php:35
 #: includes/ZeroBSCRM.List.Views.php:555
 #: includes/ZeroBSCRM.MetaBoxes3.QuoteTemplates.php:58
@@ -6809,7 +6803,7 @@ msgstr "Mezisoučet"
 msgid "Imports your Membermouse user data to your CRM."
 msgstr "Importuje vaše uživatelská data Membermouse do vašeho CRM."
 
-#: includes/ZeroBSCRM.Core.php:2582
+#: includes/ZeroBSCRM.Core.php:2583
 msgid "Log"
 msgstr "Protokol"
 
@@ -6819,7 +6813,7 @@ msgstr "Protokol"
 msgid "Postage and packaging"
 msgstr "poštovné a balné"
 
-#: includes/ZeroBSCRM.Core.php:2600 includes/ZeroBSCRM.List.Views.php:136
+#: includes/ZeroBSCRM.Core.php:2601 includes/ZeroBSCRM.List.Views.php:136
 msgid "Delete "
 msgstr "Smazat "
 
@@ -6835,7 +6829,7 @@ msgstr "Bonusy, upozornění na kritické aktualizace"
 msgid "Import existing customer data from CSV (Pro Version)"
 msgstr "Import dat stávajících zákazníků z CSV (verze Pro)"
 
-#: includes/class-learn-menu.php:763 includes/ZeroBSCRM.Core.php:2605
+#: includes/class-learn-menu.php:763 includes/ZeroBSCRM.Core.php:2606
 msgid "View "
 msgstr "Zobrazit "
 
@@ -6853,7 +6847,7 @@ msgstr "Zadejte své jméno"
 msgid "Send emails to targeted segments of customers."
 msgstr "Odesílejte e-maily cílovým segmentům zákazníků."
 
-#: includes/ZeroBSCRM.Core.php:2616
+#: includes/ZeroBSCRM.Core.php:2617
 msgid "Email Manager | Jetpack CRM"
 msgstr "Správce e-mailu | Jetpack CRM"
 
@@ -6871,7 +6865,7 @@ msgstr "Zadejte svůj e-mail"
 msgid "The ultimate sales dashboard. See sales trends and more"
 msgstr "Špičkový prodejní panel. Podívejte se na prodejní trendy a další"
 
-#: includes/ZeroBSCRM.Core.php:2622
+#: includes/ZeroBSCRM.Core.php:2623
 msgid "Tag Manager | Jetpack CRM"
 msgstr "Správce značek | Jetpack CRM"
 
@@ -6892,7 +6886,7 @@ msgstr "Nahrajte zakoupená rozšíření"
 msgid "Create Customers from Gravity Forms (Integration)."
 msgstr "Vytvořte zákazníky z Gravity Forms (integrace)."
 
-#: includes/ZeroBSCRM.Core.php:2627
+#: includes/ZeroBSCRM.Core.php:2628
 msgid "Notifications | Jetpack CRM"
 msgstr "Oznámení | Jetpack CRM"
 
@@ -6915,7 +6909,7 @@ msgstr "Získejte aktualizace"
 msgid "Use Contact Form 7 to collect leads and customer info."
 msgstr "Použijte kontaktní formulář 7 ke shromažďování potenciálních zákazníků a informací o zákaznících."
 
-#: includes/ZeroBSCRM.Core.php:2632
+#: includes/ZeroBSCRM.Core.php:2633
 msgid "Email Templates | Jetpack CRM"
 msgstr "Šablony e-mailů | Jetpack CRM"
 
@@ -6931,14 +6925,14 @@ msgstr "Logo Jetpack CRM"
 msgid "Retrieve all customer data from Google Contacts."
 msgstr "Získejte všechna data zákazníků z Kontaktů Google."
 
-#: includes/ZeroBSCRM.Core.php:2637
+#: includes/ZeroBSCRM.Core.php:2638
 msgid "Export Tools | Jetpack CRM"
 msgstr "Exportní nástroje | Jetpack CRM"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Transactions.php:227
 #: portal/v1/templates/transactions.php:50
-#: portal/v3/templates/transactions.php:60
-#: portal/v3/templates/transactions.php:94
+#: portal/v3/templates/transactions.php:70
+#: portal/v3/templates/transactions.php:104
 msgid "Transaction Date"
 msgstr "Datum transakce"
 
@@ -6964,7 +6958,7 @@ msgstr "Zpětná vazba Vylepšuje CRM"
 msgid "Retrieve all customer data from Groove automatically."
 msgstr "Automaticky načíst všechna zákaznická data z Groove."
 
-#: includes/ZeroBSCRM.Core.php:2642
+#: includes/ZeroBSCRM.Core.php:2643
 msgid "Import Tools | Jetpack CRM"
 msgstr "Nástroje pro import | Jetpack CRM"
 
@@ -6994,7 +6988,7 @@ msgstr "Rádi slyšíme, co si myslíte o našem CRM! Vaše zpětná vazba nám 
 msgid "Add your Jetpack CRM Contacts to your ConvertKit list."
 msgstr "Přidejte své kontakty Jetpack CRM do seznamu ConvertKit."
 
-#: includes/ZeroBSCRM.Core.php:3141
+#: includes/ZeroBSCRM.Core.php:3142
 msgid "Jetpack CRM requires PHP version 5.6+, versions of PHP older than 5.6 are no longer supported."
 msgstr "Jetpack CRM vyžaduje PHP verze 5.6+, verze PHP starší než 5.6 již nejsou podporovány."
 
@@ -7014,7 +7008,7 @@ msgstr "Pokud máte funkci, kterou byste rádi viděli, chybu, kterou jste možn
 msgid "Send SMS from your Twilio Account."
 msgstr "Odešlete SMS ze svého účtu Twilio."
 
-#: includes/ZeroBSCRM.Core.php:3141
+#: includes/ZeroBSCRM.Core.php:3142
 msgid "Please click here to resolve this"
 msgstr "Chcete-li to vyřešit, klikněte sem"
 
@@ -7114,7 +7108,7 @@ msgstr "Co sem neposílat:"
 msgid "Customise your Client Portal, Allow File Downloads, Display Tasks and more"
 msgstr "Přizpůsobte si klientský portál, povolte stahování souborů, zobrazte úlohy a další"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:1626
+#: includes/ZeroBSCRM.DAL3.Helpers.php:1331
 msgid "Copied field"
 msgstr "Zkopírované pole"
 
@@ -7136,7 +7130,7 @@ msgstr "Žádosti o dokumentaci"
 msgid "Connects your website to Jetpack CRM via the API. Supports Forms & Registrations."
 msgstr "Připojí váš web k Jetpack CRM přes API. Podporuje formuláře a registrace."
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:1626
+#: includes/ZeroBSCRM.DAL3.Helpers.php:1331
 msgid "from secondary record over main record, (main was empty)."
 msgstr "od sekundárního záznamu přes hlavní záznam, (hlavní byl prázdný)."
 
@@ -7158,7 +7152,7 @@ msgstr "Klikněte sem"
 msgid "Securely manage usernames and passwords for your clients websites, servers, and other logins."
 msgstr "Bezpečně spravujte uživatelská jména a hesla pro webové stránky, servery a další přihlášení vašich klientů."
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:1637
+#: includes/ZeroBSCRM.DAL3.Helpers.php:1342
 msgid "Field not copied"
 msgstr "Pole nebylo zkopírováno"
 
@@ -7180,7 +7174,7 @@ msgstr "pro to"
 msgid "Easily divide your contacts into dynamic subgroups and manage your contacts effectively."
 msgstr "Snadno rozdělte své kontakty do dynamických podskupin a spravujte své kontakty efektivně."
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:1637
+#: includes/ZeroBSCRM.DAL3.Helpers.php:1342
 msgid "from secondary record over main record, (main had value). Value was"
 msgstr "od vedlejšího záznamu přes hlavní záznam, (hlavní měl hodnotu). Hodnota byla"
 
@@ -7201,7 +7195,7 @@ msgstr "Žádosti o podporu"
 msgid "Send Jetpack CRM contacts to your AWeber list."
 msgstr "Odešlete kontakty Jetpack CRM do vašeho seznamu AWeber."
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:1701
+#: includes/ZeroBSCRM.DAL3.Helpers.php:1406
 msgid "Copied address from secondary record into \"secondary address\" for main record"
 msgstr "Zkopírována adresa ze sekundárního záznamu do \"sekundární adresy\" pro hlavní záznam"
 
@@ -7222,8 +7216,8 @@ msgstr "Zapněte své CRM"
 msgid "Capture webinar sign ups to your CRM."
 msgstr "Zachyťte registrace webinářů do svého CRM."
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:1707
-#: includes/ZeroBSCRM.DAL3.Helpers.php:1727
+#: includes/ZeroBSCRM.DAL3.Helpers.php:1412
+#: includes/ZeroBSCRM.DAL3.Helpers.php:1432
 msgid "Address not copied. Secondary address from secondary record could not be copied (master already had two addresses)."
 msgstr "Adresa nebyla zkopírována. Sekundární adresu ze sekundárního záznamu nebylo možné zkopírovat (master již měl dvě adresy)."
 
@@ -7244,9 +7238,9 @@ msgstr "Doufáme, že rádi používáte Jetpack CRM a že souhlasíte s naší 
 msgid "Convert abandoning visitors into customers."
 msgstr "Přeměňte opouštějící návštěvníky na zákazníky."
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:1707
-#: includes/ZeroBSCRM.DAL3.Helpers.php:1720
-#: includes/ZeroBSCRM.DAL3.Helpers.php:1727
+#: includes/ZeroBSCRM.DAL3.Helpers.php:1412
+#: includes/ZeroBSCRM.DAL3.Helpers.php:1425
+#: includes/ZeroBSCRM.DAL3.Helpers.php:1432
 msgid "Address"
 msgstr "Adresa"
 
@@ -7267,13 +7261,13 @@ msgstr "Nabízíme několik rozšíření, která doplní vaše CRM. Jak je vša
 msgid "Capture website sign ups into Jetpack CRM."
 msgstr "Zachyťte registrace webových stránek do Jetpack CRM."
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:1720
+#: includes/ZeroBSCRM.DAL3.Helpers.php:1425
 msgid "Address not copied. Address from secondary record could not be copied (master already had two addresses)."
 msgstr "Adresa nebyla zkopírována. Adresu ze sekundárního záznamu nebylo možné zkopírovat (master již měl dvě adresy)."
 
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1933
-#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:1234
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2817
+#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:1246
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2818
 msgid "Activity"
 msgstr "Aktivity"
 
@@ -7285,7 +7279,7 @@ msgstr "Změna stavu"
 msgid "View More"
 msgstr "Zobrazit více"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:1760
+#: includes/ZeroBSCRM.DAL3.Helpers.php:1465
 msgid "Social account not copied."
 msgstr "Sociální účet nebyl zkopírován."
 
@@ -7301,7 +7295,7 @@ msgstr "Nyní můžete generovat klíče API a odesílat data do CRM prostředni
 msgid "Add a client area to your website."
 msgstr "Přidejte na svůj web klientskou oblast."
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:1760
+#: includes/ZeroBSCRM.DAL3.Helpers.php:1465
 msgid "from secondary record (master already has a "
 msgstr "ze sekundárního záznamu (master již má a "
 
@@ -7324,7 +7318,7 @@ msgstr "Generovat nové klíče API"
 msgid "Enable the API area of your CRM."
 msgstr "Povolte oblast API vašeho CRM."
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:1760
+#: includes/ZeroBSCRM.DAL3.Helpers.php:1465
 msgid "account."
 msgstr "účet."
 
@@ -7356,7 +7350,7 @@ msgstr "Chcete-li zobrazit naši stránku s živými rozšířeními, musíte b�
 msgid "Task Scheduler"
 msgstr "Plánovač úloh"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:1771
+#: includes/ZeroBSCRM.DAL3.Helpers.php:1476
 msgid "Copied social account from secondary record into main record"
 msgstr "Sociální účet byl zkopírován z vedlejšího záznamu do hlavního záznamu"
 
@@ -7378,7 +7372,7 @@ msgstr "Produkt neexistuje."
 msgid "Enable Jetpack CRM Task Scheduler."
 msgstr "Povolit Jetpack CRM Task Scheduler."
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:1823
+#: includes/ZeroBSCRM.DAL3.Helpers.php:1528
 msgid "Moved file to main record"
 msgstr "Soubor byl přesunut do hlavního záznamu"
 
@@ -7401,7 +7395,7 @@ msgstr "Jít zpět"
 msgid "Write and send professional proposals from your CRM."
 msgstr "Napište a odešlete profesionální návrhy z vašeho CRM."
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:1844
+#: includes/ZeroBSCRM.DAL3.Helpers.php:1549
 msgid "Assigned main record to secondary record's "
 msgstr "Přiřazený hlavní záznam k sekundárním záznamům"
 
@@ -7425,7 +7419,7 @@ msgstr "od "
 msgid "Write and send professional invoices from your CRM."
 msgstr "Pište a posílejte profesionální faktury z vašeho CRM."
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:1856
+#: includes/ZeroBSCRM.DAL3.Helpers.php:1561
 msgid "Secondary contact was assigned to "
 msgstr "Byl přiřazen sekundární kontakt"
 
@@ -7451,7 +7445,7 @@ msgstr "Instalováno"
 msgid "Want PDF Invoices? Get this installed."
 msgstr "Chcete faktury ve formátu PDF? Nainstalujte si toto."
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:1879
+#: includes/ZeroBSCRM.DAL3.Helpers.php:1584
 msgid "Assigned quote from secondary record onto main record"
 msgstr "Přiřazená citace z vedlejšího záznamu k hlavnímu záznamu"
 
@@ -7481,7 +7475,7 @@ msgstr "Koupit"
 msgid "Log transactions in your CRM."
 msgstr "Zaznamenávejte transakce do CRM."
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:1897
+#: includes/ZeroBSCRM.DAL3.Helpers.php:1602
 msgid "Assigned invoice from secondary record onto main record"
 msgstr "Přiřazená faktura z vedlejšího záznamu do hlavního záznamu"
 
@@ -7489,7 +7483,7 @@ msgstr "Přiřazená faktura z vedlejšího záznamu do hlavního záznamu"
 msgid "Latest Log"
 msgstr "Nejnovější protokol"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2627
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2628
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:1452
 msgid "Activity Log"
 msgstr "Log aktivity"
@@ -7506,7 +7500,7 @@ msgstr "Užitečné front-end formuláře pro zachycení potenciálních zákazn
 msgid "All Contacts"
 msgstr "Všechny kontakty"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:1915
+#: includes/ZeroBSCRM.DAL3.Helpers.php:1620
 msgid "Assigned transaction from secondary record onto main record"
 msgstr "Přiřazená transakce ze sekundárního záznamu do hlavního záznamu"
 
@@ -7527,11 +7521,11 @@ msgstr "⚠️ "
 msgid "Lite Version of CSV Customer Importer"
 msgstr "Zjednodušená verze CSV Customer Importer"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5555
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5250
 msgid "Add New Contact"
 msgstr "Přidat nový kontakt"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:1935
+#: includes/ZeroBSCRM.DAL3.Helpers.php:1640
 msgid "Assigned event from secondary record onto main record"
 msgstr "Přiřazená událost ze sekundárního záznamu k hlavnímu záznamu"
 
@@ -7548,7 +7542,7 @@ msgstr "Nabídka (ID)"
 msgid "Manage Contacts at Companies or Organisations"
 msgstr "Správa kontaktů ve společnostech nebo organizacích"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:1984
+#: includes/ZeroBSCRM.DAL3.Helpers.php:1689
 msgid "Tagged main record with"
 msgstr "Hlavní záznam byl označen s"
 
@@ -7566,13 +7560,13 @@ msgstr "Zveřejněte tuto nabídku"
 msgid "Capture leads from Jetpack Forms"
 msgstr "Zachyťte vodítka z Jetpack Forms"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:661
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:662
 #: modules/woo-sync/includes/class-woo-sync-woo-admin-integration.php:125
 #: modules/woo-sync/includes/class-woo-sync-woo-admin-integration.php:259
 msgid "View Contact"
 msgstr "Zobrazit kontakt"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:1984
+#: includes/ZeroBSCRM.DAL3.Helpers.php:1689
 msgid "tags from secondary record."
 msgstr "značky ze sekundárního záznamu."
 
@@ -7596,7 +7590,7 @@ msgstr "Chcete-li zobrazit naši stránku s živými rozšířeními, musíte b�
 msgid "Adds a client area to your CRM install so they can see  their documents."
 msgstr "Přidá klientskou oblast do vaší instalace CRM, aby mohli vidět své dokumenty."
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:1997
+#: includes/ZeroBSCRM.DAL3.Helpers.php:1702
 msgid "Added secondary record email as alias/aka of main record"
 msgstr "Přidán e-mail sekundárního záznamu jako alias/alias hlavního záznamu"
 
@@ -7613,7 +7607,7 @@ msgstr "Vyberte šablonu"
 msgid "API"
 msgstr "API"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:2011
+#: includes/ZeroBSCRM.DAL3.Helpers.php:1716
 msgid "Removed secondary record"
 msgstr "Sekundární záznam byl odstraněn"
 
@@ -7634,7 +7628,7 @@ msgstr "Prémiová rozšíření"
 msgid "The CRM API lets you interact with Jetpack CRM via the application program interface."
 msgstr "CRM API umožňuje interakci s Jetpack CRM prostřednictvím aplikačního programového rozhraní."
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:2016
+#: includes/ZeroBSCRM.DAL3.Helpers.php:1721
 msgid "into this record"
 msgstr "do tohoto záznamu"
 
@@ -7661,7 +7655,7 @@ msgstr "Znalostní báze"
 msgid "Manage tasks for your contacts and what you need to do for them."
 msgstr "Spravujte úkoly pro své kontakty a to, co pro ně musíte udělat."
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:2022
+#: includes/ZeroBSCRM.DAL3.Helpers.php:1727
 msgid "Record Changes"
 msgstr "Změnit seznam"
 
@@ -7685,7 +7679,7 @@ msgstr " Aktualizovat nyní"
 msgid "Offer Quotes for your contacts to help you win more business."
 msgstr "Nabídněte svým kontaktům nabídky, které vám pomohou získat více obchodů."
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:2033
+#: includes/ZeroBSCRM.DAL3.Helpers.php:1738
 msgid "No Changes"
 msgstr "Beze změn"
 
@@ -7693,7 +7687,7 @@ msgstr "Beze změn"
 #: includes/ZeroBSCRM.List.Columns.php:593
 #: includes/ZeroBSCRM.List.Views.php:362
 #: modules/woo-sync/admin/settings/main.page.php:260
-#: modules/woo-sync/includes/class-woo-sync-background-sync.php:1694
+#: modules/woo-sync/includes/class-woo-sync-background-sync.php:1730
 msgid "Refunded"
 msgstr "Refundováno"
 
@@ -7711,7 +7705,7 @@ msgstr "Stáhnout"
 msgid "Send invoices to your clients and allow them to pay online."
 msgstr "Odesílejte faktury svým klientům a umožněte jim platit online."
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:2040
+#: includes/ZeroBSCRM.DAL3.Helpers.php:1745
 msgid "Conflicting Changes"
 msgstr "Konfliktní změny"
 
@@ -7725,7 +7719,7 @@ msgstr "Čeká na schválení"
 msgid "Step 2: Quote Content"
 msgstr "Krok 2: Obsah nabídky"
 
-#: includes/ZeroBSCRM.AdminPages.php:2839 includes/ZeroBSCRM.Core.php:1470
+#: includes/ZeroBSCRM.AdminPages.php:2839 includes/ZeroBSCRM.Core.php:1471
 msgid "Docs"
 msgstr "Dokumenty"
 
@@ -7734,7 +7728,7 @@ msgstr "Dokumenty"
 msgid "PDF Engine"
 msgstr "PDF Engine"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:2051
+#: includes/ZeroBSCRM.DAL3.Helpers.php:1756
 msgid "No Conflicting Changes"
 msgstr "Žádné konfliktní změny"
 
@@ -7757,7 +7751,7 @@ msgstr "Již brzy"
 msgid "Supports PDF invoicing and PDF quotes (plus more)."
 msgstr "Podporuje fakturaci PDF a nabídky PDF (a další)."
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:4531
+#: includes/ZeroBSCRM.DAL3.Helpers.php:4226
 msgid "Created, not yet accepted"
 msgstr "Vytvořeno, dosud nepřijato"
 
@@ -7783,7 +7777,7 @@ msgstr "Již brzy"
 msgid "Capture contacts into your CRM using our simple form solutions."
 msgstr "Zachyťte kontakty do svého CRM pomocí našich jednoduchých formulářových řešení."
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:4538
+#: includes/ZeroBSCRM.DAL3.Helpers.php:4233
 msgid "Not yet published"
 msgstr "Dosud nezveřejněno."
 
@@ -7856,17 +7850,13 @@ msgstr "Deaktivovat"
 msgid "Capture contacts from Jetpack forms into your CRM."
 msgstr "Zachyťte kontakty z formulářů Jetpack do svého CRM."
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5506
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5201
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1689
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1935
-#: includes/ZeroBSCRM.Portal.php:1526 includes/ZeroBSCRM.Portal.php:1544
-#: includes/ZeroBSCRM.Portal.php:1588 includes/ZeroBSCRM.Portal.php:1632
+#: includes/ZeroBSCRM.Portal.php:1537 includes/ZeroBSCRM.Portal.php:1555
+#: includes/ZeroBSCRM.Portal.php:1599 includes/ZeroBSCRM.Portal.php:1643
 msgid "Due Date"
 msgstr "Datum splatnosti"
-
-#: includes/ZeroBSCRM.List.Columns.php:883
-msgid "Addr #2"
-msgstr "Adresa č. 2"
 
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:744
 msgid "Enable Client Portal"
@@ -7876,7 +7866,7 @@ msgstr "Povolit klientský portál"
 msgid "Here is another example. This time from Mike, one of our Jetpack CRM Founders."
 msgstr "Zde je další příklad. Tentokrát od Mikea, jednoho z našich zakladatelů Jetpack CRM."
 
-#: admin/company/view.page.php:712 admin/contact/view.page.php:1041
+#: admin/company/view.page.php:716 admin/contact/view.page.php:1045
 #: includes/ZeroBSCRM.AdminPages.php:3138
 #: includes/ZeroBSCRM.Core.Menus.WP.php:617
 #: includes/ZeroBSCRM.Core.Menus.WP.php:627
@@ -7891,11 +7881,11 @@ msgstr "Úkol"
 msgid "Front-end Forms"
 msgstr "Front-end formuláře"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5507
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5202
 msgid "Frequency"
 msgstr "Četnost"
 
-#: includes/ZeroBSCRM.List.Columns.php:948
+#: includes/ZeroBSCRM.List.Columns.php:908
 msgid "Not Contacted in "
 msgstr "Datum posledního kontaktu"
 
@@ -7916,9 +7906,9 @@ msgstr " Úspěšně smazáno"
 msgid "CSV Importer LITE"
 msgstr "CSV Importér Lite"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5508
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5203
 #: includes/ZeroBSCRM.MetaBoxes.SubmitBoxes.php:169
-#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:1179
+#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:1191
 #: includes/ZeroBSCRM.MetaBoxes3.Events.php:405
 #: includes/ZeroBSCRM.MetaBoxes3.Forms.php:727
 #: includes/ZeroBSCRM.MetaBoxes3.Invoices.php:870
@@ -7928,7 +7918,7 @@ msgstr "CSV Importér Lite"
 msgid "Update"
 msgstr "Aktualizovat"
 
-#: includes/ZeroBSCRM.List.Columns.php:985
+#: includes/ZeroBSCRM.List.Columns.php:945
 msgid "Older than "
 msgstr "Starší "
 
@@ -7944,7 +7934,7 @@ msgstr "úspěšně"
 msgid "Jetpack CRM was not able to extract the libraries it needs to in order to install PDF Engine."
 msgstr "Jetpack CRM nebyl schopen extrahovat knihovny, které potřebuje k instalaci PDF Engine."
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5510
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5205
 msgid "Your business information"
 msgstr "Obchodní informace"
 
@@ -7964,7 +7954,7 @@ msgstr "načteno z koše"
 msgid "Jetpack CRM was not able to download the libraries it needs to in order to install PDF Engine."
 msgstr "Jetpack CRM nedokázal stáhnout knihovny, které potřebuje k instalaci PDF Engine."
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5512
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5207
 msgid "Add your logo"
 msgstr "Přidat vaše logo"
 
@@ -7985,7 +7975,7 @@ msgstr "přesunuto do koše"
 msgid "Jetpack CRM was not able to create the directories it needs to in order to install PDF Engine."
 msgstr "Jetpack CRM nedokázal vytvořit adresáře, které potřebuje k instalaci PDF Engine."
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5513
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5208
 msgid "Assign Invoice to"
 msgstr "Přiřadit fakturu komu"
 
@@ -7995,7 +7985,7 @@ msgstr "Je vyžadována e-mailová adresa pro odeslání"
 
 #: includes/ZeroBSCRM.AdminPages.php:3225
 #: includes/ZeroBSCRM.MetaBoxes.SubmitBoxes.php:178
-#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:1188
+#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:1200
 #: includes/ZeroBSCRM.MetaBoxes3.Events.php:414
 #: includes/ZeroBSCRM.MetaBoxes3.Forms.php:736
 #: includes/ZeroBSCRM.MetaBoxes3.Invoices.php:889
@@ -8009,7 +7999,7 @@ msgstr "Trvale odstranit"
 msgid "License Key Needed"
 msgstr "Potřebný licenční klíč"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5514
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5209
 msgid "Customise"
 msgstr "Přizpůsobit"
 
@@ -8027,7 +8017,7 @@ msgid "To continue to use CRM extensions you need will need to enter your Jetpac
 msgstr "Chcete-li nadále používat rozšíření CRM, budete muset zadat svůj licenční klíč Jetpack CRM."
 
 #: includes/jpcrm-mail-templating.php:115
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5515
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5210
 #: includes/ZeroBSCRM.InvoiceBuilder.php:437
 #: includes/ZeroBSCRM.InvoiceBuilder.php:949
 #: includes/ZeroBSCRM.InvoiceBuilder.php:3034
@@ -8060,7 +8050,7 @@ msgid "Retrieve License Key"
 msgstr "Získat licenční klíč"
 
 #: includes/jpcrm-mail-templating.php:111
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5516
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5211
 #: includes/ZeroBSCRM.InvoiceBuilder.php:434
 #: includes/ZeroBSCRM.InvoiceBuilder.php:946
 #: includes/ZeroBSCRM.InvoiceBuilder.php:3031
@@ -8094,7 +8084,7 @@ msgid "License Settings"
 msgstr "Nastavení licence"
 
 #: includes/jpcrm-mail-templating.php:111
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5518
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5213
 #: includes/ZeroBSCRM.InvoiceBuilder.php:435
 #: includes/ZeroBSCRM.InvoiceBuilder.php:947
 #: includes/ZeroBSCRM.InvoiceBuilder.php:3032
@@ -8119,7 +8109,7 @@ msgstr "Nemáte přístup k této stránce. "
 msgid "License Key Incorrect"
 msgstr "Nesprávný licenční klíč"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5521
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5216
 #: includes/ZeroBSCRM.ScriptsStyles.php:309
 msgid "Add Row"
 msgstr "Přidat řádek"
@@ -8145,7 +8135,7 @@ msgstr "Zpráva o dokončení migrace"
 msgid "Please update your license key. You can get your license key from your account and enter it in settings."
 msgstr "Aktualizujte prosím svůj licenční klíč. Licenční klíč můžete získat ze svého účtu a zadat jej v nastavení."
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5522
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5217
 #: includes/ZeroBSCRM.ScriptsStyles.php:310
 msgid "Remove Row"
 msgstr "Odebrat řádek"
@@ -8167,7 +8157,7 @@ msgstr "Bohužel došlo k některým chybám při migraci, které jsou uvedeny n
 msgid "Read about license keys"
 msgstr "Přečtěte si o licenčních klíčích"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5524
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5219
 #: includes/ZeroBSCRM.InvoiceBuilder.php:487
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1002
 #: includes/ZeroBSCRM.InvoiceBuilder.php:2350
@@ -8190,7 +8180,7 @@ msgstr "Navštivte prosím stránku podpory migrace"
 msgid "Extension Update Required"
 msgstr "Je vyžadována aktualizace rozšíření"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5526
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5221
 msgid "Tax on shipping"
 msgstr "Daň z dopravy"
 
@@ -8214,12 +8204,12 @@ msgstr "pokud požadujete další informace."
 msgid "You are running extension versions which are not supported. Please enter your license key to enable updates."
 msgstr "Používáte verze rozšíření, které nejsou podporovány. Chcete-li povolit aktualizace, zadejte svůj licenční klíč."
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5528
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5223
 #: includes/ZeroBSCRM.InvoiceBuilder.php:302
 #: includes/ZeroBSCRM.InvoiceBuilder.php:876
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1715
 #: includes/ZeroBSCRM.InvoiceBuilder.php:2130
-#: includes/ZeroBSCRM.Portal.php:1511
+#: includes/ZeroBSCRM.Portal.php:1522
 msgid "No due date"
 msgstr "Žádný termín dokončení"
 
@@ -8243,7 +8233,7 @@ msgstr "Nekritické chyby:"
 msgid "You are running extension versions which are not supported. Please enter a valid license key to enable updates."
 msgstr "Používáte verze rozšíření, které nejsou podporovány. Chcete-li povolit aktualizace, zadejte platný licenční klíč."
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5529
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5224
 msgid "Due on receipt"
 msgstr "Splatné po obdržení"
 
@@ -8267,7 +8257,7 @@ msgstr "Časový limit"
 msgid "Apply"
 msgstr "Aplikovat"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5530
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5225
 msgid "Due in 10 days"
 msgstr "Splatnost za 10 dní"
 
@@ -8291,7 +8281,7 @@ msgstr "Během této migrace vypršel jeden nebo více časových limitů. To zn
 msgid "Clear"
 msgstr "Vyčistit"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5531
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5226
 msgid "Due in 15 days"
 msgstr "Splatnost za 15 dní"
 
@@ -8316,7 +8306,7 @@ msgstr "Migrace V3.0 byla úspěšně dokončena"
 msgid "From"
 msgstr "Od"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5532
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5227
 msgid "Due in 30 days"
 msgstr "Splatnost do 30 dnů"
 
@@ -8341,7 +8331,7 @@ msgstr "Při migraci vaší instalace CRM na v3.0 nedošlo k žádným chybám"
 msgid "To"
 msgstr "Komu"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5533
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5228
 msgid "Due in 45 days"
 msgstr "Splatnost za 45 dní"
 
@@ -8365,7 +8355,7 @@ msgstr "Zobrazit mezipaměť migrace"
 msgid "Custom"
 msgstr "Vlastní"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5534
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5229
 msgid "Due in 60 days"
 msgstr "Splatnost za 60 dní"
 
@@ -8392,7 +8382,7 @@ msgstr "Zpět na Stav systému"
 msgid "Su"
 msgstr "Ne"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5535
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5230
 msgid "Due in 90 days"
 msgstr "Splatnost za 90 dní"
 
@@ -8416,7 +8406,7 @@ msgstr "Ještě jste nemigrovali na verzi 3.0"
 msgid "Mo"
 msgstr "Po"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5538
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5233
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:805
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:807
 msgid "Download PDF"
@@ -8439,7 +8429,7 @@ msgstr "Kontakt"
 msgid "Tu"
 msgstr "Út"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5539
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5234
 msgid "Enter email address or name"
 msgstr "Zadejte e-mailovou adresu"
 
@@ -8464,7 +8454,7 @@ msgstr "Faktura"
 msgid "We"
 msgstr "St"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5540
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5235
 msgid "Edit record"
 msgstr "Upravit záznam"
 
@@ -8510,7 +8500,7 @@ msgstr "Šablona nabídky"
 msgid "Fr"
 msgstr "Pá"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5543
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5238
 msgid "Sub total"
 msgstr "Mezisoučet"
 
@@ -8533,18 +8523,18 @@ msgstr "So"
 
 #: includes/jpcrm-mail-templating.php:111
 #: includes/jpcrm-mail-templating.php:115
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5544
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5239
 #: includes/ZeroBSCRM.InvoiceBuilder.php:518
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1041
 #: includes/ZeroBSCRM.InvoiceBuilder.php:2414
 #: includes/ZeroBSCRM.InvoiceBuilder.php:3063
 #: includes/ZeroBSCRM.InvoiceBuilder.php:3067
-#: includes/ZeroBSCRM.Portal.php:1527 includes/ZeroBSCRM.Portal.php:1545
-#: includes/ZeroBSCRM.Portal.php:1589 includes/ZeroBSCRM.Portal.php:1633
+#: includes/ZeroBSCRM.Portal.php:1538 includes/ZeroBSCRM.Portal.php:1556
+#: includes/ZeroBSCRM.Portal.php:1600 includes/ZeroBSCRM.Portal.php:1644
 #: portal/v1/templates/quotes.php:69 portal/v1/templates/transactions.php:52
 #: portal/v3/templates/quotes.php:112 portal/v3/templates/quotes.php:124
-#: portal/v3/templates/transactions.php:62
-#: portal/v3/templates/transactions.php:96
+#: portal/v3/templates/transactions.php:72
+#: portal/v3/templates/transactions.php:106
 msgid "Total"
 msgstr "Celkem"
 
@@ -8565,7 +8555,7 @@ msgstr "Formulář"
 msgid "January"
 msgstr "leden"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5545
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5240
 msgid "Amount Due"
 msgstr "Splatná částka"
 
@@ -8590,7 +8580,7 @@ msgstr "Migrační mezipaměť"
 msgid "February"
 msgstr "únor"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5546
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5241
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1691
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1937
 #: includes/ZeroBSCRM.InvoiceBuilder.php:2436
@@ -8618,7 +8608,7 @@ msgstr "Opravdu chcete smazat mezipaměť objektů migrace?"
 msgid "March"
 msgstr "březen"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5548
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5243
 msgid "Item Title"
 msgstr "Jméno položky"
 
@@ -8642,7 +8632,7 @@ msgstr "Vymazáním této mezipaměti odstraníte všechny zálohy předchozích
 msgid "April"
 msgstr "duben"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5549
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5244
 msgid "Item Description"
 msgstr "Popis položky"
 
@@ -8662,7 +8652,7 @@ msgstr "(Tím uvolníte místo v databázi a neovlivní to vaše aktuální data
 msgid "May"
 msgstr "květen"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5550
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5245
 msgid "Unnamed"
 msgstr "Nepojmenovaná"
 
@@ -8687,8 +8677,8 @@ msgstr "Vymažte mezipaměť migrace"
 msgid "June"
 msgstr "červen"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5953
-#: includes/ZeroBSCRM.DAL3.Helpers.php:8792
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5648
+#: includes/ZeroBSCRM.DAL3.Helpers.php:8487
 #: includes/ZeroBSCRM.FormatHelpers.php:853
 #: includes/ZeroBSCRM.InvoiceBuilder.php:823
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1753
@@ -8699,7 +8689,7 @@ msgstr "červen"
 #: includes/ZeroBSCRM.List.Columns.php:554
 #: includes/ZeroBSCRM.List.Columns.php:563
 #: includes/ZeroBSCRM.List.Views.php:310
-#: modules/woo-sync/includes/class-woo-sync-background-sync.php:1537
+#: modules/woo-sync/includes/class-woo-sync-background-sync.php:1571
 msgid "Paid"
 msgstr "Zaplaceno"
 
@@ -8804,8 +8794,8 @@ msgstr "Obdrželi jste novou nabídku"
 msgid "Yes, merge them"
 msgstr "Ano, sloučit je"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:491
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:618
+#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:503
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:619
 #: includes/ZeroBSCRM.MetaBoxes3.Events.php:270
 #: includes/ZeroBSCRM.MetaBoxes3.Forms.php:231
 #: includes/ZeroBSCRM.MetaBoxes3.Invoices.php:392
@@ -8835,7 +8825,7 @@ msgstr "Vaše událost brzy začne"
 msgid "Current Columns"
 msgstr "Aktuální sloupce"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:539
+#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:551
 msgid "Email could not be updated. (A record already exists with this email address)."
 msgstr "E-mail se nepodařilo aktualizovat. (Záznam s touto e-mailovou adresou již existuje)."
 
@@ -8860,7 +8850,7 @@ msgstr "Chyba #"
 msgid "Available Columns"
 msgstr "Dostupné sloupce"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:568
+#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:580
 msgid "Associated Contacts"
 msgstr "Přidružené kontakty"
 
@@ -8900,7 +8890,7 @@ msgstr "LinkedIn"
 msgid "Extra Fields"
 msgstr "Extra pole"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:648
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:649
 msgid "Contact Updated"
 msgstr "Kontakt aktualizován"
 
@@ -8916,7 +8906,7 @@ msgstr "Datum vytvoření"
 msgid "Records per page:"
 msgstr "Záznamy na stránku:"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:663
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:664
 msgid "Contact email could not be used. (A contact already exists with this email address)."
 msgstr "Kontaktní e-mail nelze použít. (Kontakt s touto e-mailovou adresou již existuje)."
 
@@ -8932,8 +8922,8 @@ msgstr "Datum poslední aktualizace"
 msgid "Save Options and Close"
 msgstr "Uložit možnosti a zavřít"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1226
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1531
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1227
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1532
 msgid "Other Files"
 msgstr "Další soubory"
 
@@ -8945,8 +8935,8 @@ msgstr "Jetpack CRM zaznamenal chyby při pokusu o vytvoření databázových ta
 msgid "Last Contacted Date"
 msgstr "Datum posledního kontaktu"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1305
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1602
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1306
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1603
 msgid "Not shown on Portal"
 msgstr "Nezobrazuje se na portálu"
 
@@ -8983,7 +8973,7 @@ msgstr "Naposledy zobrazeno"
 msgid "Filters"
 msgstr "Filtry"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1999
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2000
 msgid "Save your contact, or add an email to enable Client Portal functionality"
 msgstr "Uložte svůj kontakt nebo přidejte e-mail pro aktivaci funkce Zákaznického portálu"
 
@@ -9003,7 +8993,7 @@ msgstr "Počet zhlédnutí"
 msgid "Current Filters"
 msgstr "Aktuální filtry"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2160
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2161
 msgid "Social Profiles"
 msgstr "Profily sociálních sítí"
 
@@ -9023,7 +9013,7 @@ msgstr "Datum přijetí"
 msgid "Available Filters"
 msgstr "Dostupné filtry"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2250
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2251
 msgid "Contact Aliases (AKA)"
 msgstr "Kontaktní aliasy (AKA)"
 
@@ -9039,7 +9029,7 @@ msgstr "Datum podpisu"
 msgid "Show all tags"
 msgstr "Zobrazit všechny značky"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2292
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2293
 msgid "You will not be able to add an alias until you've saved this contact"
 msgstr "Dokud tento kontakt neuložíte, nebudete moci přidat alias"
 
@@ -9059,7 +9049,7 @@ msgstr "Podepsáno přes IP"
 msgid "Items"
 msgstr "Položky"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2307
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2308
 msgid "Remove Alias"
 msgstr "Odebrat alias"
 
@@ -9075,7 +9065,7 @@ msgstr "Zdroj"
 msgid "days"
 msgstr "dnů"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2315
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2316
 msgid "Add Alias.. e.g."
 msgstr "Přidat alias, např."
 
@@ -9091,7 +9081,7 @@ msgstr "IP zákazníka"
 msgid "days ago"
 msgstr "dny staré"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2316
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2317
 msgid "Must be a valid email"
 msgstr "Musí to být platný e-mail"
 
@@ -9108,7 +9098,7 @@ msgstr "Exportovat jako soubor .CSV"
 msgid "Not Contacted"
 msgstr "Nekontaktován"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2317
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2318
 msgid "Add Alias"
 msgstr "Přidat alias"
 
@@ -9124,7 +9114,7 @@ msgstr "Exportování polí"
 msgid "Yesterday"
 msgstr "Včera"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2401
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2402
 msgid "This Alias is already in use by another contact."
 msgstr "Tento alias již používá jiný kontakt."
 
@@ -9140,8 +9130,8 @@ msgstr "Zrušit výběr"
 msgid "Filtered By"
 msgstr "Filtrováno podle"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2412
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2428
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2413
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2429
 msgid "There was an error adding this alias"
 msgstr "Při přidávání tohoto aliasu došlo k chybě"
 
@@ -9161,8 +9151,8 @@ msgstr "Označit vše"
 msgid "Not Contacted in"
 msgstr "Datum posledního kontaktu"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2526
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2540
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2527
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2541
 msgid "There was an error removing this alias"
 msgstr "Při odstraňování tohoto aliasu došlo k chybě"
 
@@ -9183,7 +9173,7 @@ msgstr "Žádná pole k exportu"
 msgid "Containing"
 msgstr "Obsahující"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2704
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2705
 msgid "Type to assign "
 msgstr "Napište, co chcete přiřadit "
 
@@ -9199,7 +9189,7 @@ msgstr "Nebyla nalezena žádná pole, která bychom mohli exportovat."
 msgid "Could not update"
 msgstr "Nelze aktualizovat"
 
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2727
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2728
 msgid "You are using Plain Permalinks. Please set your permalinks to %postname% by visiting "
 msgstr "Používáte Plain Permalinks. Trvalé odkazy můžete nastavit na %postname% "
 
@@ -9318,7 +9308,7 @@ msgstr "Zahájeno"
 msgid "Quote Templates save you time. You can enter placeholders so that when you generate a new Quote using the template the customer fields are automatically populated."
 msgstr "Šablony nabídek vám ušetří čas. Můžete zadat zástupné symboly, takže při generování nové nabídky pomocí šablony se pole zákazníka automaticky vyplní."
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5503
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5198
 msgid "Generated on save"
 msgstr "Vygenerováno při uložení"
 
@@ -9330,7 +9320,7 @@ msgstr "Vaše kontaktní údaje potřebují aktualizaci, aby fungovaly s novými
 msgid "Remind CRM member 24 hours before"
 msgstr "Připomeňte členovi CRM 24 hodin předem"
 
-#: includes/ZeroBSCRM.Portal.php:791
+#: includes/ZeroBSCRM.Portal.php:802
 msgid "Log out"
 msgstr "Odhlásit se"
 
@@ -9342,7 +9332,7 @@ msgstr "Prohlédnout soubor"
 msgid "Get"
 msgstr "Získat"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5504
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5199
 msgid "Set up your reference type here"
 msgstr "Zde nastavte typ reference"
 
@@ -9354,7 +9344,7 @@ msgstr "Odstranit kontakty"
 msgid "Linked to Online Calendar (will always show on CRM Calendar)"
 msgstr "Propojeno s online kalendářem (vždy se zobrazí v kalendáři CRM)"
 
-#: includes/ZeroBSCRM.Portal.php:1751
+#: includes/ZeroBSCRM.Portal.php:1762
 msgid "Accept Quote?"
 msgstr "Přijmout nabídku?"
 
@@ -9364,8 +9354,8 @@ msgstr "Přijmout nabídku?"
 #: includes/ZeroBSCRM.List.Columns.php:390
 #: includes/ZeroBSCRM.List.Columns.php:398 portal/v1/templates/quotes.php:68
 #: portal/v1/templates/transactions.php:51 portal/v3/templates/quotes.php:111
-#: portal/v3/templates/quotes.php:123 portal/v3/templates/transactions.php:61
-#: portal/v3/templates/transactions.php:95
+#: portal/v3/templates/quotes.php:123 portal/v3/templates/transactions.php:71
+#: portal/v3/templates/transactions.php:105
 msgid "Title"
 msgstr "Název"
 
@@ -9377,7 +9367,7 @@ msgstr "Výsledky"
 msgid "Here is your CRM team. You can see what Role your team members have and see when they were last active."
 msgstr "Zde je váš CRM tým. Můžete vidět, jakou roli mají členové vašeho týmu a kdy byli naposledy aktivní."
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5505
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5200
 msgid "Next reference expected"
 msgstr "Očekává se další reference"
 
@@ -9389,15 +9379,15 @@ msgstr "Sloučení kontaktů"
 msgid "Show on Calendar"
 msgstr "Zobrazit v kalendáři"
 
-#: includes/ZeroBSCRM.Portal.php:1753
+#: includes/ZeroBSCRM.Portal.php:1764
 msgid "Accept"
 msgstr "Příjmout"
 
 #: includes/jpcrm-mail-templating.php:111
 #: includes/jpcrm-mail-templating.php:115
 #: includes/ZeroBSCRM.AdminPages.php:823
-#: includes/ZeroBSCRM.Config.Init.php:509
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5517
+#: includes/ZeroBSCRM.Config.Init.php:511
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5212
 #: includes/ZeroBSCRM.InvoiceBuilder.php:431
 #: includes/ZeroBSCRM.InvoiceBuilder.php:3028
 #: includes/ZeroBSCRM.InvoiceBuilder.php:3043
@@ -9416,7 +9406,7 @@ msgstr "Nástroje správce"
 msgid "View Invoice"
 msgstr "Zobrazit fakturu"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5542
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5237
 msgid "Rates"
 msgstr "Sazby"
 
@@ -9428,7 +9418,7 @@ msgstr "Exportovat kontakt(y)"
 msgid "Show on Client Portal (if assigned to contact)"
 msgstr "Zobrazit na klientském portálu (pokud je přiřazen ke kontaktu)"
 
-#: includes/ZeroBSCRM.Portal.php:1772
+#: includes/ZeroBSCRM.Portal.php:1783
 msgid "Proposals Powered by"
 msgstr "Návrhy Běží na"
 
@@ -9444,7 +9434,7 @@ msgstr "Znovu vytvořte uživatelské role"
 msgid "Here is your Invoice List. It shows you all your invoices in one place and you can manage the status, download PDF versions and keep everything in one place"
 msgstr "Zde je váš seznam faktur. Zobrazuje vám všechny faktury na jednom místě a můžete spravovat stav, stahovat verze PDF a mít vše na jednom místě"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5551
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5246
 msgid "No email"
 msgstr "Žádný e-mail"
 
@@ -9456,7 +9446,7 @@ msgstr "Stavy aktualizovány"
 msgid "Task Description..."
 msgstr "Popis úkolu..."
 
-#: includes/ZeroBSCRM.Portal.php:1415
+#: includes/ZeroBSCRM.Portal.php:1426
 msgid "Please Note: You are using PLAIN permalinks. Please switch to %postname% for the proper Client Portal experience (WordPress Settings->Permalinks). Some features may not work in plain permalink mode. This Permalink mode is not recommended for production installations."
 msgstr "Poznámka: Používáte PLAIN trvalé odkazy. Pro správnou zkušenost s klientským portálem přepněte na %postname% (Nastavení WordPress-&gt;Trvalé odkazy). Některé funkce nemusí fungovat v režimu prostého trvalého odkazu. Tento režim trvalého odkazu se nedoporučuje pro produkční instalace."
 
@@ -9468,7 +9458,7 @@ msgstr "Ne"
 msgid "v3 Migration Logs"
 msgstr "Protokoly migrace v3"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5560
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5255
 msgid "Email Invoice"
 msgstr "E-mailová faktura"
 
@@ -9481,7 +9471,7 @@ msgstr "Stavy nelze aktualizovat!"
 msgid "External Source"
 msgstr "Externí zdroj"
 
-#: includes/ZeroBSCRM.Portal.php:1524 portal/v3/templates/quotes.php:109
+#: includes/ZeroBSCRM.Portal.php:1535 portal/v3/templates/quotes.php:109
 msgid "(view)"
 msgstr "(zobrazit)"
 
@@ -9489,13 +9479,13 @@ msgstr "(zobrazit)"
 msgid "Yes"
 msgstr "Ano"
 
-#: admin/contact/view.page.php:1197
-#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:886
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1642
+#: admin/contact/view.page.php:1201
+#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:898
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1643
 msgid "Unable to delete this file."
 msgstr "Tento soubor nelze smazat."
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5561
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5256
 msgid "Send this invoice via email:"
 msgstr "Zašlete tuto fakturu e-mailem:"
 
@@ -9507,9 +9497,9 @@ msgstr "Mám také odstranit související faktury, nabídky, transakce a událo
 msgid "%s added manually."
 msgstr "přidán ručně."
 
-#: includes/ZeroBSCRM.Portal.php:1554 includes/ZeroBSCRM.Portal.php:1558
-#: includes/ZeroBSCRM.Portal.php:1562 includes/ZeroBSCRM.Portal.php:1643
-#: includes/ZeroBSCRM.Portal.php:1646
+#: includes/ZeroBSCRM.Portal.php:1565 includes/ZeroBSCRM.Portal.php:1569
+#: includes/ZeroBSCRM.Portal.php:1573 includes/ZeroBSCRM.Portal.php:1654
+#: includes/ZeroBSCRM.Portal.php:1657
 msgid "You do not have any invoices yet."
 msgstr "Ještě nemáte žádné faktury."
 
@@ -9517,13 +9507,13 @@ msgstr "Ještě nemáte žádné faktury."
 msgid "Upgrade to a Bundle"
 msgstr "Upgradujte na balíček"
 
-#: admin/contact/view.page.php:184
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1064
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1131
+#: admin/contact/view.page.php:188
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1065
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1132
 msgid "Contact Actions"
 msgstr "Akce kontaktu"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5563
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5258
 msgid "e.g. mike@gmail.com"
 msgstr "např. mike@gmail.com"
 
@@ -9535,7 +9525,7 @@ msgstr "Vaše kontakty byly smazány."
 msgid "Form Embedding"
 msgstr "Vložení formuláře"
 
-#: includes/ZeroBSCRM.Portal.php:1586 includes/ZeroBSCRM.Portal.php:1630
+#: includes/ZeroBSCRM.Portal.php:1597 includes/ZeroBSCRM.Portal.php:1641
 #: portal/v1/templates/quotes.php:66 portal/v3/templates/quotes.php:109
 #: portal/v3/templates/quotes.php:121
 msgid "#"
@@ -9545,11 +9535,11 @@ msgstr "#"
 msgid "(and get Client Portal Pro) to enable this"
 msgstr "(a získejte Client Portal Pro), abyste to umožnili"
 
-#: admin/company/view.page.php:206 admin/contact/view.page.php:263
+#: admin/company/view.page.php:210 admin/contact/view.page.php:267
 msgid "Vitals"
 msgstr "Vitals"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5567
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5262
 msgid "To send an email, this invoice needs to be assigned to a contact or company with a valid email address"
 msgstr "Chcete-li odeslat e-mail, tato faktura musí být přiřazena kontaktu nebo společnosti s platnou e-mailovou adresou"
 
@@ -9561,7 +9551,7 @@ msgstr "Vaše kontakty nelze odstranit."
 msgid "Want More Fields?"
 msgstr "Chcete více polí?"
 
-#: includes/ZeroBSCRM.Portal.php:1630 portal/v1/templates/quotes.php:95
+#: includes/ZeroBSCRM.Portal.php:1641 portal/v1/templates/quotes.php:95
 msgid " (view)"
 msgstr " (zobrazit)"
 
@@ -9569,7 +9559,7 @@ msgstr " (zobrazit)"
 msgid "Assign to Custom File Upload Box"
 msgstr "Přiřadit do pole pro nahrávání vlastního souboru"
 
-#: admin/contact/view.page.php:267
+#: admin/contact/view.page.php:271
 msgid "Social"
 msgstr "Sociální sítě"
 
@@ -9577,7 +9567,7 @@ msgstr "Sociální sítě"
 msgid "Keep track of important "
 msgstr "Sledujte důležité "
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5569
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5264
 msgid "Invoice Sent"
 msgstr "Faktury odeslané"
 
@@ -9599,7 +9589,7 @@ msgstr "Boxy"
 msgid "Current file"
 msgstr "Současný soubor"
 
-#: admin/company/view.page.php:217 admin/contact/view.page.php:274
+#: admin/company/view.page.php:221 admin/contact/view.page.php:278
 msgid "Untitled Tab"
 msgstr "Tab bez názvu"
 
@@ -9607,7 +9597,7 @@ msgstr "Tab bez názvu"
 msgid "Editing a Compay in your CRM. When editing a "
 msgstr "Úprava společnosti ve vašem CRM. Při úpravě a"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5570
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5265
 msgid "Your Invoice has been sent by Email"
 msgstr "Vaše faktura byla odeslána e-mailem"
 
@@ -9630,14 +9620,14 @@ msgstr "Hlavní sloupec"
 msgid "Save details"
 msgstr "Uložte podrobnosti"
 
-#: admin/company/view.page.php:244 admin/contact/view.page.php:300
+#: admin/company/view.page.php:248 admin/contact/view.page.php:304
 #: includes/ZeroBSCRM.List.Columns.php:52
 #: includes/ZeroBSCRM.List.Columns.php:76
 #: includes/ZeroBSCRM.List.Columns.php:152
 msgid "Total Value"
 msgstr "Celková hodnota"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5572
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5267
 msgid "There was an error sending this invoice via email."
 msgstr "Při odesílání této faktury e-mailem došlo k chybě."
 
@@ -9661,11 +9651,11 @@ msgstr "Strana"
 msgid "Previous"
 msgstr "Předchozí"
 
-#: admin/company/view.page.php:244 admin/contact/view.page.php:300
+#: admin/company/view.page.php:248 admin/contact/view.page.php:304
 msgid "Total Value is all transaction types and any unpaid invoices"
 msgstr "Celková hodnota je všechny typy transakcí a všechny nezaplacené faktury"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:8793
+#: includes/ZeroBSCRM.DAL3.Helpers.php:8488
 #: includes/ZeroBSCRM.FormatHelpers.php:856
 #: includes/ZeroBSCRM.List.Columns.php:555
 #: includes/ZeroBSCRM.List.Columns.php:564
@@ -9691,11 +9681,11 @@ msgstr "Sloupce tabulky dokumentů"
 msgid "First"
 msgstr "Za prvé"
 
-#: admin/company/view.page.php:250 admin/contact/view.page.php:306
+#: admin/company/view.page.php:254 admin/contact/view.page.php:310
 msgid "Quotes: This shows the total sum of your quotes & count."
 msgstr "Citace: Zde je uveden celkový součet vašich nabídek a počtu."
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:9325
+#: includes/ZeroBSCRM.DAL3.Helpers.php:9020
 msgid "Web Design: Example"
 msgstr "Web Design: Příklad"
 
@@ -9716,21 +9706,21 @@ msgstr "Tabulka transakcí"
 msgid "previous"
 msgstr "předchozí"
 
-#: admin/company/view.page.php:262 admin/contact/view.page.php:318
+#: admin/company/view.page.php:266 admin/contact/view.page.php:322
 msgid "Invoices: This shows the total sum of your invoices & count."
 msgstr "Faktury: Zobrazuje celkový součet vašich faktur a počet."
 
-#: includes/ZeroBSCRM.DAL3.Obj.Companies.php:2436
-#: includes/ZeroBSCRM.DAL3.Obj.Contacts.php:2845
+#: includes/ZeroBSCRM.DAL3.Obj.Companies.php:2409
+#: includes/ZeroBSCRM.DAL3.Obj.Contacts.php:2819
 #: includes/ZeroBSCRM.DAL3.Obj.EventReminders.php:714
-#: includes/ZeroBSCRM.DAL3.Obj.Events.php:1460
+#: includes/ZeroBSCRM.DAL3.Obj.Events.php:1434
 #: includes/ZeroBSCRM.DAL3.Obj.Forms.php:1166
-#: includes/ZeroBSCRM.DAL3.Obj.Invoices.php:1778
+#: includes/ZeroBSCRM.DAL3.Obj.Invoices.php:1751
 #: includes/ZeroBSCRM.DAL3.Obj.LineItems.php:868
 #: includes/ZeroBSCRM.DAL3.Obj.Logs.php:630
-#: includes/ZeroBSCRM.DAL3.Obj.Quotes.php:1587
+#: includes/ZeroBSCRM.DAL3.Obj.Quotes.php:1560
 #: includes/ZeroBSCRM.DAL3.Obj.QuoteTemplates.php:858
-#: includes/ZeroBSCRM.DAL3.Obj.Transactions.php:1834
+#: includes/ZeroBSCRM.DAL3.Obj.Transactions.php:1807
 msgid "DB Update Failed"
 msgstr "Aktualizace selhala"
 
@@ -9751,21 +9741,21 @@ msgstr "Rozvržení stránky"
 msgid "next"
 msgstr "další"
 
-#: admin/company/view.page.php:273 admin/contact/view.page.php:330
+#: admin/company/view.page.php:277 admin/contact/view.page.php:334
 msgid "Transactions Total & count: This shows the sum of your succeeded transactions (set in settings)"
 msgstr "Celkem a počet transakcí: Zobrazuje součet vašich úspěšných transakcí (nastavených v nastavení)"
 
-#: includes/ZeroBSCRM.DAL3.Obj.Companies.php:2635
-#: includes/ZeroBSCRM.DAL3.Obj.Contacts.php:3095
+#: includes/ZeroBSCRM.DAL3.Obj.Companies.php:2581
+#: includes/ZeroBSCRM.DAL3.Obj.Contacts.php:3042
 #: includes/ZeroBSCRM.DAL3.Obj.EventReminders.php:737
-#: includes/ZeroBSCRM.DAL3.Obj.Events.php:1651
+#: includes/ZeroBSCRM.DAL3.Obj.Events.php:1599
 #: includes/ZeroBSCRM.DAL3.Obj.Forms.php:1244
-#: includes/ZeroBSCRM.DAL3.Obj.Invoices.php:1960
+#: includes/ZeroBSCRM.DAL3.Obj.Invoices.php:1906
 #: includes/ZeroBSCRM.DAL3.Obj.LineItems.php:936
 #: includes/ZeroBSCRM.DAL3.Obj.Logs.php:684
-#: includes/ZeroBSCRM.DAL3.Obj.Quotes.php:1773
+#: includes/ZeroBSCRM.DAL3.Obj.Quotes.php:1719
 #: includes/ZeroBSCRM.DAL3.Obj.QuoteTemplates.php:952
-#: includes/ZeroBSCRM.DAL3.Obj.Transactions.php:2029
+#: includes/ZeroBSCRM.DAL3.Obj.Transactions.php:1975
 msgid "DB Insert Failed"
 msgstr "Vložení DB se nezdařilo"
 
@@ -9788,12 +9778,12 @@ msgstr "Neodeslané"
 msgid "Last"
 msgstr "Poslední"
 
-#: admin/company/view.page.php:366 admin/contact/view.page.php:341
+#: admin/company/view.page.php:370 admin/contact/view.page.php:345
 #: includes/ZeroBSCRM.CustomerFilters.php:684
 msgid "Source"
 msgstr "Zdroj"
 
-#: includes/ZeroBSCRM.DAL3.Obj.Companies.php:3322
+#: includes/ZeroBSCRM.DAL3.Obj.Companies.php:3268
 msgid "View all contacts at company"
 msgstr "Zobrazit všechny kontakty ve společnosti"
 
@@ -9816,12 +9806,12 @@ msgstr "Odeslat výpis na e-mail:"
 msgid "Sales Funnel"
 msgstr "Prodejní cesta"
 
-#: admin/company/view.page.php:377 admin/contact/view.page.php:352
+#: admin/company/view.page.php:381 admin/contact/view.page.php:356
 msgid "Manually Added"
 msgstr "Ručně přidáno"
 
-#: includes/ZeroBSCRM.DAL3.Obj.Contacts.php:2632
-#: includes/ZeroBSCRM.DAL3.Obj.Contacts.php:2962
+#: includes/ZeroBSCRM.DAL3.Obj.Contacts.php:2606
+#: includes/ZeroBSCRM.DAL3.Obj.Contacts.php:2909
 msgid "Could not add alias (unavailable or invalid):"
 msgstr "Alias nelze přidat (nedostupný nebo neplatný):"
 
@@ -9844,12 +9834,12 @@ msgstr "Zadejte e-mailovou adresu."
 msgid "Revenue Chart"
 msgstr "Graf tržeb"
 
-#: admin/contact/view.page.php:373
+#: admin/contact/view.page.php:377
 msgid "No "
 msgstr "Ne "
 
-#: includes/ZeroBSCRM.DAL3.Obj.Invoices.php:2764
-#: modules/givewp/class-jpcrm-givewp.php:102
+#: includes/ZeroBSCRM.DAL3.Obj.Invoices.php:2710
+#: modules/givewp/class-jpcrm-givewp.php:104
 msgid "Sale"
 msgstr "Sleva"
 
@@ -9865,7 +9855,7 @@ msgstr "Uzamčeno"
 msgid "Statement was successfully sent"
 msgstr "Výpis byl úspěšně odeslán"
 
-#: admin/settings/custom-fields.page.php:385
+#: admin/settings/custom-fields.page.php:387
 msgid "Looking for default fields & statuses?"
 msgstr "Hledáte výchozí pole a stavy?"
 
@@ -9873,7 +9863,7 @@ msgstr "Hledáte výchozí pole a stavy?"
 msgid "Attempting to connect to mail server..."
 msgstr "Pokus o připojení k poštovnímu serveru..."
 
-#: admin/settings/custom-fields.page.php:385
+#: admin/settings/custom-fields.page.php:387
 msgid "Click here for Field Options"
 msgstr "Klepnutím sem zobrazíte možnosti pole"
 
@@ -9885,10 +9875,10 @@ msgstr "Klepnutím sem zobrazíte možnosti pole"
 msgid "Finish"
 msgstr "Dokončit"
 
-#: admin/settings/custom-fields.page.php:399
+#: admin/settings/custom-fields.page.php:401
 #: admin/settings/field-options.page.php:390
 #: admin/settings/field-sorts.page.php:205
-#: includes/jpcrm-templating-placeholders.php:1153
+#: includes/jpcrm-templating-placeholders.php:1162
 msgid "Custom Field"
 msgstr "Uživatelská pole"
 
@@ -9896,8 +9886,8 @@ msgstr "Uživatelská pole"
 msgid "Local Machine?"
 msgstr "Místní stroj?"
 
-#: admin/settings/custom-fields.page.php:400
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5509
+#: admin/settings/custom-fields.page.php:402
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5204
 msgid "Remove"
 msgstr "Odebrat"
 
@@ -9905,7 +9895,7 @@ msgstr "Odebrat"
 msgid "It appears you are running Jetpack CRM locally, this may cause SMTP delivery methods to behave unexpectedly.<br />(e.g. your computer may block outgoing SMTP traffic via firewall or anti-virus software).<br />Jetpack CRM may require external web hosting to properly send via SMTP."
 msgstr "Zdá se, že používáte Jetpack CRM lokálně, to může způsobit neočekávané chování metod doručování SMTP.<br /> (např. váš počítač může blokovat odchozí provoz SMTP přes bránu firewall nebo antivirový software).<br /> Jetpack CRM může vyžadovat externí webhosting pro správné odeslání přes SMTP."
 
-#: admin/settings/custom-fields.page.php:401
+#: admin/settings/custom-fields.page.php:403
 #: admin/system/placeholder-map.page.php:41
 msgid "Telephone"
 msgstr "Telefon"
@@ -9914,7 +9904,7 @@ msgstr "Telefon"
 msgid "Please enter a value"
 msgstr "Zadejte prosím platnou hodnotu."
 
-#: admin/settings/custom-fields.page.php:402
+#: admin/settings/custom-fields.page.php:404
 msgid "Numeric (Decimals)"
 msgstr "Číselné (desítkové)"
 
@@ -9922,7 +9912,7 @@ msgstr "Číselné (desítkové)"
 msgid "Please enter a valid email address"
 msgstr "Zadejte platnou e-mailovou adresu"
 
-#: admin/settings/custom-fields.page.php:403
+#: admin/settings/custom-fields.page.php:405
 msgid "Numeric"
 msgstr "Číselné"
 
@@ -9930,7 +9920,7 @@ msgstr "Číselné"
 msgid "Thank you"
 msgstr "Díky"
 
-#: admin/settings/custom-fields.page.php:404
+#: admin/settings/custom-fields.page.php:406
 msgid "Placeholder"
 msgstr "Zástupný symbol"
 
@@ -9938,11 +9928,11 @@ msgstr "Zástupný symbol"
 msgid "Your Email Delivery option has been validated. A test email has been sent via wp_mail, the default WordPress mail provider, to: "
 msgstr "Možnost doručení e-mailu byla ověřena. Prostřednictvím wp_mail, výchozího poskytovatele pošty WordPress, byl odeslán zkušební e-mail na adresu: "
 
-#: admin/settings/custom-fields.page.php:405
+#: admin/settings/custom-fields.page.php:407
 msgid "CSV of Options (e.g. 'a,b,c')"
 msgstr "CSV možností (např. 'a,b,c')"
 
-#: admin/settings/custom-fields.page.php:406
+#: admin/settings/custom-fields.page.php:408
 msgid "Field Name"
 msgstr "Jméno pole"
 
@@ -9950,7 +9940,7 @@ msgstr "Jméno pole"
 msgid "Probing your mail server (this may take a few seconds)..."
 msgstr "Testování vašeho poštovního serveru (může to trvat několik sekund)..."
 
-#: admin/settings/custom-fields.page.php:407
+#: admin/settings/custom-fields.page.php:409
 msgid "Field Placeholder Text"
 msgstr "Pole zástupný text"
 
@@ -9958,7 +9948,7 @@ msgstr "Pole zástupný text"
 msgid "Checking Ports are Open (this may take a few seconds)..."
 msgstr "Kontrola otevřených portů (může to trvat několik sekund)..."
 
-#: admin/settings/custom-fields.page.php:408
+#: admin/settings/custom-fields.page.php:410
 msgid "File Box Name"
 msgstr "Název pole souboru"
 
@@ -9966,7 +9956,7 @@ msgstr "Název pole souboru"
 msgid "Attempting to send test email..."
 msgstr "Pokus o odeslání zkušebního e-mailu..."
 
-#: admin/settings/custom-fields.page.php:409
+#: admin/settings/custom-fields.page.php:411
 #: admin/settings/mail-delivery.page.php:328 portal/v1/templates/login.php:63
 #: portal/v3/templates/login.php:41
 msgid "Password"
@@ -9976,15 +9966,15 @@ msgstr "Heslo"
 msgid "Test email sent..."
 msgstr "Zkušební e-mail odeslán..."
 
-#: admin/settings/custom-fields.page.php:410
+#: admin/settings/custom-fields.page.php:412
 msgid "Encrypted Text"
 msgstr "Šifrovaný text"
 
-#: admin/settings/custom-fields.page.php:411
+#: admin/settings/custom-fields.page.php:413
 msgid "Radio Buttons"
 msgstr "Přepínací tlačítka"
 
-#: admin/settings/custom-fields.page.php:412
+#: admin/settings/custom-fields.page.php:414
 #: admin/settings/invoicing.page.php:184
 msgid "Prefix"
 msgstr "Oslovení"
@@ -9993,7 +9983,7 @@ msgstr "Oslovení"
 msgid "Your Email Delivery option has been validated. A test email has been sent via SMTP to the address below. Please check you received this email to ensure a complete test."
 msgstr "Vaše možnost doručení e-mailu byla ověřena. Testovací e-mail byl odeslán prostřednictvím SMTP na níže uvedenou adresu. Zkontrolujte, zda jste obdrželi tento e-mail, abyste zajistili úplný test."
 
-#: admin/settings/custom-fields.page.php:413
+#: admin/settings/custom-fields.page.php:415
 msgid "Next Number"
 msgstr "Další číslo"
 
@@ -10001,7 +9991,7 @@ msgstr "Další číslo"
 msgid "debug output"
 msgstr "výstup ladění"
 
-#: admin/settings/custom-fields.page.php:414
+#: admin/settings/custom-fields.page.php:416
 #: admin/settings/invoicing.page.php:198
 msgid "Suffix"
 msgstr "Přípona"
@@ -10010,19 +10000,19 @@ msgstr "Přípona"
 msgid "click to view"
 msgstr "Pro zobrazení klikněte"
 
-#: admin/settings/custom-fields.page.php:415
+#: admin/settings/custom-fields.page.php:417
 msgid "(e.g. ABC-)"
 msgstr "(např. ABC-)"
 
-#: admin/settings/custom-fields.page.php:416
+#: admin/settings/custom-fields.page.php:418
 msgid "(e.g. 1)"
 msgstr "(např. 1)"
 
-#: admin/settings/custom-fields.page.php:417
+#: admin/settings/custom-fields.page.php:419
 msgid "(e.g. -FINI)"
 msgstr "(např. -FINI)"
 
-#: admin/settings/custom-fields.page.php:418
+#: admin/settings/custom-fields.page.php:420
 msgid "Field Type:"
 msgstr "Typ položky:"
 
@@ -10030,7 +10020,7 @@ msgstr "Typ položky:"
 msgid "Send a test email from"
 msgstr "Odeslat zkušební e-mail"
 
-#: admin/settings/custom-fields.page.php:419
+#: admin/settings/custom-fields.page.php:421
 msgid "Autonumber Format"
 msgstr "Formát automatického číslování"
 
@@ -10038,7 +10028,7 @@ msgstr "Formát automatického číslování"
 msgid "Send test"
 msgstr "Odeslat test"
 
-#: admin/settings/custom-fields.page.php:420
+#: admin/settings/custom-fields.page.php:422
 msgid "Autonumber Guide"
 msgstr "Průvodce automatickým číslem"
 
@@ -10083,7 +10073,7 @@ msgid "Overwrite Option"
 msgstr "Možnost přepsání"
 
 #: admin/settings/mail-delivery.page.php:436
-#: admin/settings/mail-delivery.page.php:445 admin/settings/tax.page.php:201
+#: admin/settings/mail-delivery.page.php:445 admin/settings/tax.page.php:200
 #: includes/ZeroBSCRM.Delete.php:381 includes/ZeroBSCRM.List.php:57
 #: includes/ZeroBSCRM.MetaBoxes3.TagManager.php:169
 msgid "Are you sure?"
@@ -10313,7 +10303,14 @@ msgstr "reCaptcha tajný klíč"
 msgid "Email Unsubscribe Line"
 msgstr "Řádek zrušení odběru"
 
+#: admin/company/view.page.php:25 admin/contact/view.page.php:27
 #: admin/settings/general.page.php:63
+#: includes/jpcrm-templating-placeholders.php:1087
+#: includes/ZeroBSCRM.DAL3.ObjectLayer.php:470
+#: includes/ZeroBSCRM.List.Columns.php:809
+#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:144
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:217
+#: portal/v3/templates/details.php:99
 msgid "Second Address"
 msgstr "Druhá adresa"
 
@@ -10330,7 +10327,7 @@ msgstr "Stránka pro odhlášení odběru"
 #: includes/ZeroBSCRM.Core.Menus.Top.php:264
 #: includes/ZeroBSCRM.Core.Menus.Top.php:584
 #: includes/ZeroBSCRM.Core.Menus.Top.php:712
-#: includes/ZeroBSCRM.Core.Menus.WP.php:764 includes/ZeroBSCRM.Core.php:1450
+#: includes/ZeroBSCRM.Core.Menus.WP.php:764 includes/ZeroBSCRM.Core.php:1451
 msgid "Extensions"
 msgstr "Rozšíření"
 
@@ -10404,7 +10401,7 @@ msgid "Jetpack CRM could not find a published WordPress page associated with Uns
 msgstr "Jetpack CRM nemohl najít publikovanou stránku WordPress spojenou s odhlášeními. Chcete-li nadále používat poštovní funkce Jetpack CRM, znovu vytvořte tuto stránku."
 
 #: admin/settings/general.page.php:222 includes/ZeroBSCRM.AdminPages.php:3223
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5557
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5252
 msgid "or"
 msgstr "nebo"
 
@@ -10429,7 +10426,7 @@ msgid "Setup Mail Delivery"
 msgstr "Nastavení doručování pošty"
 
 #: admin/settings/general.page.php:223 admin/system/system-status.page.php:32
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2727
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2728
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:338
 msgid "here"
 msgstr "zde"
@@ -10463,7 +10460,7 @@ msgstr "Pro přístup k této stránce nemáte dostatečná oprávnění."
 msgid "General Settings"
 msgstr "Obecné nastavení"
 
-#: admin/company/view.page.php:879 admin/contact/view.page.php:1223
+#: admin/company/view.page.php:883 admin/contact/view.page.php:1227
 #: admin/settings/main.page.php:43 admin/settings/main.page.php:47
 #: admin/settings/partials/menu.block.php:21
 #: includes/ZeroBSCRM.DAL3.Export.php:729
@@ -10495,7 +10492,7 @@ msgstr "Vyberte, jak chcete formát měny zobrazovat"
 #: includes/ZeroBSCRM.Core.Extensions.php:1069
 #: includes/ZeroBSCRM.Core.Extensions.php:1141
 #: includes/ZeroBSCRM.GeneralFuncs.php:1081
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1868
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1869
 msgid "Client Portal"
 msgstr "Klientský portál"
 
@@ -10503,8 +10500,8 @@ msgstr "Klientský portál"
 msgid "Symbol position: "
 msgstr "Umístění symbolu: "
 
-#: admin/company/view.page.php:273 admin/company/view.page.php:430
-#: admin/contact/view.page.php:330 admin/contact/view.page.php:555
+#: admin/company/view.page.php:277 admin/company/view.page.php:434
+#: admin/contact/view.page.php:334 admin/contact/view.page.php:559
 #: admin/settings/main.page.php:71 admin/settings/partials/menu.block.php:79
 #: includes/ZeroBSCRM.AdminPages.php:628
 #: includes/ZeroBSCRM.AdminPages.php:2035
@@ -10516,9 +10513,9 @@ msgstr "Umístění symbolu: "
 #: includes/ZeroBSCRM.Core.Menus.WP.php:186
 #: includes/ZeroBSCRM.Core.Menus.WP.php:527 includes/ZeroBSCRM.List.php:1058
 #: includes/ZeroBSCRM.List.Views.php:344
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:448
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:232
 #: modules/woo-sync/includes/class-woo-sync-woo-admin-integration.php:248
-#: portal/v3/templates/transactions.php:53
+#: portal/v3/templates/transactions.php:63
 msgid "Transactions"
 msgstr "Transakce"
 
@@ -10628,7 +10625,7 @@ msgid "Allow editing of a \"second address\" against a customer"
 msgstr "Povolit úpravu \"druhé adresy\" vůči zákazníkovi"
 
 #: admin/settings/partials/menu.block.php:26
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5520
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5215
 #: includes/ZeroBSCRM.InvoiceBuilder.php:509
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1030
 #: includes/ZeroBSCRM.InvoiceBuilder.php:2388
@@ -10707,15 +10704,15 @@ msgstr "Hledáte snadno dostupné odkazy na nabídky? Nyní můžete zapnout odk
 msgid "Allow users to assign contacts to another CRM user"
 msgstr "Povolit uživatelům přiřadit kontakty jinému uživateli CRM"
 
-#: admin/settings/tax.page.php:79
-msgid "On this page you can set up different tax rates to use throughout your CRM (e.g. in Transactions)."
+#: admin/settings/tax.page.php:80
+msgid "On this page you can set up different tax rates to use throughout your CRM (e.g. in invoices)."
 msgstr "Na této stránce můžete nastavit různé daňové sazby pro použití v celém CRM (např. v Transakcích)."
 
 #: admin/settings/general.page.php:285
 msgid "Task Scheduler Ownership"
 msgstr "Vlastnictví plánovače úloh"
 
-#: admin/settings/tax.page.php:97
+#: admin/settings/tax.page.php:98
 msgid "Add Rate"
 msgstr "Přidat sazbu"
 
@@ -10723,12 +10720,12 @@ msgstr "Přidat sazbu"
 msgid "Show only scheduled tasks owned by a user (Admin sees all)."
 msgstr "Zobrazit pouze naplánované úlohy vlastněné uživatelem (administrátor vidí vše)."
 
-#: admin/settings/tax.page.php:97
+#: admin/settings/tax.page.php:98
 msgid "Tax Rates"
 msgstr "Daňová sazba"
 
-#: admin/settings/tax.page.php:101 includes/ZeroBSCRM.Config.Init.php:455
-#: includes/ZeroBSCRM.Config.Init.php:508
+#: admin/settings/tax.page.php:102 includes/ZeroBSCRM.Config.Init.php:457
+#: includes/ZeroBSCRM.Config.Init.php:510
 #: includes/ZeroBSCRM.DAL3.Export.php:772
 #: includes/ZeroBSCRM.List.Columns.php:59
 #: includes/ZeroBSCRM.List.Columns.php:122
@@ -10743,8 +10740,8 @@ msgstr "Daňová sazba"
 msgid "Name"
 msgstr "Jméno"
 
-#: admin/settings/tax.page.php:102 includes/jpcrm-mail-templating.php:115
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5519
+#: admin/settings/tax.page.php:103 includes/jpcrm-mail-templating.php:115
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5214
 #: includes/ZeroBSCRM.InvoiceBuilder.php:438
 #: includes/ZeroBSCRM.InvoiceBuilder.php:950
 #: includes/ZeroBSCRM.InvoiceBuilder.php:3035
@@ -10757,7 +10754,7 @@ msgstr "Sazba"
 msgid "Quote Number Offset"
 msgstr "Posun čísla nabídky"
 
-#: admin/settings/tax.page.php:124
+#: admin/settings/tax.page.php:123
 msgid "No Tax Rates"
 msgstr "Žádné daňové sazby"
 
@@ -10773,7 +10770,7 @@ msgstr "V současné době bude vystaveno další číslo nabídky"
 msgid "Invoice Number Offset"
 msgstr "Posun čísla faktury"
 
-#: admin/settings/tax.page.php:152
+#: admin/settings/tax.page.php:151
 msgid "Tax Rate Name"
 msgstr "Název daňové sazby"
 
@@ -10781,7 +10778,7 @@ msgstr "Název daňové sazby"
 msgid "Setting this value will offset your invoice numbers. E.g. adding 1000 here will make a invoice number 1000+its actual number"
 msgstr "Nastavením této hodnoty se vyrovnají čísla faktur. Např. přidáním 1000 zde bude číslo faktury 1000+její skutečné číslo"
 
-#: admin/settings/tax.page.php:153
+#: admin/settings/tax.page.php:152
 msgid "Tax Rate %"
 msgstr "Daňová sazba %"
 
@@ -10789,7 +10786,7 @@ msgstr "Daňová sazba %"
 msgid "Currently, Next Invoice Number to be issued"
 msgstr "V současné době bude vystaveno další číslo faktury"
 
-#: admin/settings/tax.page.php:154
+#: admin/settings/tax.page.php:153
 msgid "%"
 msgstr "%"
 
@@ -10797,16 +10794,16 @@ msgstr "%"
 msgid "Allow Override of Invoice Numbers"
 msgstr "Povolit přepsání čísel faktur"
 
-#: admin/settings/tax.page.php:202
-msgid "Are you sure you want to delete this tax rate? This will remove it from your database and existing transactions with this tax rate will not show properly. You cannot undo this"
+#: admin/settings/tax.page.php:201
+msgid "Are you sure you want to delete this tax rate? This will remove it from your database and existing transactions with this tax rate will not show properly. You cannot undo this."
 msgstr "Opravdu chcete smazat tuto daňovou sazbu? Tím jej odstraníte z databáze a stávající transakce s touto sazbou daně se nebudou správně zobrazovat. Tuto akci nelze vrátit zpět"
 
 #: admin/settings/general.page.php:306
 msgid "Allows the editing of Invoice Numbers"
 msgstr "Umožňuje editaci čísel faktur"
 
-#: admin/settings/tax.page.php:207
-msgid "Yes remove the tax rate"
+#: admin/settings/tax.page.php:206
+msgid "Yes, remove the tax rate."
 msgstr "Ano odstranit daňovou sazbu"
 
 #: admin/settings/general.page.php:315
@@ -11136,7 +11133,7 @@ msgid "Email Sent"
 msgstr "E-mail byl odeslán"
 
 #. Plugin Name of the plugin
-#: includes/ZeroBSCRM.Core.php:2515
+#: includes/ZeroBSCRM.Core.php:2516
 msgid "Jetpack CRM"
 msgstr "Jetpack CRM"
 
@@ -11153,14 +11150,14 @@ msgstr "https://jetpackcrm.com"
 msgid "Reference type"
 msgstr "Typ reference"
 
-#: admin/contact/view.page.php:261 includes/jpcrm-language.php:18
+#: admin/contact/view.page.php:265 includes/jpcrm-language.php:18
 #: includes/ZeroBSCRM.AdminPages.php:487
 #: includes/ZeroBSCRM.AdminPages.php:3083
 #: includes/ZeroBSCRM.AdminPages.php:3299
 #: includes/ZeroBSCRM.Core.Menus.WP.php:318
-#: includes/ZeroBSCRM.Core.Menus.WP.php:348 includes/ZeroBSCRM.Core.php:2531
-#: includes/ZeroBSCRM.Core.php:2537 includes/ZeroBSCRM.DAL3.Helpers.php:5552
-#: includes/ZeroBSCRM.DAL3.Obj.Contacts.php:5068
+#: includes/ZeroBSCRM.Core.Menus.WP.php:348 includes/ZeroBSCRM.Core.php:2532
+#: includes/ZeroBSCRM.Core.php:2538 includes/ZeroBSCRM.DAL3.Helpers.php:5247
+#: includes/ZeroBSCRM.DAL3.Obj.Contacts.php:5015
 #: includes/ZeroBSCRM.Edit.php:388 includes/ZeroBSCRM.List.Columns.php:440
 #: includes/ZeroBSCRM.List.php:1000 includes/ZeroBSCRM.List.Views.php:61
 #: includes/ZeroBSCRM.MetaBoxes3.Events.php:660
@@ -11242,7 +11239,7 @@ msgid "Templates"
 msgstr "Šablony"
 
 #: admin/settings/invoicing.page.php:265 includes/ZeroBSCRM.DAL3.Export.php:36
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5468
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5163
 #: includes/ZeroBSCRM.List.Columns.php:225
 #: includes/ZeroBSCRM.List.Columns.php:241
 msgid "Reference"
@@ -11255,7 +11252,7 @@ msgstr "Reference"
 #: includes/ZeroBSCRM.Core.Menus.Top.php:696
 #: includes/ZeroBSCRM.Core.Menus.WP.php:237
 #: includes/ZeroBSCRM.Core.Menus.WP.php:692
-#: includes/ZeroBSCRM.Core.Menus.WP.php:739 includes/ZeroBSCRM.Core.php:1449
+#: includes/ZeroBSCRM.Core.Menus.WP.php:739 includes/ZeroBSCRM.Core.php:1450
 msgid "Settings"
 msgstr "Nastavení"
 
@@ -11309,7 +11306,7 @@ msgstr "Platební údaje"
 
 #: admin/email/main.page.php:288
 #: includes/ZeroBSCRM.Core.Page.Controller.php:199
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5566
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5261
 #: includes/ZeroBSCRM.ScriptsStyles.php:223
 msgid "Send"
 msgstr "Odeslat"
@@ -11324,7 +11321,7 @@ msgstr "např. podrobnosti BACS"
 
 #: admin/email/main.page.php:305 includes/ZeroBSCRM.AJAX.php:1846
 #: includes/ZeroBSCRM.AJAX.php:1903 includes/ZeroBSCRM.AJAX.php:1951
-#: includes/ZeroBSCRM.Config.Init.php:544
+#: includes/ZeroBSCRM.Config.Init.php:546
 #: includes/ZeroBSCRM.List.Columns.php:471
 #: includes/ZeroBSCRM.List.Columns.php:478
 #: includes/ZeroBSCRM.List.Columns.php:499
@@ -11343,7 +11340,7 @@ msgstr "API klíč"
 msgid "Thank You"
 msgstr "Děkujeme"
 
-#: admin/contact/view.page.php:133 admin/contact/view.page.php:147
+#: admin/contact/view.page.php:137 admin/contact/view.page.php:151
 #: admin/email/main.page.php:312 includes/class-learn-menu.php:720
 #: includes/jpcrm-learn-menu-legacy-functions.php:167
 #: includes/ZeroBSCRM.Actions.php:52
@@ -11359,7 +11356,7 @@ msgstr "Tajný API klíč"
 msgid "e.g. Thank you for your custom. If you have any questions let us know"
 msgstr "např. Děkuji za váš zvyk. Pokud máte nějaké dotazy, dejte nám vědět"
 
-#: admin/company/view.page.php:432 admin/contact/view.page.php:557
+#: admin/company/view.page.php:436 admin/contact/view.page.php:561
 #: admin/email/main.page.php:333 admin/email/main.page.php:366
 #: includes/ZeroBSCRM.Core.Extensions.php:1079
 #: includes/ZeroBSCRM.Core.Extensions.php:1143
@@ -11372,7 +11369,7 @@ msgstr "Úkoly"
 msgid "API Docs"
 msgstr "API dokumentace"
 
-#: admin/company/view.page.php:753 admin/contact/view.page.php:1083
+#: admin/company/view.page.php:757 admin/contact/view.page.php:1087
 #: admin/email/main.page.php:339 admin/system/system-status.page.php:517
 #: includes/ZeroBSCRM.List.Columns.php:685
 #: includes/ZeroBSCRM.List.Columns.php:695
@@ -11435,7 +11432,7 @@ msgstr "Jakmile tato nastavení resetujete, nebudete moci obnovit předchozí na
 msgid "This information is (optionally) added to your statements (e.g. How to pay)"
 msgstr "Tyto informace jsou (volitelně) přidány do vašich výpisů (např. Jak platit)"
 
-#: admin/contact/view.page.php:463 admin/email/main.page.php:494
+#: admin/contact/view.page.php:467 admin/email/main.page.php:494
 msgid "Email Unsubscribed"
 msgstr "E-mail odhlášen"
 
@@ -11443,7 +11440,7 @@ msgstr "E-mail odhlášen"
 msgid "Set up your general business information. This is used across Jetpack CRM in features such as invoicing, mail campaigns, and email notifications."
 msgstr "Nastavte obecné informace o firmě. To se používá napříč Jetpack CRM ve funkcích, jako je fakturace, e-mailové kampaně a e-mailová upozornění."
 
-#: admin/contact/view.page.php:463 admin/email/main.page.php:494
+#: admin/contact/view.page.php:467 admin/email/main.page.php:494
 msgid "(Do Not Email Flag)"
 msgstr "(Nezasílat e-maily)"
 
@@ -11453,7 +11450,7 @@ msgstr "(Nezasílat e-maily)"
 #: admin/settings/general.page.php:188 admin/settings/invoicing.page.php:138
 #: admin/settings/license.page.php:203 admin/settings/list-view.page.php:52
 #: admin/settings/locale.page.php:190 admin/settings/mail.page.php:56
-#: admin/settings/quotes.page.php:43 admin/settings/tax.page.php:81
+#: admin/settings/quotes.page.php:43 admin/settings/tax.page.php:82
 #: admin/settings/transactions.page.php:103
 #: modules/woo-sync/admin/settings/connection.page.php:60
 #: modules/woo-sync/admin/settings/main.page.php:104
@@ -11512,7 +11509,7 @@ msgstr "Zde zadejte adresu URL nebo nahrajte výchozí logo, které se použije 
 msgid "Tick if you want to add discounts."
 msgstr "Zaškrtněte, pokud chcete přidat slevy"
 
-#: admin/email/main.page.php:543 includes/class-learn-menu.php:752
+#: admin/email/main.page.php:544 includes/class-learn-menu.php:752
 #: includes/ZeroBSCRM.Actions.php:158 includes/ZeroBSCRM.Core.Menus.WP.php:868
 msgid "Send Email"
 msgstr "Poslat e-mail"
@@ -11520,11 +11517,11 @@ msgstr "Poslat e-mail"
 #: admin/settings/business-info.page.php:85
 #: admin/settings/business-info.page.php:192
 #: admin/settings/general.page.php:392 admin/settings/general.page.php:530
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1127
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1128
 msgid "Upload Image"
 msgstr "Nahrát obrázek"
 
-#: admin/email/main.page.php:577
+#: admin/email/main.page.php:581
 msgid "Could not load email thread, please try again"
 msgstr "Nepodařilo se načíst vlákno e-mailu, zkuste to prosím znovu"
 
@@ -11532,12 +11529,12 @@ msgstr "Nepodařilo se načíst vlákno e-mailu, zkuste to prosím znovu"
 msgid "Your Full Business Information"
 msgstr "Vaše úplné obchodní informace"
 
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5525
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5220
 #: includes/ZeroBSCRM.MetaBoxes3.Transactions.php:301
 msgid "Shipping"
 msgstr "Doprava"
 
-#: admin/email/main.page.php:588
+#: admin/email/main.page.php:592
 msgid "You do not have permissions to access this page"
 msgstr "Nemáte dostatečné oprávnění pro přístup na tuto stránku"
 
@@ -11553,7 +11550,7 @@ msgstr "Zjistěte více"
 msgid "Business Contact Email"
 msgstr "Obchodní kontaktní e-mail"
 
-#: admin/contact/view.page.php:667 includes/ZeroBSCRM.Actions.php:61
+#: admin/contact/view.page.php:671 includes/ZeroBSCRM.Actions.php:61
 msgid "Add Quote"
 msgstr "Přidat nabídku"
 
@@ -11565,7 +11562,7 @@ msgstr "Adresa URL firemního webu"
 msgid "Your Account"
 msgstr "Váš účet"
 
-#: admin/company/view.page.php:526 admin/contact/view.page.php:781
+#: admin/company/view.page.php:530 admin/contact/view.page.php:785
 #: includes/ZeroBSCRM.Actions.php:73
 msgid "Add Invoice"
 msgstr "Přidat fakturu"
@@ -11582,7 +11579,7 @@ msgstr "Odeslat výpis"
 msgid "Your Business Social Info"
 msgstr "Sociální informace o vaší firmě"
 
-#: admin/company/view.page.php:617 admin/contact/view.page.php:891
+#: admin/company/view.page.php:621 admin/contact/view.page.php:895
 #: includes/ZeroBSCRM.Actions.php:125
 msgid "Add Transaction"
 msgstr "Přidat transakci"
@@ -11606,7 +11603,7 @@ msgstr "Přidat protokol"
 msgid "Twitter Handle"
 msgstr "Twitter jméno"
 
-#: admin/company/view.page.php:794 admin/contact/view.page.php:1118
+#: admin/company/view.page.php:798 admin/contact/view.page.php:1122
 #: includes/ZeroBSCRM.Actions.php:149
 msgid "Add Task"
 msgstr "Přidat úkol"
@@ -11624,11 +11621,11 @@ msgstr "Smazat kontakt"
 msgid "LinkedIn ID"
 msgstr "LinkedIn ID"
 
-#: admin/company/view.page.php:129 includes/class-learn-menu.php:992
+#: admin/company/view.page.php:133 includes/class-learn-menu.php:992
 #: includes/jpcrm-learn-menu-legacy-functions.php:200
 #: includes/jpcrm-learn-menu-legacy-functions.php:207
-#: includes/ZeroBSCRM.Actions.php:208 includes/ZeroBSCRM.Core.php:2595
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5511
+#: includes/ZeroBSCRM.Actions.php:208 includes/ZeroBSCRM.Core.php:2596
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5206
 msgid "Edit "
 msgstr "Upravit "
 
@@ -11651,7 +11648,7 @@ msgstr "Úkol aktualizován."
 #: admin/settings/general.page.php:492 admin/settings/invoicing.page.php:427
 #: admin/settings/license.page.php:272 admin/settings/list-view.page.php:106
 #: admin/settings/locale.page.php:385 admin/settings/mail.page.php:212
-#: admin/settings/quotes.page.php:101 admin/settings/tax.page.php:138
+#: admin/settings/quotes.page.php:101 admin/settings/tax.page.php:137
 #: admin/settings/transactions.page.php:280
 #: modules/woo-sync/admin/settings/connection.page.php:144
 #: modules/woo-sync/admin/settings/main.page.php:308
@@ -11716,15 +11713,15 @@ msgstr "Úloha naplánována na: <strong>%1$s</strong> ."
 msgid "Read about Yearly Subscriptions & Refunds"
 msgstr "Přečtěte si o ročních předplatných a refundacích"
 
-#: admin/contact/view.page.php:1196 admin/settings/locale.page.php:174
+#: admin/contact/view.page.php:1200 admin/settings/locale.page.php:174
 #: includes/ZeroBSCRM.AdminPages.php:210
-#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:885
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1641
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2400
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2411
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2427
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2525
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2539
+#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:897
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1642
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2401
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2412
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2428
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2526
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:2540
 #: includes/ZeroBSCRM.MetaBoxes3.Invoices.php:524
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:978
 #: includes/ZeroBSCRM.SystemChecks.php:264
@@ -11765,8 +11762,8 @@ msgid "Read More"
 msgstr "Číst více"
 
 #: admin/dashboard/main.page.php:557 includes/ZeroBSCRM.AdminPages.php:317
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5500
-#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:173
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5195
+#: includes/ZeroBSCRM.MetaBoxes3.Companies.php:177
 #: modules/woo-sync/includes/jpcrm-woo-sync-contact-tabs.php:129
 msgid "ID"
 msgstr "ID"
@@ -11948,10 +11945,10 @@ msgstr "Vytvářejte pouze uživatele pro stavy"
 msgid "Jetpack CRM is using the default WordPress email delivery"
 msgstr "Jetpack CRM používá výchozí doručování e-mailů WordPress"
 
-#: admin/company/view.page.php:350 includes/class-learn-menu.php:697
+#: admin/company/view.page.php:354 includes/class-learn-menu.php:697
 #: includes/jpcrm-learn-menu-legacy-functions.php:61
 #: includes/ZeroBSCRM.AdminPages.php:488 includes/ZeroBSCRM.AJAX.php:99
-#: includes/ZeroBSCRM.Config.Init.php:457
+#: includes/ZeroBSCRM.Config.Init.php:459
 #: includes/ZeroBSCRM.Core.Menus.Top.php:293
 #: includes/ZeroBSCRM.Core.Menus.Top.php:367
 #: includes/ZeroBSCRM.Core.Menus.WP.php:132
@@ -11960,7 +11957,7 @@ msgstr "Jetpack CRM používá výchozí doručování e-mailů WordPress"
 #: includes/ZeroBSCRM.List.Columns.php:124
 #: includes/ZeroBSCRM.List.Columns.php:154 includes/ZeroBSCRM.List.php:1042
 #: includes/ZeroBSCRM.List.Views.php:62
-#: modules/woo-sync/admin/woo-sync-hub/main.page.php:429
+#: modules/woo-sync/admin/woo-sync-hub/main.page.php:213
 msgid "Contacts"
 msgstr "Kontakty"
 
@@ -11975,7 +11972,7 @@ msgstr "Ve výchozím nastavení je Jetpack CRM nakonfigurován tak, aby k odes�
 #: includes/ZeroBSCRM.AdminPages.php:560
 #: includes/ZeroBSCRM.Core.Menus.WP.php:424
 #: includes/ZeroBSCRM.Core.Menus.WP.php:434
-#: includes/ZeroBSCRM.Core.Menus.WP.php:454 includes/ZeroBSCRM.Core.php:2552
+#: includes/ZeroBSCRM.Core.Menus.WP.php:454 includes/ZeroBSCRM.Core.php:2553
 #: includes/ZeroBSCRM.List.php:1008 includes/ZeroBSCRM.List.Views.php:173
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:1407
 #: includes/ZeroBSCRM.MetaBoxes3.Quotes.php:1430
@@ -11990,8 +11987,8 @@ msgstr "Poznámka: Toto platí pouze v případě, že je výše zaškrtnuto Aut
 msgid "Currently mail is sent from"
 msgstr "V současné době je pošta odesílána z"
 
-#: admin/company/view.page.php:250 admin/contact/view.page.php:306
-#: admin/contact/view.page.php:553 includes/ZeroBSCRM.AdminPages.php:561
+#: admin/company/view.page.php:254 admin/contact/view.page.php:310
+#: admin/contact/view.page.php:557 includes/ZeroBSCRM.AdminPages.php:561
 #: includes/ZeroBSCRM.AJAX.php:116 includes/ZeroBSCRM.Core.Extensions.php:1084
 #: includes/ZeroBSCRM.Core.Extensions.php:1138
 #: includes/ZeroBSCRM.Core.Menus.Top.php:298
@@ -12016,7 +12013,7 @@ msgstr "Chcete nastavit jinou možnost doručování pošty?"
 #: includes/ZeroBSCRM.AdminPages.php:582
 #: includes/ZeroBSCRM.Core.Menus.WP.php:486
 #: includes/ZeroBSCRM.Core.Menus.WP.php:496
-#: includes/ZeroBSCRM.Core.Menus.WP.php:506 includes/ZeroBSCRM.Core.php:2557
+#: includes/ZeroBSCRM.Core.Menus.WP.php:506 includes/ZeroBSCRM.Core.php:2558
 #: includes/ZeroBSCRM.InvoiceBuilder.php:599
 #: includes/ZeroBSCRM.InvoiceBuilder.php:1152
 #: includes/ZeroBSCRM.InvoiceBuilder.php:2027
@@ -12035,8 +12032,8 @@ msgstr "Přidělte extra roli při generování uživatelů"
 msgid "Start Wizard"
 msgstr "Spustit průvodce"
 
-#: admin/company/view.page.php:262 admin/company/view.page.php:429
-#: admin/contact/view.page.php:318 admin/contact/view.page.php:554
+#: admin/company/view.page.php:266 admin/company/view.page.php:433
+#: admin/contact/view.page.php:322 admin/contact/view.page.php:558
 #: includes/ZeroBSCRM.AdminPages.php:583 includes/ZeroBSCRM.AJAX.php:125
 #: includes/ZeroBSCRM.Core.Extensions.php:1089
 #: includes/ZeroBSCRM.Core.Menus.Top.php:302
@@ -12053,7 +12050,7 @@ msgstr "Odchozí účet"
 
 #: includes/ZeroBSCRM.AdminPages.php:627
 #: includes/ZeroBSCRM.Core.Menus.WP.php:538
-#: includes/ZeroBSCRM.Core.Menus.WP.php:548 includes/ZeroBSCRM.Core.php:2562
+#: includes/ZeroBSCRM.Core.Menus.WP.php:548 includes/ZeroBSCRM.Core.php:2563
 #: includes/ZeroBSCRM.List.php:1016 includes/ZeroBSCRM.List.Views.php:343
 #: includes/ZeroBSCRM.MetaBoxes3.Logs.php:63
 #: includes/ZeroBSCRM.MetaBoxes3.Transactions.php:604
@@ -12062,18 +12059,18 @@ msgstr "Odchozí účet"
 #: includes/ZeroBSCRM.MetaBoxes3.Transactions.php:690
 #: modules/woo-sync/includes/class-woo-sync-woo-admin-integration.php:248
 #: portal/v1/templates/transactions.php:49
-#: portal/v3/templates/transactions.php:59
-#: portal/v3/templates/transactions.php:93
+#: portal/v3/templates/transactions.php:69
+#: portal/v3/templates/transactions.php:103
 msgid "Transaction"
 msgstr "Transakce"
 
-#: admin/company/view.page.php:255 admin/company/view.page.php:267
-#: admin/company/view.page.php:278 admin/company/view.page.php:360
-#: admin/contact/view.page.php:311 admin/contact/view.page.php:323
-#: admin/contact/view.page.php:335 admin/dashboard/main.page.php:573
+#: admin/company/view.page.php:259 admin/company/view.page.php:271
+#: admin/company/view.page.php:282 admin/company/view.page.php:364
+#: admin/contact/view.page.php:315 admin/contact/view.page.php:327
+#: admin/contact/view.page.php:339 admin/dashboard/main.page.php:573
 #: admin/settings/client-portal.page.php:308
 #: includes/ZeroBSCRM.AdminPages.php:862
-#: includes/ZeroBSCRM.DAL3.Helpers.php:5541
+#: includes/ZeroBSCRM.DAL3.Helpers.php:5236
 #: includes/ZeroBSCRM.MetaBoxes.Ownership.php:172
 #: includes/ZeroBSCRM.MetaBoxes.Ownership.php:181
 #: includes/ZeroBSCRM.MetaBoxes.Ownership.php:370
@@ -12090,7 +12087,7 @@ msgid "Default"
 msgstr "Obnovit výchozí"
 
 #: includes/ZeroBSCRM.AdminPages.php:652
-#: includes/ZeroBSCRM.Core.Menus.WP.php:580 includes/ZeroBSCRM.Core.php:2572
+#: includes/ZeroBSCRM.Core.Menus.WP.php:580 includes/ZeroBSCRM.Core.php:2573
 #: includes/ZeroBSCRM.List.php:1020 includes/ZeroBSCRM.List.Views.php:416
 #: includes/ZeroBSCRM.MetaBoxes3.Forms.php:686
 #: includes/ZeroBSCRM.MetaBoxes3.Forms.php:712
@@ -12107,7 +12104,7 @@ msgstr "Pole ke skrytí na portálu"
 msgid "Add Another"
 msgstr "Přidat další"
 
-#: includes/ZeroBSCRM.AdminPages.php:674 includes/ZeroBSCRM.Core.php:2567
+#: includes/ZeroBSCRM.AdminPages.php:674 includes/ZeroBSCRM.Core.php:2568
 #: includes/ZeroBSCRM.List.CompletedEvents.php:35
 #: includes/ZeroBSCRM.List.Views.php:601
 #: includes/ZeroBSCRM.MetaBoxes3.Events.php:405
@@ -12146,7 +12143,7 @@ msgid "File not found"
 msgstr "Soubor nenalezen"
 
 #: admin/settings/client-portal.page.php:379
-#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1969
+#: includes/ZeroBSCRM.MetaBoxes3.Contacts.php:1970
 msgid "Preview Portal"
 msgstr "Náhled portálu"
 
@@ -12259,7 +12256,7 @@ msgstr "Správa vlastních polí"
 msgid "e.g. your@domain.com"
 msgstr "např. vase@domena.com"
 
-#: admin/settings/custom-fields.page.php:174
+#: admin/settings/custom-fields.page.php:172
 msgid "Custom Field %d"
 msgstr "Vlastní pole %d"
 
@@ -12277,7 +12274,7 @@ msgstr "Vlastní pole %d"
 msgid "Next"
 msgstr "Další"
 
-#: admin/settings/custom-fields.page.php:328
+#: admin/settings/custom-fields.page.php:330
 msgid "Using this page you can add or edit custom fields for your CRM"
 msgstr "Pomocí této stránky můžete přidávat nebo upravovat vlastní pole pro váš CRM"
 
@@ -12285,7 +12282,7 @@ msgstr "Pomocí této stránky můžete přidávat nebo upravovat vlastní pole 
 msgid "The CRM can send out emails via your default server settings, or via an SMTP server (mail server). If you would like to reliably send emails from a custom domain, we recommend entering SMTP details here."
 msgstr "CRM může odesílat e-maily přes výchozí nastavení serveru nebo přes (poštovní) SMTP server. Pokud chcete spolehlivě odesílat e-maily z vlastní domény, doporučujeme zde zadat údaje SMTP."
 
-#: admin/settings/custom-fields.page.php:333
+#: admin/settings/custom-fields.page.php:335
 #: admin/settings/field-options.page.php:119
 msgid "Custom Fields Updated"
 msgstr "Vlastní pole byla aktualizována"
@@ -12294,7 +12291,7 @@ msgstr "Vlastní pole byla aktualizována"
 msgid "Default WordPress Mail (wp_mail)"
 msgstr "Výchozí pošta WordPress (wp_mail)"
 
-#: admin/settings/custom-fields.page.php:29
+#: admin/settings/custom-fields.page.php:40
 msgid "Contact Custom Fields"
 msgstr "Vlastní pole v kontaktu"
 
@@ -12302,7 +12299,7 @@ msgstr "Vlastní pole v kontaktu"
 msgid "Custom Mail Server (SMTP)"
 msgstr "Vlastní poštovní server (SMTP)"
 
-#: admin/settings/custom-fields.page.php:367
+#: admin/settings/custom-fields.page.php:369
 msgid "Add Custom Field"
 msgstr "Přidat vlastní pole"
 
@@ -12310,7 +12307,7 @@ msgstr "Přidat vlastní pole"
 msgid "Quick-fill SMTP Details"
 msgstr "Rychlé vyplnění podrobností SMTP"
 
-#: admin/settings/custom-fields.page.php:33
+#: admin/settings/custom-fields.page.php:44
 msgid "Contact Custom File Upload Boxes"
 msgstr "Kontaktujte pole pro nahrávání vlastních souborů"
 
@@ -12322,7 +12319,7 @@ msgstr "Vyberte společného poskytovatele"
 msgid "SMTP Address"
 msgstr "Adresa SMTP"
 
-#: admin/settings/custom-fields.page.php:41
+#: admin/settings/custom-fields.page.php:52
 msgid "Quote Custom Fields"
 msgstr "Nabídka vlastních polí"
 
@@ -12330,7 +12327,7 @@ msgstr "Nabídka vlastních polí"
 msgid "SMTP Port"
 msgstr "SMTP port"
 
-#: admin/settings/custom-fields.page.php:45
+#: admin/settings/custom-fields.page.php:56
 msgid "Invoice Custom Fields"
 msgstr "Vlastní pole faktury"
 
@@ -12338,7 +12335,7 @@ msgstr "Vlastní pole faktury"
 msgid "Username"
 msgstr "Uživatelské jméno"
 
-#: admin/settings/custom-fields.page.php:49
+#: admin/settings/custom-fields.page.php:60
 msgid "Transaction Custom Fields"
 msgstr "Vlastní pole transakce"
 
@@ -12354,7 +12351,7 @@ msgstr "Vlastní pole transakce"
 msgid "Back"
 msgstr "Zpět"
 
-#: admin/settings/custom-fields.page.php:53
+#: admin/settings/custom-fields.page.php:64
 msgid "Address Custom Fields"
 msgstr "Vlastní pole adresy"
 
@@ -12362,7 +12359,7 @@ msgstr "Vlastní pole adresy"
 msgid "Validate Settings"
 msgstr "Ověřit nastavení"
 
-#: admin/settings/custom-fields.page.php:380
+#: admin/settings/custom-fields.page.php:382
 msgid "Save Custom Fields"
 msgstr "Uložit vlastní pole"
 
